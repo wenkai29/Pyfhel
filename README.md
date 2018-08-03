@@ -1,4 +1,4 @@
-# Pyfhel
+# Pyfhel v1
 
 * **_Description_**: Homomorphic Encryption Library for Python. Allows ADDITION, SUBSTRACTION, MULTIPLICATION, SCALAR PRODUCT and binary operations (AND, OR, NOT, XOR, SHIFT & ROTATE) over encrypted vectors of integers/binaries. EXTRA: Documentation and Tests for Helib, as well as a Makefile to turn Helib into a shared library.
 * **_Language_**: Python2.7 on top of C++ (with Cython).
