@@ -163,11 +163,16 @@ cdef class Pyfhel:
         Return:
             * PyCtxt: the ciphertext containing the encrypted plaintext
         """
+        print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None)")
         if ctxt is None:
+            print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): entered if")
             ctxt = PyCtxt()
+        print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after if")
         self.afseal.encrypt(value, deref(ctxt._ptr_ctxt))
+        print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after encrypt")
         ctxt._encoding = ENCODING_T.INTEGER
         ctxt._pyfhel = self
+        print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): before return")
         return ctxt
     
     cpdef PyCtxt encryptFrac(self, double value, PyCtxt ctxt=None) except +:
