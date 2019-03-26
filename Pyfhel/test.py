@@ -125,6 +125,7 @@ class PyfhelTestCase(unittest.TestCase):
         print("test_Pyfhel_2a_encode_decode_int: second assertion")
         ptxt2 = PyPtxt(ptxt)
         pyfhel.encodeInt(-2, ptxt)
+        print("test_Pyfhel_2a_encode_decode_int: called encodeInt with negative number")
         self.assertEqual(ptxt.to_string(), b"10000x^1")
         self.assertEqual(pyfhel.decodeInt(ptxt), -2)
         self.assertEqual(pyfhel.decodeInt(ptxt2), 127)
