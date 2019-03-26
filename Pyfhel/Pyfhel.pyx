@@ -126,6 +126,7 @@ cdef class Pyfhel:
         Return:
             None
         """
+        print("Pyfhel.pyx:contextGen(...) called")
         self.afseal.ContextGen(p, m, flagBatching, base,
                                sec,intDigits, fracDigits)
         
