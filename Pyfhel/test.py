@@ -109,19 +109,26 @@ class PyfhelTestCase(unittest.TestCase):
         pass
 
     def test_Pyfhel_2a_encode_decode_int(self):
+        print("test_Pyfhel_2a_encode_decode_int called")
         pyfhel = Pyfhel()
         pyfhel.contextGen(p=65537)
+        print("test_Pyfhel_2a_encode_decode_int: context generated")
         pyfhel.keyGen()
+        print("test_Pyfhel_2a_encode_decode_int: keys generated")
         ptxt = pyfhel.encodeInt(127)
+        print("test_Pyfhel_2a_encode_decode_int: encodInt called")
         self.assertEqual(
             ptxt.to_string(), b"1x^6 + 1x^5 + 1x^4 + 1x^3 + 1x^2 + 1x^1 + 1"
         )
+        print("test_Pyfhel_2a_encode_decode_int: first assertion")
         self.assertEqual(pyfhel.decodeInt(ptxt), 127)
+        print("test_Pyfhel_2a_encode_decode_int: second assertion")
         ptxt2 = PyPtxt(ptxt)
         pyfhel.encodeInt(-2, ptxt)
         self.assertEqual(ptxt.to_string(), b"10000x^1")
         self.assertEqual(pyfhel.decodeInt(ptxt), -2)
         self.assertEqual(pyfhel.decodeInt(ptxt2), 127)
+        print("test_Pyfhel_2a_encode_decode_int: remaining assertions")
 
     def test_Pyfhel_2b_encode_decode_float(self):
         pyfhel = Pyfhel()
