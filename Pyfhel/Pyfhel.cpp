@@ -4,9 +4,9 @@
 {
     "distutils": {
         "depends": [
+            "/home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/numpy/core/include/numpy/arrayobject.h",
+            "/home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/numpy/core/include/numpy/ufuncobject.h",
             "/usr/include/python3.7m/Python.h",
-            "/usr/lib/python3.7/site-packages/numpy/core/include/numpy/arrayobject.h",
-            "/usr/lib/python3.7/site-packages/numpy/core/include/numpy/ufuncobject.h",
             "Pyfhel/Afhel/Afseal.h",
             "Pyfhel/SEAL/SEAL/seal/ciphertext.h",
             "Pyfhel/SEAL/SEAL/seal/plaintext.h"
@@ -19,7 +19,7 @@
         "include_dirs": [
             "./Pyfhel",
             "/usr/include/python3.7m",
-            "/usr/lib/python3.7/site-packages/numpy/core/include",
+            "/home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/numpy/core/include",
             "Pyfhel",
             "Pyfhel/Afhel",
             "Pyfhel/SEAL/SEAL/seal"
@@ -1043,7 +1043,7 @@ typedef struct {
 } __Pyx_BufFmt_Context;
 
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":776
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":776
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -1052,7 +1052,7 @@ typedef struct {
  */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":777
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":777
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -1061,7 +1061,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
  */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":778
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":778
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -1070,7 +1070,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
  */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":779
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":779
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -1079,7 +1079,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
  */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":783
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":783
  * #ctypedef npy_int128     int128_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -1088,7 +1088,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
  */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":784
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":784
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -1097,7 +1097,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
  */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":785
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":785
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -1106,7 +1106,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
  */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":786
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":786
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -1115,7 +1115,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
  */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":790
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":790
  * #ctypedef npy_uint128    uint128_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -1124,7 +1124,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
  */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":791
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":791
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -1133,7 +1133,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
  */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":800
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":800
  * # The int types are mapped a bit surprising --
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t             # <<<<<<<<<<<<<<
@@ -1142,7 +1142,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
  */
 typedef npy_long __pyx_t_5numpy_int_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":801
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":801
  * # numpy.int corresponds to 'l' and numpy.long to 'q'
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t             # <<<<<<<<<<<<<<
@@ -1151,7 +1151,7 @@ typedef npy_long __pyx_t_5numpy_int_t;
  */
 typedef npy_longlong __pyx_t_5numpy_long_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":802
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":802
  * ctypedef npy_long       int_t
  * ctypedef npy_longlong   long_t
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -1160,7 +1160,7 @@ typedef npy_longlong __pyx_t_5numpy_long_t;
  */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":804
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":804
  * ctypedef npy_longlong   longlong_t
  * 
  * ctypedef npy_ulong      uint_t             # <<<<<<<<<<<<<<
@@ -1169,7 +1169,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
  */
 typedef npy_ulong __pyx_t_5numpy_uint_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":805
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":805
  * 
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t             # <<<<<<<<<<<<<<
@@ -1178,7 +1178,7 @@ typedef npy_ulong __pyx_t_5numpy_uint_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":806
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":806
  * ctypedef npy_ulong      uint_t
  * ctypedef npy_ulonglong  ulong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -1187,7 +1187,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulong_t;
  */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":808
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":808
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -1196,7 +1196,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
  */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":809
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":809
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -1205,7 +1205,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
  */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":811
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":811
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -1214,7 +1214,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
  */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":812
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":812
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -1223,7 +1223,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
  */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":813
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":813
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -1265,7 +1265,7 @@ struct __pyx_MemviewEnum_obj;
 struct __pyx_memoryview_obj;
 struct __pyx_memoryviewslice_obj;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":815
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":815
  * ctypedef npy_longdouble longdouble_t
  * 
  * ctypedef npy_cfloat      cfloat_t             # <<<<<<<<<<<<<<
@@ -1274,7 +1274,7 @@ struct __pyx_memoryviewslice_obj;
  */
 typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":816
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":816
  * 
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t             # <<<<<<<<<<<<<<
@@ -1283,7 +1283,7 @@ typedef npy_cfloat __pyx_t_5numpy_cfloat_t;
  */
 typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":817
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":817
  * ctypedef npy_cfloat      cfloat_t
  * ctypedef npy_cdouble     cdouble_t
  * ctypedef npy_clongdouble clongdouble_t             # <<<<<<<<<<<<<<
@@ -1292,7 +1292,7 @@ typedef npy_cdouble __pyx_t_5numpy_cdouble_t;
  */
 typedef npy_clongdouble __pyx_t_5numpy_clongdouble_t;
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":819
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":819
  * ctypedef npy_clongdouble clongdouble_t
  * 
  * ctypedef npy_cdouble     complex_t             # <<<<<<<<<<<<<<
@@ -2917,6 +2917,7 @@ extern int __pyx_module_is_main_Pyfhel__Pyfhel;
 int __pyx_module_is_main_Pyfhel__Pyfhel = 0;
 
 /* Implementation of 'Pyfhel.Pyfhel' */
+static PyObject *__pyx_builtin_print;
 static PyObject *__pyx_builtin_TypeError;
 static PyObject *__pyx_builtin_RuntimeError;
 static PyObject *__pyx_builtin_ValueError;
@@ -2936,11 +2937,11 @@ static const char __pyx_k_T[] = "T{";
   static const char __pyx_k_s[] = "(%s)";
   static const char __pyx_k_id[] = "id";
   static const char __pyx_k_np[] = "np";
-  static const char __pyx_k__38[] = "^";
-  static const char __pyx_k__39[] = "";
-  static const char __pyx_k__40[] = ":";
-static const char __pyx_k__41[] = "}";
-static const char __pyx_k__42[] = ",";
+  static const char __pyx_k__43[] = "^";
+  static const char __pyx_k__44[] = "";
+  static const char __pyx_k__45[] = ":";
+static const char __pyx_k__46[] = "}";
+static const char __pyx_k__47[] = ",";
 static const char __pyx_k_add[] = "add";
 static const char __pyx_k_arr[] = "arr";
 static const char __pyx_k_new[] = "__new__";
@@ -2973,6 +2974,7 @@ static const char __pyx_k_expon[] = "expon";
 static const char __pyx_k_flags[] = "flags";
 static const char __pyx_k_numpy[] = "numpy";
 static const char __pyx_k_power[] = "power";
+static const char __pyx_k_print[] = "print";
 static const char __pyx_k_range[] = "range";
 static const char __pyx_k_shape[] = "shape";
 static const char __pyx_k_start[] = "start";
@@ -3122,6 +3124,7 @@ static const char __pyx_k_Invalid_mode_expected_c_or_fortr[] = "Invalid mode, ex
 static const char __pyx_k_Non_native_byte_order_not_suppor[] = "Non-native byte order not supported";
 static const char __pyx_k_Out_of_bounds_on_buffer_access_a[] = "Out of bounds on buffer access (axis %d)";
 static const char __pyx_k_PYFHEL_PYthon_For_Homomorphic_En[] = "PYFHEL, PYthon For Homomorphic Encryption Libraries.\n\nEncrypted addition, multiplication, substraction, exponentiation of \nintegers/doubles. Implementation of homomorphic encryption using \nSEAL/PALISADE/HELIB as backend. Pyfhel works with PyPtxt as  \nplaintext class and PyCtxt as cyphertext class.\n\nExample:\n    >>> he = Pyfhel()\n    >>> he.contextGen(p=65537)\n    >>> he.keyGen()\n    >>> p1 = he.encode(4)\n    >>> p2 = he.encode(2)\n    >>> c1 = he.encrypt(p1)\n    >>> c2 = he.encrypt(p2)\n    >>> c1 = c1 + c2\n    >>> p_res = he.decrypt(c1)\n    6\n";
+static const char __pyx_k_Pyfhel_pyx_encryptInt_self_int64[] = "Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None)";
 static const char __pyx_k_Unable_to_convert_item_to_object[] = "Unable to convert item to object";
 static const char __pyx_k_got_differing_extents_in_dimensi[] = "got differing extents in dimension %d (got %d and %d)";
 static const char __pyx_k_ndarray_is_not_Fortran_contiguou[] = "ndarray is not Fortran contiguous";
@@ -3133,6 +3136,10 @@ static const char __pyx_k_Pyfhel_ERROR_encoding_type_mist_2[] = "<Pyfhel ERROR> 
 static const char __pyx_k_Pyfhel_ERROR_encoding_type_mist_3[] = "<Pyfhel ERROR> encoding type mistmatch in mult terms";
 static const char __pyx_k_Pyfhel_ERROR_wrong_encoding_typ_2[] = "<Pyfhel ERROR> wrong encoding type in PyPtxt";
 static const char __pyx_k_Format_string_allocated_too_shor_2[] = "Format string allocated too short.";
+static const char __pyx_k_Pyfhel_pyx_encryptInt_self_int64_2[] = "Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): entered if";
+static const char __pyx_k_Pyfhel_pyx_encryptInt_self_int64_3[] = "Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after if";
+static const char __pyx_k_Pyfhel_pyx_encryptInt_self_int64_4[] = "Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after encrypt";
+static const char __pyx_k_Pyfhel_pyx_encryptInt_self_int64_5[] = "Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): before return";
 static PyObject *__pyx_n_s_ASCII;
 static PyObject *__pyx_kp_s_Buffer_view_does_not_expose_stri;
 static PyObject *__pyx_kp_s_Can_only_create_a_buffer_that_is;
@@ -3172,6 +3179,11 @@ static PyObject *__pyx_kp_u_Pyfhel_ERROR_encoding_type_mist_3;
 static PyObject *__pyx_kp_u_Pyfhel_ERROR_encoding_type_must;
 static PyObject *__pyx_kp_u_Pyfhel_ERROR_wrong_encoding_typ;
 static PyObject *__pyx_kp_u_Pyfhel_ERROR_wrong_encoding_typ_2;
+static PyObject *__pyx_kp_u_Pyfhel_pyx_encryptInt_self_int64;
+static PyObject *__pyx_kp_u_Pyfhel_pyx_encryptInt_self_int64_2;
+static PyObject *__pyx_kp_u_Pyfhel_pyx_encryptInt_self_int64_3;
+static PyObject *__pyx_kp_u_Pyfhel_pyx_encryptInt_self_int64_4;
+static PyObject *__pyx_kp_u_Pyfhel_pyx_encryptInt_self_int64_5;
 static PyObject *__pyx_n_s_RuntimeError;
 static PyObject *__pyx_kp_b_T;
 static PyObject *__pyx_n_s_TypeError;
@@ -3179,11 +3191,11 @@ static PyObject *__pyx_kp_s_Unable_to_convert_item_to_object;
 static PyObject *__pyx_n_s_VALUE_T;
 static PyObject *__pyx_n_s_ValueError;
 static PyObject *__pyx_n_s_View_MemoryView;
-static PyObject *__pyx_kp_b__38;
-static PyObject *__pyx_kp_b__39;
-static PyObject *__pyx_kp_b__40;
-static PyObject *__pyx_kp_b__41;
-static PyObject *__pyx_kp_u__42;
+static PyObject *__pyx_kp_b__43;
+static PyObject *__pyx_kp_b__44;
+static PyObject *__pyx_kp_b__45;
+static PyObject *__pyx_kp_b__46;
+static PyObject *__pyx_kp_u__47;
 static PyObject *__pyx_n_s_add;
 static PyObject *__pyx_n_s_add_plain;
 static PyObject *__pyx_n_s_allocate_buffer;
@@ -3285,6 +3297,7 @@ static PyObject *__pyx_n_s_pickle;
 static PyObject *__pyx_n_s_polyEval;
 static PyObject *__pyx_n_s_polyEval_double;
 static PyObject *__pyx_n_s_power;
+static PyObject *__pyx_n_s_print;
 static PyObject *__pyx_n_s_ptxt;
 static PyObject *__pyx_n_s_pyx_PickleError;
 static PyObject *__pyx_n_s_pyx_checksum;
@@ -3467,7 +3480,7 @@ static PyObject *__pyx_tuple__6;
 static PyObject *__pyx_tuple__7;
 static PyObject *__pyx_tuple__8;
 static PyObject *__pyx_tuple__9;
-static PyObject *__pyx_slice__34;
+static PyObject *__pyx_slice__39;
 static PyObject *__pyx_tuple__10;
 static PyObject *__pyx_tuple__11;
 static PyObject *__pyx_tuple__12;
@@ -3492,16 +3505,21 @@ static PyObject *__pyx_tuple__30;
 static PyObject *__pyx_tuple__31;
 static PyObject *__pyx_tuple__32;
 static PyObject *__pyx_tuple__33;
+static PyObject *__pyx_tuple__34;
 static PyObject *__pyx_tuple__35;
 static PyObject *__pyx_tuple__36;
 static PyObject *__pyx_tuple__37;
-static PyObject *__pyx_tuple__43;
-static PyObject *__pyx_tuple__44;
-static PyObject *__pyx_tuple__45;
-static PyObject *__pyx_tuple__46;
-static PyObject *__pyx_tuple__47;
+static PyObject *__pyx_tuple__38;
+static PyObject *__pyx_tuple__40;
+static PyObject *__pyx_tuple__41;
+static PyObject *__pyx_tuple__42;
 static PyObject *__pyx_tuple__48;
-static PyObject *__pyx_codeobj__49;
+static PyObject *__pyx_tuple__49;
+static PyObject *__pyx_tuple__50;
+static PyObject *__pyx_tuple__51;
+static PyObject *__pyx_tuple__52;
+static PyObject *__pyx_tuple__53;
+static PyObject *__pyx_codeobj__54;
 /* Late includes */
 
 /* "Pyfhel/Pyfhel.pyx":83
@@ -4341,64 +4359,108 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   /* "Pyfhel/Pyfhel.pyx":166
  *             * PyCtxt: the ciphertext containing the encrypted plaintext
  *         """
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None)")             # <<<<<<<<<<<<<<
+ *         if ctxt is None:
+ *             print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): entered if")
+ */
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 166, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "Pyfhel/Pyfhel.pyx":167
+ *         """
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None)")
  *         if ctxt is None:             # <<<<<<<<<<<<<<
+ *             print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): entered if")
  *             ctxt = PyCtxt()
- *         self.afseal.encrypt(value, deref(ctxt._ptr_ctxt))
  */
   __pyx_t_8 = (((PyObject *)__pyx_v_ctxt) == Py_None);
   __pyx_t_9 = (__pyx_t_8 != 0);
   if (__pyx_t_9) {
 
-    /* "Pyfhel/Pyfhel.pyx":167
- *         """
+    /* "Pyfhel/Pyfhel.pyx":168
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None)")
  *         if ctxt is None:
- *             ctxt = PyCtxt()             # <<<<<<<<<<<<<<
- *         self.afseal.encrypt(value, deref(ctxt._ptr_ctxt))
- *         ctxt._encoding = ENCODING_T.INTEGER
+ *             print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): entered if")             # <<<<<<<<<<<<<<
+ *             ctxt = PyCtxt()
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after if")
  */
-    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 167, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_tuple__2, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 168, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+    /* "Pyfhel/Pyfhel.pyx":169
+ *         if ctxt is None:
+ *             print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): entered if")
+ *             ctxt = PyCtxt()             # <<<<<<<<<<<<<<
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after if")
+ *         self.afseal.encrypt(value, deref(ctxt._ptr_ctxt))
+ */
+    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 169, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF_SET(__pyx_v_ctxt, ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_1));
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":166
- *             * PyCtxt: the ciphertext containing the encrypted plaintext
+    /* "Pyfhel/Pyfhel.pyx":167
  *         """
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None)")
  *         if ctxt is None:             # <<<<<<<<<<<<<<
+ *             print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): entered if")
  *             ctxt = PyCtxt()
- *         self.afseal.encrypt(value, deref(ctxt._ptr_ctxt))
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":168
- *         if ctxt is None:
+  /* "Pyfhel/Pyfhel.pyx":170
+ *             print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): entered if")
  *             ctxt = PyCtxt()
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after if")             # <<<<<<<<<<<<<<
+ *         self.afseal.encrypt(value, deref(ctxt._ptr_ctxt))
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after encrypt")
+ */
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 170, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "Pyfhel/Pyfhel.pyx":171
+ *             ctxt = PyCtxt()
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after if")
  *         self.afseal.encrypt(value, deref(ctxt._ptr_ctxt))             # <<<<<<<<<<<<<<
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after encrypt")
  *         ctxt._encoding = ENCODING_T.INTEGER
- *         ctxt._pyfhel = self
  */
   try {
     __pyx_v_self->afseal->encrypt(__pyx_v_value, (*__pyx_v_ctxt->_ptr_ctxt));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 168, __pyx_L1_error)
+    __PYX_ERR(0, 171, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":169
- *             ctxt = PyCtxt()
+  /* "Pyfhel/Pyfhel.pyx":172
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after if")
  *         self.afseal.encrypt(value, deref(ctxt._ptr_ctxt))
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after encrypt")             # <<<<<<<<<<<<<<
+ *         ctxt._encoding = ENCODING_T.INTEGER
+ *         ctxt._pyfhel = self
+ */
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 172, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "Pyfhel/Pyfhel.pyx":173
+ *         self.afseal.encrypt(value, deref(ctxt._ptr_ctxt))
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after encrypt")
  *         ctxt._encoding = ENCODING_T.INTEGER             # <<<<<<<<<<<<<<
  *         ctxt._pyfhel = self
- *         return ctxt
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): before return")
  */
   __pyx_v_ctxt->_encoding = __pyx_e_6Pyfhel_4util_10ENCODING_T_INTEGER;
 
-  /* "Pyfhel/Pyfhel.pyx":170
- *         self.afseal.encrypt(value, deref(ctxt._ptr_ctxt))
+  /* "Pyfhel/Pyfhel.pyx":174
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after encrypt")
  *         ctxt._encoding = ENCODING_T.INTEGER
  *         ctxt._pyfhel = self             # <<<<<<<<<<<<<<
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): before return")
  *         return ctxt
- * 
  */
   __Pyx_INCREF(((PyObject *)__pyx_v_self));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self));
@@ -4406,9 +4468,20 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __Pyx_DECREF(((PyObject *)__pyx_v_ctxt->_pyfhel));
   __pyx_v_ctxt->_pyfhel = __pyx_v_self;
 
-  /* "Pyfhel/Pyfhel.pyx":171
+  /* "Pyfhel/Pyfhel.pyx":175
  *         ctxt._encoding = ENCODING_T.INTEGER
  *         ctxt._pyfhel = self
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): before return")             # <<<<<<<<<<<<<<
+ *         return ctxt
+ * 
+ */
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_print, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 175, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
+  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+  /* "Pyfhel/Pyfhel.pyx":176
+ *         ctxt._pyfhel = self
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): before return")
  *         return ctxt             # <<<<<<<<<<<<<<
  * 
  *     cpdef PyCtxt encryptFrac(self, double value, PyCtxt ctxt=None) except +:
@@ -4546,7 +4619,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_10encryptInt(struct __pyx_obj_
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":173
+/* "Pyfhel/Pyfhel.pyx":178
  *         return ctxt
  * 
  *     cpdef PyCtxt encryptFrac(self, double value, PyCtxt ctxt=None) except +:             # <<<<<<<<<<<<<<
@@ -4584,11 +4657,11 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encryptFrac); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 173, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encryptFrac); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 178, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_13encryptFrac)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = PyFloat_FromDouble(__pyx_v_value); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 173, __pyx_L1_error)
+        __pyx_t_3 = PyFloat_FromDouble(__pyx_v_value); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 178, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -4606,7 +4679,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_3, ((PyObject *)__pyx_v_ctxt)};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 173, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 178, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -4615,14 +4688,14 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_3, ((PyObject *)__pyx_v_ctxt)};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 173, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 178, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         } else
         #endif
         {
-          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 173, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 178, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           if (__pyx_t_5) {
             __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -4633,12 +4706,12 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           __Pyx_GIVEREF(((PyObject *)__pyx_v_ctxt));
           PyTuple_SET_ITEM(__pyx_t_7, 1+__pyx_t_6, ((PyObject *)__pyx_v_ctxt));
           __pyx_t_3 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 173, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 178, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 173, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 178, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -4657,7 +4730,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":191
+  /* "Pyfhel/Pyfhel.pyx":196
  *             * PyCtxt: the ciphertext containing the encrypted plaintext
  *         """
  *         if ctxt is None:             # <<<<<<<<<<<<<<
@@ -4668,19 +4741,19 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_9 = (__pyx_t_8 != 0);
   if (__pyx_t_9) {
 
-    /* "Pyfhel/Pyfhel.pyx":192
+    /* "Pyfhel/Pyfhel.pyx":197
  *         """
  *         if ctxt is None:
  *             ctxt = PyCtxt()             # <<<<<<<<<<<<<<
  *         self.afseal.encrypt(value, deref(ctxt._ptr_ctxt))
  *         ctxt._encoding = ENCODING_T.FRACTIONAL
  */
-    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 192, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 197, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF_SET(__pyx_v_ctxt, ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_1));
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":191
+    /* "Pyfhel/Pyfhel.pyx":196
  *             * PyCtxt: the ciphertext containing the encrypted plaintext
  *         """
  *         if ctxt is None:             # <<<<<<<<<<<<<<
@@ -4689,7 +4762,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":193
+  /* "Pyfhel/Pyfhel.pyx":198
  *         if ctxt is None:
  *             ctxt = PyCtxt()
  *         self.afseal.encrypt(value, deref(ctxt._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -4700,10 +4773,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_v_self->afseal->encrypt(__pyx_v_value, (*__pyx_v_ctxt->_ptr_ctxt));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 193, __pyx_L1_error)
+    __PYX_ERR(0, 198, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":194
+  /* "Pyfhel/Pyfhel.pyx":199
  *             ctxt = PyCtxt()
  *         self.afseal.encrypt(value, deref(ctxt._ptr_ctxt))
  *         ctxt._encoding = ENCODING_T.FRACTIONAL             # <<<<<<<<<<<<<<
@@ -4712,7 +4785,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   __pyx_v_ctxt->_encoding = __pyx_e_6Pyfhel_4util_10ENCODING_T_FRACTIONAL;
 
-  /* "Pyfhel/Pyfhel.pyx":195
+  /* "Pyfhel/Pyfhel.pyx":200
  *         self.afseal.encrypt(value, deref(ctxt._ptr_ctxt))
  *         ctxt._encoding = ENCODING_T.FRACTIONAL
  *         ctxt._pyfhel = self             # <<<<<<<<<<<<<<
@@ -4725,7 +4798,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __Pyx_DECREF(((PyObject *)__pyx_v_ctxt->_pyfhel));
   __pyx_v_ctxt->_pyfhel = __pyx_v_self;
 
-  /* "Pyfhel/Pyfhel.pyx":196
+  /* "Pyfhel/Pyfhel.pyx":201
  *         ctxt._encoding = ENCODING_T.FRACTIONAL
  *         ctxt._pyfhel = self
  *         return ctxt             # <<<<<<<<<<<<<<
@@ -4737,7 +4810,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_r = __pyx_v_ctxt;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":173
+  /* "Pyfhel/Pyfhel.pyx":178
  *         return ctxt
  * 
  *     cpdef PyCtxt encryptFrac(self, double value, PyCtxt ctxt=None) except +:             # <<<<<<<<<<<<<<
@@ -4799,7 +4872,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_13encryptFrac(PyObject *__pyx_
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encryptFrac") < 0)) __PYX_ERR(0, 173, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encryptFrac") < 0)) __PYX_ERR(0, 178, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -4810,18 +4883,18 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_13encryptFrac(PyObject *__pyx_
         default: goto __pyx_L5_argtuple_error;
       }
     }
-    __pyx_v_value = __pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_value == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 173, __pyx_L3_error)
+    __pyx_v_value = __pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_value == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 178, __pyx_L3_error)
     __pyx_v_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[1]);
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("encryptFrac", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 173, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("encryptFrac", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 178, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.encryptFrac", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 173, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 178, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_12encryptFrac(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_value, __pyx_v_ctxt);
 
   /* function exit code */
@@ -4844,10 +4917,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_12encryptFrac(struct __pyx_obj
   __pyx_t_2.ctxt = __pyx_v_ctxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->encryptFrac(__pyx_v_self, __pyx_v_value, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 173, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 178, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 173, __pyx_L1_error)
+    __PYX_ERR(0, 178, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -4865,7 +4938,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_12encryptFrac(struct __pyx_obj
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":199
+/* "Pyfhel/Pyfhel.pyx":204
  * 
  * 
  *     cpdef PyCtxt encryptBatch(self, vector[int64_t] vec,             # <<<<<<<<<<<<<<
@@ -4876,7 +4949,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_12encryptFrac(struct __pyx_obj
 static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_15encryptBatch(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_encryptBatch(struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *__pyx_v_self, std::vector<int64_t>  __pyx_v_vec, int __pyx_skip_dispatch, struct __pyx_opt_args_6Pyfhel_6Pyfhel_6Pyfhel_encryptBatch *__pyx_optional_args) {
 
-  /* "Pyfhel/Pyfhel.pyx":200
+  /* "Pyfhel/Pyfhel.pyx":205
  * 
  *     cpdef PyCtxt encryptBatch(self, vector[int64_t] vec,
  *                               PyCtxt ctxt=None) except +:             # <<<<<<<<<<<<<<
@@ -4903,7 +4976,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   }
   __Pyx_INCREF((PyObject *)__pyx_v_ctxt);
 
-  /* "Pyfhel/Pyfhel.pyx":199
+  /* "Pyfhel/Pyfhel.pyx":204
  * 
  * 
  *     cpdef PyCtxt encryptBatch(self, vector[int64_t] vec,             # <<<<<<<<<<<<<<
@@ -4919,11 +4992,11 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encryptBatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 199, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encryptBatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 204, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_15encryptBatch)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = __pyx_convert_vector_to_py_int64_t(__pyx_v_vec); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 199, __pyx_L1_error)
+        __pyx_t_3 = __pyx_convert_vector_to_py_int64_t(__pyx_v_vec); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 204, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -4941,7 +5014,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_3, ((PyObject *)__pyx_v_ctxt)};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 199, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 204, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -4950,14 +5023,14 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_3, ((PyObject *)__pyx_v_ctxt)};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 199, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 204, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         } else
         #endif
         {
-          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 199, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 204, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           if (__pyx_t_5) {
             __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -4968,12 +5041,12 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           __Pyx_GIVEREF(((PyObject *)__pyx_v_ctxt));
           PyTuple_SET_ITEM(__pyx_t_7, 1+__pyx_t_6, ((PyObject *)__pyx_v_ctxt));
           __pyx_t_3 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 199, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 204, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 199, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 204, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -4992,7 +5065,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":218
+  /* "Pyfhel/Pyfhel.pyx":223
  *             * PyCtxt: the ciphertext containing the encrypted plaintext
  *         """
  *         if ctxt is None:             # <<<<<<<<<<<<<<
@@ -5003,19 +5076,19 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_9 = (__pyx_t_8 != 0);
   if (__pyx_t_9) {
 
-    /* "Pyfhel/Pyfhel.pyx":219
+    /* "Pyfhel/Pyfhel.pyx":224
  *         """
  *         if ctxt is None:
  *             ctxt = PyCtxt()             # <<<<<<<<<<<<<<
  *         self.afseal.encrypt(vec, deref(ctxt._ptr_ctxt))
  *         ctxt._encoding = ENCODING_T.BATCH
  */
-    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 219, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 224, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF_SET(__pyx_v_ctxt, ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_1));
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":218
+    /* "Pyfhel/Pyfhel.pyx":223
  *             * PyCtxt: the ciphertext containing the encrypted plaintext
  *         """
  *         if ctxt is None:             # <<<<<<<<<<<<<<
@@ -5024,7 +5097,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":220
+  /* "Pyfhel/Pyfhel.pyx":225
  *         if ctxt is None:
  *             ctxt = PyCtxt()
  *         self.afseal.encrypt(vec, deref(ctxt._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -5035,10 +5108,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_v_self->afseal->encrypt(__pyx_v_vec, (*__pyx_v_ctxt->_ptr_ctxt));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 220, __pyx_L1_error)
+    __PYX_ERR(0, 225, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":221
+  /* "Pyfhel/Pyfhel.pyx":226
  *             ctxt = PyCtxt()
  *         self.afseal.encrypt(vec, deref(ctxt._ptr_ctxt))
  *         ctxt._encoding = ENCODING_T.BATCH             # <<<<<<<<<<<<<<
@@ -5047,7 +5120,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   __pyx_v_ctxt->_encoding = __pyx_e_6Pyfhel_4util_10ENCODING_T_BATCH;
 
-  /* "Pyfhel/Pyfhel.pyx":222
+  /* "Pyfhel/Pyfhel.pyx":227
  *         self.afseal.encrypt(vec, deref(ctxt._ptr_ctxt))
  *         ctxt._encoding = ENCODING_T.BATCH
  *         ctxt._pyfhel = self             # <<<<<<<<<<<<<<
@@ -5060,7 +5133,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __Pyx_DECREF(((PyObject *)__pyx_v_ctxt->_pyfhel));
   __pyx_v_ctxt->_pyfhel = __pyx_v_self;
 
-  /* "Pyfhel/Pyfhel.pyx":223
+  /* "Pyfhel/Pyfhel.pyx":228
  *         ctxt._encoding = ENCODING_T.BATCH
  *         ctxt._pyfhel = self
  *         return ctxt             # <<<<<<<<<<<<<<
@@ -5072,7 +5145,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_r = __pyx_v_ctxt;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":199
+  /* "Pyfhel/Pyfhel.pyx":204
  * 
  * 
  *     cpdef PyCtxt encryptBatch(self, vector[int64_t] vec,             # <<<<<<<<<<<<<<
@@ -5110,7 +5183,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_15encryptBatch(PyObject *__pyx
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_vec,&__pyx_n_s_ctxt,0};
     PyObject* values[2] = {0,0};
 
-    /* "Pyfhel/Pyfhel.pyx":200
+    /* "Pyfhel/Pyfhel.pyx":205
  * 
  *     cpdef PyCtxt encryptBatch(self, vector[int64_t] vec,
  *                               PyCtxt ctxt=None) except +:             # <<<<<<<<<<<<<<
@@ -5142,7 +5215,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_15encryptBatch(PyObject *__pyx
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encryptBatch") < 0)) __PYX_ERR(0, 199, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encryptBatch") < 0)) __PYX_ERR(0, 204, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -5153,21 +5226,21 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_15encryptBatch(PyObject *__pyx
         default: goto __pyx_L5_argtuple_error;
       }
     }
-    __pyx_v_vec = __pyx_convert_vector_from_py_int64_t(values[0]); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 199, __pyx_L3_error)
+    __pyx_v_vec = __pyx_convert_vector_from_py_int64_t(values[0]); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 204, __pyx_L3_error)
     __pyx_v_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[1]);
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("encryptBatch", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 199, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("encryptBatch", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 204, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.encryptBatch", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 200, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 205, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_14encryptBatch(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_vec, __pyx_v_ctxt);
 
-  /* "Pyfhel/Pyfhel.pyx":199
+  /* "Pyfhel/Pyfhel.pyx":204
  * 
  * 
  *     cpdef PyCtxt encryptBatch(self, vector[int64_t] vec,             # <<<<<<<<<<<<<<
@@ -5195,10 +5268,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_14encryptBatch(struct __pyx_ob
   __pyx_t_2.ctxt = __pyx_v_ctxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->encryptBatch(__pyx_v_self, __pyx_v_vec, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 199, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 204, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 199, __pyx_L1_error)
+    __PYX_ERR(0, 204, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -5216,7 +5289,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_14encryptBatch(struct __pyx_ob
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":225
+/* "Pyfhel/Pyfhel.pyx":230
  *         return ctxt
  * 
  *     cpdef PyCtxt encryptArray(self, int64_t[::1] arr,             # <<<<<<<<<<<<<<
@@ -5227,7 +5300,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_14encryptBatch(struct __pyx_ob
 static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_17encryptArray(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_encryptArray(struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *__pyx_v_self, __Pyx_memviewslice __pyx_v_arr, int __pyx_skip_dispatch, struct __pyx_opt_args_6Pyfhel_6Pyfhel_6Pyfhel_encryptArray *__pyx_optional_args) {
 
-  /* "Pyfhel/Pyfhel.pyx":226
+  /* "Pyfhel/Pyfhel.pyx":231
  * 
  *     cpdef PyCtxt encryptArray(self, int64_t[::1] arr,
  *                               PyCtxt ctxt=None) except +:             # <<<<<<<<<<<<<<
@@ -5257,7 +5330,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   }
   __Pyx_INCREF((PyObject *)__pyx_v_ctxt);
 
-  /* "Pyfhel/Pyfhel.pyx":225
+  /* "Pyfhel/Pyfhel.pyx":230
  *         return ctxt
  * 
  *     cpdef PyCtxt encryptArray(self, int64_t[::1] arr,             # <<<<<<<<<<<<<<
@@ -5273,12 +5346,12 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encryptArray); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 225, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encryptArray); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 230, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_17encryptArray)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        if (unlikely(!__pyx_v_arr.memview)) { __Pyx_RaiseUnboundLocalError("arr"); __PYX_ERR(0, 225, __pyx_L1_error) }
-        __pyx_t_3 = __pyx_memoryview_fromslice(__pyx_v_arr, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_int64_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_int64_t, 0);; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 225, __pyx_L1_error)
+        if (unlikely(!__pyx_v_arr.memview)) { __Pyx_RaiseUnboundLocalError("arr"); __PYX_ERR(0, 230, __pyx_L1_error) }
+        __pyx_t_3 = __pyx_memoryview_fromslice(__pyx_v_arr, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_int64_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_int64_t, 0);; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 230, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -5296,7 +5369,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_3, ((PyObject *)__pyx_v_ctxt)};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 225, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 230, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -5305,14 +5378,14 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_3, ((PyObject *)__pyx_v_ctxt)};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 225, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 230, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         } else
         #endif
         {
-          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 225, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 230, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           if (__pyx_t_5) {
             __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -5323,12 +5396,12 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           __Pyx_GIVEREF(((PyObject *)__pyx_v_ctxt));
           PyTuple_SET_ITEM(__pyx_t_7, 1+__pyx_t_6, ((PyObject *)__pyx_v_ctxt));
           __pyx_t_3 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 225, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 230, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 225, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 230, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -5347,7 +5420,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":244
+  /* "Pyfhel/Pyfhel.pyx":249
  *             * PyCtxt: the ciphertext containing the encrypted plaintext
  *         """
  *         if ctxt is None:             # <<<<<<<<<<<<<<
@@ -5358,19 +5431,19 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_9 = (__pyx_t_8 != 0);
   if (__pyx_t_9) {
 
-    /* "Pyfhel/Pyfhel.pyx":245
+    /* "Pyfhel/Pyfhel.pyx":250
  *         """
  *         if ctxt is None:
  *             ctxt = PyCtxt()             # <<<<<<<<<<<<<<
  *         cdef vector[int64_t] vec;
  *         vec.assign(&arr[0], &arr[-1]+1)
  */
-    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 245, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 250, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF_SET(__pyx_v_ctxt, ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_1));
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":244
+    /* "Pyfhel/Pyfhel.pyx":249
  *             * PyCtxt: the ciphertext containing the encrypted plaintext
  *         """
  *         if ctxt is None:             # <<<<<<<<<<<<<<
@@ -5379,7 +5452,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":247
+  /* "Pyfhel/Pyfhel.pyx":252
  *             ctxt = PyCtxt()
  *         cdef vector[int64_t] vec;
  *         vec.assign(&arr[0], &arr[-1]+1)             # <<<<<<<<<<<<<<
@@ -5394,10 +5467,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_v_vec.assign((&(*((int64_t *) ( /* dim=0 */ ((char *) (((int64_t *) __pyx_v_arr.data) + __pyx_t_10)) )))), ((&(*((int64_t *) ( /* dim=0 */ ((char *) (((int64_t *) __pyx_v_arr.data) + __pyx_t_11)) )))) + 1));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 247, __pyx_L1_error)
+    __PYX_ERR(0, 252, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":248
+  /* "Pyfhel/Pyfhel.pyx":253
  *         cdef vector[int64_t] vec;
  *         vec.assign(&arr[0], &arr[-1]+1)
  *         self.afseal.encrypt(vec, deref(ctxt._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -5408,10 +5481,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_v_self->afseal->encrypt(__pyx_v_vec, (*__pyx_v_ctxt->_ptr_ctxt));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 248, __pyx_L1_error)
+    __PYX_ERR(0, 253, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":249
+  /* "Pyfhel/Pyfhel.pyx":254
  *         vec.assign(&arr[0], &arr[-1]+1)
  *         self.afseal.encrypt(vec, deref(ctxt._ptr_ctxt))
  *         ctxt._encoding = ENCODING_T.BATCH             # <<<<<<<<<<<<<<
@@ -5420,7 +5493,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   __pyx_v_ctxt->_encoding = __pyx_e_6Pyfhel_4util_10ENCODING_T_BATCH;
 
-  /* "Pyfhel/Pyfhel.pyx":250
+  /* "Pyfhel/Pyfhel.pyx":255
  *         self.afseal.encrypt(vec, deref(ctxt._ptr_ctxt))
  *         ctxt._encoding = ENCODING_T.BATCH
  *         ctxt._pyfhel = self             # <<<<<<<<<<<<<<
@@ -5433,7 +5506,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __Pyx_DECREF(((PyObject *)__pyx_v_ctxt->_pyfhel));
   __pyx_v_ctxt->_pyfhel = __pyx_v_self;
 
-  /* "Pyfhel/Pyfhel.pyx":251
+  /* "Pyfhel/Pyfhel.pyx":256
  *         ctxt._encoding = ENCODING_T.BATCH
  *         ctxt._pyfhel = self
  *         return ctxt             # <<<<<<<<<<<<<<
@@ -5445,7 +5518,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_r = __pyx_v_ctxt;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":225
+  /* "Pyfhel/Pyfhel.pyx":230
  *         return ctxt
  * 
  *     cpdef PyCtxt encryptArray(self, int64_t[::1] arr,             # <<<<<<<<<<<<<<
@@ -5483,7 +5556,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_17encryptArray(PyObject *__pyx
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_arr,&__pyx_n_s_ctxt,0};
     PyObject* values[2] = {0,0};
 
-    /* "Pyfhel/Pyfhel.pyx":226
+    /* "Pyfhel/Pyfhel.pyx":231
  * 
  *     cpdef PyCtxt encryptArray(self, int64_t[::1] arr,
  *                               PyCtxt ctxt=None) except +:             # <<<<<<<<<<<<<<
@@ -5515,7 +5588,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_17encryptArray(PyObject *__pyx
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encryptArray") < 0)) __PYX_ERR(0, 225, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encryptArray") < 0)) __PYX_ERR(0, 230, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -5526,21 +5599,21 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_17encryptArray(PyObject *__pyx
         default: goto __pyx_L5_argtuple_error;
       }
     }
-    __pyx_v_arr = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_int64_t(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_arr.memview)) __PYX_ERR(0, 225, __pyx_L3_error)
+    __pyx_v_arr = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_int64_t(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_arr.memview)) __PYX_ERR(0, 230, __pyx_L3_error)
     __pyx_v_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[1]);
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("encryptArray", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 225, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("encryptArray", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 230, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.encryptArray", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 226, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 231, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_16encryptArray(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_arr, __pyx_v_ctxt);
 
-  /* "Pyfhel/Pyfhel.pyx":225
+  /* "Pyfhel/Pyfhel.pyx":230
  *         return ctxt
  * 
  *     cpdef PyCtxt encryptArray(self, int64_t[::1] arr,             # <<<<<<<<<<<<<<
@@ -5564,15 +5637,15 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_16encryptArray(struct __pyx_ob
   struct __pyx_opt_args_6Pyfhel_6Pyfhel_6Pyfhel_encryptArray __pyx_t_2;
   __Pyx_RefNannySetupContext("encryptArray", 0);
   __Pyx_XDECREF(__pyx_r);
-  if (unlikely(!__pyx_v_arr.memview)) { __Pyx_RaiseUnboundLocalError("arr"); __PYX_ERR(0, 225, __pyx_L1_error) }
+  if (unlikely(!__pyx_v_arr.memview)) { __Pyx_RaiseUnboundLocalError("arr"); __PYX_ERR(0, 230, __pyx_L1_error) }
   __pyx_t_2.__pyx_n = 1;
   __pyx_t_2.ctxt = __pyx_v_ctxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->encryptArray(__pyx_v_self, __pyx_v_arr, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 225, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 230, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 225, __pyx_L1_error)
+    __PYX_ERR(0, 230, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -5591,7 +5664,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_16encryptArray(struct __pyx_ob
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":253
+/* "Pyfhel/Pyfhel.pyx":258
  *         return ctxt
  * 
  *     cpdef PyCtxt encryptPtxt(self, PyPtxt ptxt, PyCtxt ctxt=None) except +:             # <<<<<<<<<<<<<<
@@ -5630,7 +5703,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encryptPtxt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 253, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encryptPtxt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 258, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_19encryptPtxt)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
@@ -5650,7 +5723,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_3)) {
           PyObject *__pyx_temp[3] = {__pyx_t_4, ((PyObject *)__pyx_v_ptxt), ((PyObject *)__pyx_v_ctxt)};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 253, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 258, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_GOTREF(__pyx_t_2);
         } else
@@ -5658,13 +5731,13 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_3)) {
           PyObject *__pyx_temp[3] = {__pyx_t_4, ((PyObject *)__pyx_v_ptxt), ((PyObject *)__pyx_v_ctxt)};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 253, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 258, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_GOTREF(__pyx_t_2);
         } else
         #endif
         {
-          __pyx_t_6 = PyTuple_New(2+__pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 253, __pyx_L1_error)
+          __pyx_t_6 = PyTuple_New(2+__pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 258, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
           if (__pyx_t_4) {
             __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_4); __pyx_t_4 = NULL;
@@ -5675,12 +5748,12 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           __Pyx_INCREF(((PyObject *)__pyx_v_ctxt));
           __Pyx_GIVEREF(((PyObject *)__pyx_v_ctxt));
           PyTuple_SET_ITEM(__pyx_t_6, 1+__pyx_t_5, ((PyObject *)__pyx_v_ctxt));
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_6, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 253, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_6, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 258, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         }
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 253, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 258, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -5699,7 +5772,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":272
+  /* "Pyfhel/Pyfhel.pyx":277
  *             TypeError: if the plaintext doesn't have a valid type.
  *         """
  *         if (ptxt._ptr_ptxt == NULL or ptxt is None):             # <<<<<<<<<<<<<<
@@ -5718,20 +5791,20 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_L4_bool_binop_done:;
   if (unlikely(__pyx_t_7)) {
 
-    /* "Pyfhel/Pyfhel.pyx":273
+    /* "Pyfhel/Pyfhel.pyx":278
  *         """
  *         if (ptxt._ptr_ptxt == NULL or ptxt is None):
  *             raise TypeError("<Pyfhel ERROR> PyPtxt Plaintext is empty")             # <<<<<<<<<<<<<<
  *         if ctxt is None:
  *             ctxt = PyCtxt()
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple_, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 273, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 278, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 273, __pyx_L1_error)
+    __PYX_ERR(0, 278, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":272
+    /* "Pyfhel/Pyfhel.pyx":277
  *             TypeError: if the plaintext doesn't have a valid type.
  *         """
  *         if (ptxt._ptr_ptxt == NULL or ptxt is None):             # <<<<<<<<<<<<<<
@@ -5740,7 +5813,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":274
+  /* "Pyfhel/Pyfhel.pyx":279
  *         if (ptxt._ptr_ptxt == NULL or ptxt is None):
  *             raise TypeError("<Pyfhel ERROR> PyPtxt Plaintext is empty")
  *         if ctxt is None:             # <<<<<<<<<<<<<<
@@ -5751,19 +5824,19 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_9 = (__pyx_t_7 != 0);
   if (__pyx_t_9) {
 
-    /* "Pyfhel/Pyfhel.pyx":275
+    /* "Pyfhel/Pyfhel.pyx":280
  *             raise TypeError("<Pyfhel ERROR> PyPtxt Plaintext is empty")
  *         if ctxt is None:
  *             ctxt = PyCtxt()             # <<<<<<<<<<<<<<
  *         self.afseal.encrypt(deref(ptxt._ptr_ptxt), deref(ctxt._ptr_ctxt))
  *         ctxt._encoding = ptxt._encoding
  */
-    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 275, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 280, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF_SET(__pyx_v_ctxt, ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_1));
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":274
+    /* "Pyfhel/Pyfhel.pyx":279
  *         if (ptxt._ptr_ptxt == NULL or ptxt is None):
  *             raise TypeError("<Pyfhel ERROR> PyPtxt Plaintext is empty")
  *         if ctxt is None:             # <<<<<<<<<<<<<<
@@ -5772,7 +5845,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":276
+  /* "Pyfhel/Pyfhel.pyx":281
  *         if ctxt is None:
  *             ctxt = PyCtxt()
  *         self.afseal.encrypt(deref(ptxt._ptr_ptxt), deref(ctxt._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -5783,10 +5856,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_v_self->afseal->encrypt((*__pyx_v_ptxt->_ptr_ptxt), (*__pyx_v_ctxt->_ptr_ctxt));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 276, __pyx_L1_error)
+    __PYX_ERR(0, 281, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":277
+  /* "Pyfhel/Pyfhel.pyx":282
  *             ctxt = PyCtxt()
  *         self.afseal.encrypt(deref(ptxt._ptr_ptxt), deref(ctxt._ptr_ctxt))
  *         ctxt._encoding = ptxt._encoding             # <<<<<<<<<<<<<<
@@ -5796,7 +5869,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_10 = __pyx_v_ptxt->_encoding;
   __pyx_v_ctxt->_encoding = __pyx_t_10;
 
-  /* "Pyfhel/Pyfhel.pyx":278
+  /* "Pyfhel/Pyfhel.pyx":283
  *         self.afseal.encrypt(deref(ptxt._ptr_ptxt), deref(ctxt._ptr_ctxt))
  *         ctxt._encoding = ptxt._encoding
  *         ctxt._pyfhel = self             # <<<<<<<<<<<<<<
@@ -5809,7 +5882,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __Pyx_DECREF(((PyObject *)__pyx_v_ctxt->_pyfhel));
   __pyx_v_ctxt->_pyfhel = __pyx_v_self;
 
-  /* "Pyfhel/Pyfhel.pyx":279
+  /* "Pyfhel/Pyfhel.pyx":284
  *         ctxt._encoding = ptxt._encoding
  *         ctxt._pyfhel = self
  *         return ctxt             # <<<<<<<<<<<<<<
@@ -5821,7 +5894,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_r = __pyx_v_ctxt;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":253
+  /* "Pyfhel/Pyfhel.pyx":258
  *         return ctxt
  * 
  *     cpdef PyCtxt encryptPtxt(self, PyPtxt ptxt, PyCtxt ctxt=None) except +:             # <<<<<<<<<<<<<<
@@ -5882,7 +5955,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_19encryptPtxt(PyObject *__pyx_
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encryptPtxt") < 0)) __PYX_ERR(0, 253, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encryptPtxt") < 0)) __PYX_ERR(0, 258, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -5898,14 +5971,14 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_19encryptPtxt(PyObject *__pyx_
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("encryptPtxt", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 253, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("encryptPtxt", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 258, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.encryptPtxt", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 253, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 253, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 258, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 258, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_18encryptPtxt(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_ptxt, __pyx_v_ctxt);
 
   /* function exit code */
@@ -5928,10 +6001,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_18encryptPtxt(struct __pyx_obj
   __pyx_t_2.ctxt = __pyx_v_ctxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->encryptPtxt(__pyx_v_self, __pyx_v_ptxt, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 253, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 258, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 253, __pyx_L1_error)
+    __PYX_ERR(0, 258, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -5949,7 +6022,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_18encryptPtxt(struct __pyx_obj
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":281
+/* "Pyfhel/Pyfhel.pyx":286
  *         return ctxt
  * 
  *     def encrypt(self, ptxt not None, PyCtxt ctxt=None):             # <<<<<<<<<<<<<<
@@ -5994,7 +6067,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_21encrypt(PyObject *__pyx_v_se
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encrypt") < 0)) __PYX_ERR(0, 281, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encrypt") < 0)) __PYX_ERR(0, 286, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -6010,16 +6083,16 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_21encrypt(PyObject *__pyx_v_se
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("encrypt", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 281, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("encrypt", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 286, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.encrypt", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(((PyObject *)__pyx_v_ptxt) == Py_None)) {
-    PyErr_Format(PyExc_TypeError, "Argument '%.200s' must not be None", "ptxt"); __PYX_ERR(0, 281, __pyx_L1_error)
+    PyErr_Format(PyExc_TypeError, "Argument '%.200s' must not be None", "ptxt"); __PYX_ERR(0, 286, __pyx_L1_error)
   }
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 281, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 286, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_20encrypt(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_ptxt, __pyx_v_ctxt);
 
   /* function exit code */
@@ -6048,7 +6121,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_20encrypt(struct __pyx_obj_6Py
   PyObject *__pyx_t_12 = NULL;
   __Pyx_RefNannySetupContext("encrypt", 0);
 
-  /* "Pyfhel/Pyfhel.pyx":304
+  /* "Pyfhel/Pyfhel.pyx":309
  *             * TypeError: if the plaintext doesn't have a valid type.
  *         """
  *         if isinstance(ptxt, PyPtxt):             # <<<<<<<<<<<<<<
@@ -6059,7 +6132,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_20encrypt(struct __pyx_obj_6Py
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "Pyfhel/Pyfhel.pyx":305
+    /* "Pyfhel/Pyfhel.pyx":310
  *         """
  *         if isinstance(ptxt, PyPtxt):
  *             return self.encryptPtxt(ptxt, ctxt)             # <<<<<<<<<<<<<<
@@ -6067,102 +6140,11 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_20encrypt(struct __pyx_obj_6Py
  *             if (ptxt.ndim is not 1) or (ptxt.dtype is not int):
  */
     __Pyx_XDECREF(__pyx_r);
-    if (!(likely(__Pyx_TypeTest(__pyx_v_ptxt, __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt)))) __PYX_ERR(0, 305, __pyx_L1_error)
+    if (!(likely(__Pyx_TypeTest(__pyx_v_ptxt, __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt)))) __PYX_ERR(0, 310, __pyx_L1_error)
     __pyx_t_4.__pyx_n = 1;
     __pyx_t_4.ctxt = __pyx_v_ctxt;
     try {
       __pyx_t_3 = ((PyObject *)((struct __pyx_vtabstruct_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self->__pyx_vtab)->encryptPtxt(__pyx_v_self, ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)__pyx_v_ptxt), 0, &__pyx_t_4));
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 305, __pyx_L1_error)
-    } catch(...) {
-      __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 305, __pyx_L1_error)
-    }
-    __Pyx_GOTREF(__pyx_t_3);
-    __pyx_r = __pyx_t_3;
-    __pyx_t_3 = 0;
-    goto __pyx_L0;
-
-    /* "Pyfhel/Pyfhel.pyx":304
- *             * TypeError: if the plaintext doesn't have a valid type.
- *         """
- *         if isinstance(ptxt, PyPtxt):             # <<<<<<<<<<<<<<
- *             return self.encryptPtxt(ptxt, ctxt)
- *         elif isinstance(ptxt, np.ndarray):
- */
-  }
-
-  /* "Pyfhel/Pyfhel.pyx":306
- *         if isinstance(ptxt, PyPtxt):
- *             return self.encryptPtxt(ptxt, ctxt)
- *         elif isinstance(ptxt, np.ndarray):             # <<<<<<<<<<<<<<
- *             if (ptxt.ndim is not 1) or (ptxt.dtype is not int):
- *                 raise TypeError('<Pyfhel ERROR> Plaintext numpy array is not'
- */
-  __pyx_t_2 = __Pyx_TypeCheck(__pyx_v_ptxt, __pyx_ptype_5numpy_ndarray); 
-  __pyx_t_1 = (__pyx_t_2 != 0);
-  if (__pyx_t_1) {
-
-    /* "Pyfhel/Pyfhel.pyx":307
- *             return self.encryptPtxt(ptxt, ctxt)
- *         elif isinstance(ptxt, np.ndarray):
- *             if (ptxt.ndim is not 1) or (ptxt.dtype is not int):             # <<<<<<<<<<<<<<
- *                 raise TypeError('<Pyfhel ERROR> Plaintext numpy array is not'
- *                                 '1D vector of int values, cannot encrypt.')
- */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ptxt, __pyx_n_s_ndim); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 307, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_2 = (__pyx_t_3 != __pyx_int_1);
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_5 = (__pyx_t_2 != 0);
-    if (!__pyx_t_5) {
-    } else {
-      __pyx_t_1 = __pyx_t_5;
-      goto __pyx_L5_bool_binop_done;
-    }
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ptxt, __pyx_n_s_dtype); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 307, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_5 = (__pyx_t_3 != ((PyObject *)(&PyInt_Type)));
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_2 = (__pyx_t_5 != 0);
-    __pyx_t_1 = __pyx_t_2;
-    __pyx_L5_bool_binop_done:;
-    if (unlikely(__pyx_t_1)) {
-
-      /* "Pyfhel/Pyfhel.pyx":308
- *         elif isinstance(ptxt, np.ndarray):
- *             if (ptxt.ndim is not 1) or (ptxt.dtype is not int):
- *                 raise TypeError('<Pyfhel ERROR> Plaintext numpy array is not'             # <<<<<<<<<<<<<<
- *                                 '1D vector of int values, cannot encrypt.')
- *             return self.encryptBatch(ptxt, ctxt)
- */
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__2, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 308, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_3);
-      __Pyx_Raise(__pyx_t_3, 0, 0, 0);
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __PYX_ERR(0, 308, __pyx_L1_error)
-
-      /* "Pyfhel/Pyfhel.pyx":307
- *             return self.encryptPtxt(ptxt, ctxt)
- *         elif isinstance(ptxt, np.ndarray):
- *             if (ptxt.ndim is not 1) or (ptxt.dtype is not int):             # <<<<<<<<<<<<<<
- *                 raise TypeError('<Pyfhel ERROR> Plaintext numpy array is not'
- *                                 '1D vector of int values, cannot encrypt.')
- */
-    }
-
-    /* "Pyfhel/Pyfhel.pyx":310
- *                 raise TypeError('<Pyfhel ERROR> Plaintext numpy array is not'
- *                                 '1D vector of int values, cannot encrypt.')
- *             return self.encryptBatch(ptxt, ctxt)             # <<<<<<<<<<<<<<
- *         elif isinstance(ptxt, float):
- *             return self.encryptFrac(<float>ptxt, ctxt)
- */
-    __Pyx_XDECREF(__pyx_r);
-    __pyx_t_6 = __pyx_convert_vector_from_py_int64_t(__pyx_v_ptxt); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 310, __pyx_L1_error)
-    __pyx_t_7.__pyx_n = 1;
-    __pyx_t_7.ctxt = __pyx_v_ctxt;
-    try {
-      __pyx_t_3 = ((PyObject *)((struct __pyx_vtabstruct_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self->__pyx_vtab)->encryptBatch(__pyx_v_self, __pyx_t_6, 0, &__pyx_t_7));
       if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 310, __pyx_L1_error)
     } catch(...) {
       __Pyx_CppExn2PyErr();
@@ -6173,7 +6155,98 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_20encrypt(struct __pyx_obj_6Py
     __pyx_t_3 = 0;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":306
+    /* "Pyfhel/Pyfhel.pyx":309
+ *             * TypeError: if the plaintext doesn't have a valid type.
+ *         """
+ *         if isinstance(ptxt, PyPtxt):             # <<<<<<<<<<<<<<
+ *             return self.encryptPtxt(ptxt, ctxt)
+ *         elif isinstance(ptxt, np.ndarray):
+ */
+  }
+
+  /* "Pyfhel/Pyfhel.pyx":311
+ *         if isinstance(ptxt, PyPtxt):
+ *             return self.encryptPtxt(ptxt, ctxt)
+ *         elif isinstance(ptxt, np.ndarray):             # <<<<<<<<<<<<<<
+ *             if (ptxt.ndim is not 1) or (ptxt.dtype is not int):
+ *                 raise TypeError('<Pyfhel ERROR> Plaintext numpy array is not'
+ */
+  __pyx_t_2 = __Pyx_TypeCheck(__pyx_v_ptxt, __pyx_ptype_5numpy_ndarray); 
+  __pyx_t_1 = (__pyx_t_2 != 0);
+  if (__pyx_t_1) {
+
+    /* "Pyfhel/Pyfhel.pyx":312
+ *             return self.encryptPtxt(ptxt, ctxt)
+ *         elif isinstance(ptxt, np.ndarray):
+ *             if (ptxt.ndim is not 1) or (ptxt.dtype is not int):             # <<<<<<<<<<<<<<
+ *                 raise TypeError('<Pyfhel ERROR> Plaintext numpy array is not'
+ *                                 '1D vector of int values, cannot encrypt.')
+ */
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ptxt, __pyx_n_s_ndim); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 312, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_2 = (__pyx_t_3 != __pyx_int_1);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_t_5 = (__pyx_t_2 != 0);
+    if (!__pyx_t_5) {
+    } else {
+      __pyx_t_1 = __pyx_t_5;
+      goto __pyx_L5_bool_binop_done;
+    }
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_ptxt, __pyx_n_s_dtype); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 312, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_5 = (__pyx_t_3 != ((PyObject *)(&PyInt_Type)));
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_t_2 = (__pyx_t_5 != 0);
+    __pyx_t_1 = __pyx_t_2;
+    __pyx_L5_bool_binop_done:;
+    if (unlikely(__pyx_t_1)) {
+
+      /* "Pyfhel/Pyfhel.pyx":313
+ *         elif isinstance(ptxt, np.ndarray):
+ *             if (ptxt.ndim is not 1) or (ptxt.dtype is not int):
+ *                 raise TypeError('<Pyfhel ERROR> Plaintext numpy array is not'             # <<<<<<<<<<<<<<
+ *                                 '1D vector of int values, cannot encrypt.')
+ *             return self.encryptBatch(ptxt, ctxt)
+ */
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 313, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_Raise(__pyx_t_3, 0, 0, 0);
+      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+      __PYX_ERR(0, 313, __pyx_L1_error)
+
+      /* "Pyfhel/Pyfhel.pyx":312
+ *             return self.encryptPtxt(ptxt, ctxt)
+ *         elif isinstance(ptxt, np.ndarray):
+ *             if (ptxt.ndim is not 1) or (ptxt.dtype is not int):             # <<<<<<<<<<<<<<
+ *                 raise TypeError('<Pyfhel ERROR> Plaintext numpy array is not'
+ *                                 '1D vector of int values, cannot encrypt.')
+ */
+    }
+
+    /* "Pyfhel/Pyfhel.pyx":315
+ *                 raise TypeError('<Pyfhel ERROR> Plaintext numpy array is not'
+ *                                 '1D vector of int values, cannot encrypt.')
+ *             return self.encryptBatch(ptxt, ctxt)             # <<<<<<<<<<<<<<
+ *         elif isinstance(ptxt, float):
+ *             return self.encryptFrac(<float>ptxt, ctxt)
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_6 = __pyx_convert_vector_from_py_int64_t(__pyx_v_ptxt); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 315, __pyx_L1_error)
+    __pyx_t_7.__pyx_n = 1;
+    __pyx_t_7.ctxt = __pyx_v_ctxt;
+    try {
+      __pyx_t_3 = ((PyObject *)((struct __pyx_vtabstruct_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self->__pyx_vtab)->encryptBatch(__pyx_v_self, __pyx_t_6, 0, &__pyx_t_7));
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 315, __pyx_L1_error)
+    } catch(...) {
+      __Pyx_CppExn2PyErr();
+      __PYX_ERR(0, 315, __pyx_L1_error)
+    }
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_r = __pyx_t_3;
+    __pyx_t_3 = 0;
+    goto __pyx_L0;
+
+    /* "Pyfhel/Pyfhel.pyx":311
  *         if isinstance(ptxt, PyPtxt):
  *             return self.encryptPtxt(ptxt, ctxt)
  *         elif isinstance(ptxt, np.ndarray):             # <<<<<<<<<<<<<<
@@ -6182,7 +6255,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_20encrypt(struct __pyx_obj_6Py
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":311
+  /* "Pyfhel/Pyfhel.pyx":316
  *                                 '1D vector of int values, cannot encrypt.')
  *             return self.encryptBatch(ptxt, ctxt)
  *         elif isinstance(ptxt, float):             # <<<<<<<<<<<<<<
@@ -6193,7 +6266,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_20encrypt(struct __pyx_obj_6Py
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "Pyfhel/Pyfhel.pyx":312
+    /* "Pyfhel/Pyfhel.pyx":317
  *             return self.encryptBatch(ptxt, ctxt)
  *         elif isinstance(ptxt, float):
  *             return self.encryptFrac(<float>ptxt, ctxt)             # <<<<<<<<<<<<<<
@@ -6201,22 +6274,22 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_20encrypt(struct __pyx_obj_6Py
  *             return self.encryptInt(<int>ptxt, ctxt)
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_8 = __pyx_PyFloat_AsFloat(__pyx_v_ptxt); if (unlikely((__pyx_t_8 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 312, __pyx_L1_error)
+    __pyx_t_8 = __pyx_PyFloat_AsFloat(__pyx_v_ptxt); if (unlikely((__pyx_t_8 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 317, __pyx_L1_error)
     __pyx_t_9.__pyx_n = 1;
     __pyx_t_9.ctxt = __pyx_v_ctxt;
     try {
       __pyx_t_3 = ((PyObject *)((struct __pyx_vtabstruct_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self->__pyx_vtab)->encryptFrac(__pyx_v_self, ((float)__pyx_t_8), 0, &__pyx_t_9));
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 312, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 317, __pyx_L1_error)
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 312, __pyx_L1_error)
+      __PYX_ERR(0, 317, __pyx_L1_error)
     }
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_r = __pyx_t_3;
     __pyx_t_3 = 0;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":311
+    /* "Pyfhel/Pyfhel.pyx":316
  *                                 '1D vector of int values, cannot encrypt.')
  *             return self.encryptBatch(ptxt, ctxt)
  *         elif isinstance(ptxt, float):             # <<<<<<<<<<<<<<
@@ -6225,21 +6298,21 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_20encrypt(struct __pyx_obj_6Py
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":313
+  /* "Pyfhel/Pyfhel.pyx":318
  *         elif isinstance(ptxt, float):
  *             return self.encryptFrac(<float>ptxt, ctxt)
  *         elif isinstance(ptxt, Number):             # <<<<<<<<<<<<<<
  *             return self.encryptInt(<int>ptxt, ctxt)
  *         else:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Number); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 313, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Number); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 318, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = PyObject_IsInstance(__pyx_v_ptxt, __pyx_t_3); if (unlikely(__pyx_t_2 == ((int)-1))) __PYX_ERR(0, 313, __pyx_L1_error)
+  __pyx_t_2 = PyObject_IsInstance(__pyx_v_ptxt, __pyx_t_3); if (unlikely(__pyx_t_2 == ((int)-1))) __PYX_ERR(0, 318, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (likely(__pyx_t_1)) {
 
-    /* "Pyfhel/Pyfhel.pyx":314
+    /* "Pyfhel/Pyfhel.pyx":319
  *             return self.encryptFrac(<float>ptxt, ctxt)
  *         elif isinstance(ptxt, Number):
  *             return self.encryptInt(<int>ptxt, ctxt)             # <<<<<<<<<<<<<<
@@ -6247,22 +6320,22 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_20encrypt(struct __pyx_obj_6Py
  *             raise TypeError('<Pyfhel ERROR> Plaintext type \['+type(ptxt)+
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_ptxt); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 314, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_PyInt_As_int(__pyx_v_ptxt); if (unlikely((__pyx_t_10 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 319, __pyx_L1_error)
     __pyx_t_11.__pyx_n = 1;
     __pyx_t_11.ctxt = __pyx_v_ctxt;
     try {
       __pyx_t_3 = ((PyObject *)((struct __pyx_vtabstruct_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self->__pyx_vtab)->encryptInt(__pyx_v_self, ((int)__pyx_t_10), 0, &__pyx_t_11));
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 314, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 319, __pyx_L1_error)
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 314, __pyx_L1_error)
+      __PYX_ERR(0, 319, __pyx_L1_error)
     }
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_r = __pyx_t_3;
     __pyx_t_3 = 0;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":313
+    /* "Pyfhel/Pyfhel.pyx":318
  *         elif isinstance(ptxt, float):
  *             return self.encryptFrac(<float>ptxt, ctxt)
  *         elif isinstance(ptxt, Number):             # <<<<<<<<<<<<<<
@@ -6271,7 +6344,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_20encrypt(struct __pyx_obj_6Py
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":316
+  /* "Pyfhel/Pyfhel.pyx":321
  *             return self.encryptInt(<int>ptxt, ctxt)
  *         else:
  *             raise TypeError('<Pyfhel ERROR> Plaintext type \['+type(ptxt)+             # <<<<<<<<<<<<<<
@@ -6279,20 +6352,20 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_20encrypt(struct __pyx_obj_6Py
  * 
  */
   /*else*/ {
-    __pyx_t_3 = PyNumber_Add(__pyx_kp_u_Pyfhel_ERROR_Plaintext_type, ((PyObject *)Py_TYPE(__pyx_v_ptxt))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 316, __pyx_L1_error)
+    __pyx_t_3 = PyNumber_Add(__pyx_kp_u_Pyfhel_ERROR_Plaintext_type, ((PyObject *)Py_TYPE(__pyx_v_ptxt))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 321, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_12 = PyNumber_Add(__pyx_t_3, __pyx_kp_u_not_supported_for_encryption); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 316, __pyx_L1_error)
+    __pyx_t_12 = PyNumber_Add(__pyx_t_3, __pyx_kp_u_not_supported_for_encryption); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 321, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_12);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_12); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 316, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_12); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 321, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __PYX_ERR(0, 316, __pyx_L1_error)
+    __PYX_ERR(0, 321, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":281
+  /* "Pyfhel/Pyfhel.pyx":286
  *         return ctxt
  * 
  *     def encrypt(self, ptxt not None, PyCtxt ctxt=None):             # <<<<<<<<<<<<<<
@@ -6312,7 +6385,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_20encrypt(struct __pyx_obj_6Py
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":320
+/* "Pyfhel/Pyfhel.pyx":325
  * 
  *     # .............................. DECRYPTION ...............................
  *     cpdef int64_t decryptInt(self, PyCtxt ctxt) except +:             # <<<<<<<<<<<<<<
@@ -6341,7 +6414,7 @@ static int64_t __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptInt(struct __pyx_obj_6Pyfh
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decryptInt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 320, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decryptInt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 325, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_23decryptInt)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -6357,10 +6430,10 @@ static int64_t __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptInt(struct __pyx_obj_6Pyfh
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, ((PyObject *)__pyx_v_ctxt)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_ctxt));
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 320, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 325, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyInt_As_int64_t(__pyx_t_2); if (unlikely((__pyx_t_5 == ((int64_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 320, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyInt_As_int64_t(__pyx_t_2); if (unlikely((__pyx_t_5 == ((int64_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 325, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -6379,7 +6452,7 @@ static int64_t __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptInt(struct __pyx_obj_6Pyfh
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":337
+  /* "Pyfhel/Pyfhel.pyx":342
  *             * RuntimeError: if the ctxt encoding isn't ENCODING_T.INTEGER.
  *         """
  *         if (ctxt._encoding != ENCODING_T.INTEGER):             # <<<<<<<<<<<<<<
@@ -6389,20 +6462,20 @@ static int64_t __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptInt(struct __pyx_obj_6Pyfh
   __pyx_t_6 = ((__pyx_v_ctxt->_encoding != __pyx_e_6Pyfhel_4util_10ENCODING_T_INTEGER) != 0);
   if (unlikely(__pyx_t_6)) {
 
-    /* "Pyfhel/Pyfhel.pyx":338
+    /* "Pyfhel/Pyfhel.pyx":343
  *         """
  *         if (ctxt._encoding != ENCODING_T.INTEGER):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyCtxt")             # <<<<<<<<<<<<<<
  *         cdef int64_t output_value = 0
  *         self.afseal.decrypt(deref(ctxt._ptr_ctxt), output_value)
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 338, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 343, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 338, __pyx_L1_error)
+    __PYX_ERR(0, 343, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":337
+    /* "Pyfhel/Pyfhel.pyx":342
  *             * RuntimeError: if the ctxt encoding isn't ENCODING_T.INTEGER.
  *         """
  *         if (ctxt._encoding != ENCODING_T.INTEGER):             # <<<<<<<<<<<<<<
@@ -6411,7 +6484,7 @@ static int64_t __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptInt(struct __pyx_obj_6Pyfh
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":339
+  /* "Pyfhel/Pyfhel.pyx":344
  *         if (ctxt._encoding != ENCODING_T.INTEGER):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyCtxt")
  *         cdef int64_t output_value = 0             # <<<<<<<<<<<<<<
@@ -6420,7 +6493,7 @@ static int64_t __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptInt(struct __pyx_obj_6Pyfh
  */
   __pyx_v_output_value = 0;
 
-  /* "Pyfhel/Pyfhel.pyx":340
+  /* "Pyfhel/Pyfhel.pyx":345
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyCtxt")
  *         cdef int64_t output_value = 0
  *         self.afseal.decrypt(deref(ctxt._ptr_ctxt), output_value)             # <<<<<<<<<<<<<<
@@ -6431,10 +6504,10 @@ static int64_t __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptInt(struct __pyx_obj_6Pyfh
     __pyx_v_self->afseal->decrypt((*__pyx_v_ctxt->_ptr_ctxt), __pyx_v_output_value);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 340, __pyx_L1_error)
+    __PYX_ERR(0, 345, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":341
+  /* "Pyfhel/Pyfhel.pyx":346
  *         cdef int64_t output_value = 0
  *         self.afseal.decrypt(deref(ctxt._ptr_ctxt), output_value)
  *         return output_value             # <<<<<<<<<<<<<<
@@ -6444,7 +6517,7 @@ static int64_t __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptInt(struct __pyx_obj_6Pyfh
   __pyx_r = __pyx_v_output_value;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":320
+  /* "Pyfhel/Pyfhel.pyx":325
  * 
  *     # .............................. DECRYPTION ...............................
  *     cpdef int64_t decryptInt(self, PyCtxt ctxt) except +:             # <<<<<<<<<<<<<<
@@ -6472,7 +6545,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_23decryptInt(PyObject *__pyx_v
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("decryptInt (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 320, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 325, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_22decryptInt(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_v_ctxt));
 
   /* function exit code */
@@ -6495,9 +6568,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_22decryptInt(struct __pyx_obj_
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptInt(__pyx_v_self, __pyx_v_ctxt, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 320, __pyx_L1_error)
+    __PYX_ERR(0, 325, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyInt_From_int64_t(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 320, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int64_t(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 325, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -6514,7 +6587,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_22decryptInt(struct __pyx_obj_
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":343
+/* "Pyfhel/Pyfhel.pyx":348
  *         return output_value
  * 
  *     cpdef double decryptFrac(self, PyCtxt ctxt) except +:             # <<<<<<<<<<<<<<
@@ -6543,7 +6616,7 @@ static double __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptFrac(struct __pyx_obj_6Pyfh
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decryptFrac); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 343, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decryptFrac); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 348, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_25decryptFrac)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -6559,10 +6632,10 @@ static double __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptFrac(struct __pyx_obj_6Pyfh
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, ((PyObject *)__pyx_v_ctxt)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_ctxt));
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 343, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 348, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_5 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 343, __pyx_L1_error)
+        __pyx_t_5 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_5 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 348, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -6581,7 +6654,7 @@ static double __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptFrac(struct __pyx_obj_6Pyfh
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":360
+  /* "Pyfhel/Pyfhel.pyx":365
  *             * RuntimeError: if the ctxt encoding isn't ENCODING_T.FRACTIONAL.
  *         """
  *         if (ctxt._encoding != ENCODING_T.FRACTIONAL):             # <<<<<<<<<<<<<<
@@ -6591,20 +6664,20 @@ static double __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptFrac(struct __pyx_obj_6Pyfh
   __pyx_t_6 = ((__pyx_v_ctxt->_encoding != __pyx_e_6Pyfhel_4util_10ENCODING_T_FRACTIONAL) != 0);
   if (unlikely(__pyx_t_6)) {
 
-    /* "Pyfhel/Pyfhel.pyx":361
+    /* "Pyfhel/Pyfhel.pyx":366
  *         """
  *         if (ctxt._encoding != ENCODING_T.FRACTIONAL):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyCtxt")             # <<<<<<<<<<<<<<
  *         cdef double output_value = 0
  *         self.afseal.decrypt(deref(ctxt._ptr_ctxt), output_value)
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 361, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 366, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 361, __pyx_L1_error)
+    __PYX_ERR(0, 366, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":360
+    /* "Pyfhel/Pyfhel.pyx":365
  *             * RuntimeError: if the ctxt encoding isn't ENCODING_T.FRACTIONAL.
  *         """
  *         if (ctxt._encoding != ENCODING_T.FRACTIONAL):             # <<<<<<<<<<<<<<
@@ -6613,7 +6686,7 @@ static double __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptFrac(struct __pyx_obj_6Pyfh
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":362
+  /* "Pyfhel/Pyfhel.pyx":367
  *         if (ctxt._encoding != ENCODING_T.FRACTIONAL):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyCtxt")
  *         cdef double output_value = 0             # <<<<<<<<<<<<<<
@@ -6622,7 +6695,7 @@ static double __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptFrac(struct __pyx_obj_6Pyfh
  */
   __pyx_v_output_value = 0.0;
 
-  /* "Pyfhel/Pyfhel.pyx":363
+  /* "Pyfhel/Pyfhel.pyx":368
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyCtxt")
  *         cdef double output_value = 0
  *         self.afseal.decrypt(deref(ctxt._ptr_ctxt), output_value)             # <<<<<<<<<<<<<<
@@ -6633,10 +6706,10 @@ static double __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptFrac(struct __pyx_obj_6Pyfh
     __pyx_v_self->afseal->decrypt((*__pyx_v_ctxt->_ptr_ctxt), __pyx_v_output_value);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 363, __pyx_L1_error)
+    __PYX_ERR(0, 368, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":364
+  /* "Pyfhel/Pyfhel.pyx":369
  *         cdef double output_value = 0
  *         self.afseal.decrypt(deref(ctxt._ptr_ctxt), output_value)
  *         return output_value             # <<<<<<<<<<<<<<
@@ -6646,7 +6719,7 @@ static double __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptFrac(struct __pyx_obj_6Pyfh
   __pyx_r = __pyx_v_output_value;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":343
+  /* "Pyfhel/Pyfhel.pyx":348
  *         return output_value
  * 
  *     cpdef double decryptFrac(self, PyCtxt ctxt) except +:             # <<<<<<<<<<<<<<
@@ -6674,7 +6747,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_25decryptFrac(PyObject *__pyx_
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("decryptFrac (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 343, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 348, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_24decryptFrac(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_v_ctxt));
 
   /* function exit code */
@@ -6697,9 +6770,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_24decryptFrac(struct __pyx_obj
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptFrac(__pyx_v_self, __pyx_v_ctxt, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 343, __pyx_L1_error)
+    __PYX_ERR(0, 348, __pyx_L1_error)
   }
-  __pyx_t_2 = PyFloat_FromDouble(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 343, __pyx_L1_error)
+  __pyx_t_2 = PyFloat_FromDouble(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 348, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -6716,7 +6789,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_24decryptFrac(struct __pyx_obj
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":366
+/* "Pyfhel/Pyfhel.pyx":371
  *         return output_value
  * 
  *     cpdef vector[int64_t] decryptBatch(self, PyCtxt ctxt) except +:             # <<<<<<<<<<<<<<
@@ -6744,7 +6817,7 @@ static std::vector<int64_t>  __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptBatch(struct
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decryptBatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 366, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decryptBatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 371, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_27decryptBatch)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -6760,10 +6833,10 @@ static std::vector<int64_t>  __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptBatch(struct
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, ((PyObject *)__pyx_v_ctxt)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_ctxt));
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 366, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 371, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __pyx_convert_vector_from_py_int64_t(__pyx_t_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 366, __pyx_L1_error)
+        __pyx_t_5 = __pyx_convert_vector_from_py_int64_t(__pyx_t_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 371, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -6782,7 +6855,7 @@ static std::vector<int64_t>  __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptBatch(struct
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":384
+  /* "Pyfhel/Pyfhel.pyx":389
  *             * RuntimeError: if the ciphertext encoding isn't ENCODING_T.BATCH.
  *         """
  *         if (ctxt._encoding != ENCODING_T.BATCH):             # <<<<<<<<<<<<<<
@@ -6792,20 +6865,20 @@ static std::vector<int64_t>  __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptBatch(struct
   __pyx_t_6 = ((__pyx_v_ctxt->_encoding != __pyx_e_6Pyfhel_4util_10ENCODING_T_BATCH) != 0);
   if (unlikely(__pyx_t_6)) {
 
-    /* "Pyfhel/Pyfhel.pyx":385
+    /* "Pyfhel/Pyfhel.pyx":390
  *         """
  *         if (ctxt._encoding != ENCODING_T.BATCH):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyCtxt")             # <<<<<<<<<<<<<<
  *         return self.afseal.decrypt(deref(ctxt._ptr_ctxt))
  * 
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 385, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 390, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 385, __pyx_L1_error)
+    __PYX_ERR(0, 390, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":384
+    /* "Pyfhel/Pyfhel.pyx":389
  *             * RuntimeError: if the ciphertext encoding isn't ENCODING_T.BATCH.
  *         """
  *         if (ctxt._encoding != ENCODING_T.BATCH):             # <<<<<<<<<<<<<<
@@ -6814,7 +6887,7 @@ static std::vector<int64_t>  __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptBatch(struct
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":386
+  /* "Pyfhel/Pyfhel.pyx":391
  *         if (ctxt._encoding != ENCODING_T.BATCH):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyCtxt")
  *         return self.afseal.decrypt(deref(ctxt._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -6825,12 +6898,12 @@ static std::vector<int64_t>  __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptBatch(struct
     __pyx_t_5 = __pyx_v_self->afseal->decrypt((*__pyx_v_ctxt->_ptr_ctxt));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 386, __pyx_L1_error)
+    __PYX_ERR(0, 391, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":366
+  /* "Pyfhel/Pyfhel.pyx":371
  *         return output_value
  * 
  *     cpdef vector[int64_t] decryptBatch(self, PyCtxt ctxt) except +:             # <<<<<<<<<<<<<<
@@ -6858,7 +6931,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_27decryptBatch(PyObject *__pyx
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("decryptBatch (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 366, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 371, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_26decryptBatch(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_v_ctxt));
 
   /* function exit code */
@@ -6881,9 +6954,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_26decryptBatch(struct __pyx_ob
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptBatch(__pyx_v_self, __pyx_v_ctxt, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 366, __pyx_L1_error)
+    __PYX_ERR(0, 371, __pyx_L1_error)
   }
-  __pyx_t_2 = __pyx_convert_vector_to_py_int64_t(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 366, __pyx_L1_error)
+  __pyx_t_2 = __pyx_convert_vector_to_py_int64_t(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 371, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -6900,7 +6973,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_26decryptBatch(struct __pyx_ob
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":388
+/* "Pyfhel/Pyfhel.pyx":393
  *         return self.afseal.decrypt(deref(ctxt._ptr_ctxt))
  * 
  *     cpdef int64_t[::1] decryptArray(self, PyCtxt ctxt) except +:             # <<<<<<<<<<<<<<
@@ -6933,7 +7006,7 @@ static __Pyx_memviewslice __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptArray(struct __
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decryptArray); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 388, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decryptArray); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 393, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_29decryptArray)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -6949,10 +7022,10 @@ static __Pyx_memviewslice __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptArray(struct __
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, ((PyObject *)__pyx_v_ctxt)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_ctxt));
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 388, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 393, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_int64_t(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_5.memview)) __PYX_ERR(0, 388, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_int64_t(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_5.memview)) __PYX_ERR(0, 393, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __pyx_t_5.memview = NULL;
@@ -6973,7 +7046,7 @@ static __Pyx_memviewslice __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptArray(struct __
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":406
+  /* "Pyfhel/Pyfhel.pyx":411
  *             * RuntimeError: if the ciphertext encoding isn't ENCODING_T.BATCH.
  *         """
  *         if (ctxt._encoding != ENCODING_T.BATCH):             # <<<<<<<<<<<<<<
@@ -6983,20 +7056,20 @@ static __Pyx_memviewslice __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptArray(struct __
   __pyx_t_6 = ((__pyx_v_ctxt->_encoding != __pyx_e_6Pyfhel_4util_10ENCODING_T_BATCH) != 0);
   if (unlikely(__pyx_t_6)) {
 
-    /* "Pyfhel/Pyfhel.pyx":407
+    /* "Pyfhel/Pyfhel.pyx":412
  *         """
  *         if (ctxt._encoding != ENCODING_T.BATCH):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyCtxt")             # <<<<<<<<<<<<<<
  *         cdef vector[int64_t] output_vector=self.afseal.decrypt(deref(ctxt._ptr_ctxt))
  *         cdef int64_t[::1] output_array = <int64_t [:output_vector.size()]>output_vector.data()
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 407, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 412, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 407, __pyx_L1_error)
+    __PYX_ERR(0, 412, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":406
+    /* "Pyfhel/Pyfhel.pyx":411
  *             * RuntimeError: if the ciphertext encoding isn't ENCODING_T.BATCH.
  *         """
  *         if (ctxt._encoding != ENCODING_T.BATCH):             # <<<<<<<<<<<<<<
@@ -7005,7 +7078,7 @@ static __Pyx_memviewslice __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptArray(struct __
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":408
+  /* "Pyfhel/Pyfhel.pyx":413
  *         if (ctxt._encoding != ENCODING_T.BATCH):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyCtxt")
  *         cdef vector[int64_t] output_vector=self.afseal.decrypt(deref(ctxt._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -7016,11 +7089,11 @@ static __Pyx_memviewslice __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptArray(struct __
     __pyx_t_7 = __pyx_v_self->afseal->decrypt((*__pyx_v_ctxt->_ptr_ctxt));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 408, __pyx_L1_error)
+    __PYX_ERR(0, 413, __pyx_L1_error)
   }
   __pyx_v_output_vector = __pyx_t_7;
 
-  /* "Pyfhel/Pyfhel.pyx":409
+  /* "Pyfhel/Pyfhel.pyx":414
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyCtxt")
  *         cdef vector[int64_t] output_vector=self.afseal.decrypt(deref(ctxt._ptr_ctxt))
  *         cdef int64_t[::1] output_array = <int64_t [:output_vector.size()]>output_vector.data()             # <<<<<<<<<<<<<<
@@ -7030,25 +7103,25 @@ static __Pyx_memviewslice __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptArray(struct __
   __pyx_t_8 = __pyx_v_output_vector.data();
   if (!__pyx_t_8) {
     PyErr_SetString(PyExc_ValueError,"Cannot create cython.array from NULL pointer");
-    __PYX_ERR(0, 409, __pyx_L1_error)
+    __PYX_ERR(0, 414, __pyx_L1_error)
   }
   __pyx_t_2 = __pyx_format_from_typeinfo(&__Pyx_TypeInfo_nn_int64_t);
   __pyx_t_1 = Py_BuildValue((char*) "("  __PYX_BUILD_PY_SSIZE_T  ")", ((Py_ssize_t)__pyx_v_output_vector.size()));
-  if (unlikely(!__pyx_t_2 || !__pyx_t_1 || !PyBytes_AsString(__pyx_t_2))) __PYX_ERR(0, 409, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2 || !__pyx_t_1 || !PyBytes_AsString(__pyx_t_2))) __PYX_ERR(0, 414, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_9 = __pyx_array_new(__pyx_t_1, sizeof(int64_t), PyBytes_AS_STRING(__pyx_t_2), (char *) "c", (char *) __pyx_t_8);
-  if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 409, __pyx_L1_error)
+  if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 414, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_5 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_int64_t(((PyObject *)__pyx_t_9), PyBUF_WRITABLE); if (unlikely(!__pyx_t_5.memview)) __PYX_ERR(0, 409, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_int64_t(((PyObject *)__pyx_t_9), PyBUF_WRITABLE); if (unlikely(!__pyx_t_5.memview)) __PYX_ERR(0, 414, __pyx_L1_error)
   __Pyx_DECREF(((PyObject *)__pyx_t_9)); __pyx_t_9 = 0;
   __pyx_v_output_array = __pyx_t_5;
   __pyx_t_5.memview = NULL;
   __pyx_t_5.data = NULL;
 
-  /* "Pyfhel/Pyfhel.pyx":410
+  /* "Pyfhel/Pyfhel.pyx":415
  *         cdef vector[int64_t] output_vector=self.afseal.decrypt(deref(ctxt._ptr_ctxt))
  *         cdef int64_t[::1] output_array = <int64_t [:output_vector.size()]>output_vector.data()
  *         return output_array             # <<<<<<<<<<<<<<
@@ -7059,7 +7132,7 @@ static __Pyx_memviewslice __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptArray(struct __
   __pyx_r = __pyx_v_output_array;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":388
+  /* "Pyfhel/Pyfhel.pyx":393
  *         return self.afseal.decrypt(deref(ctxt._ptr_ctxt))
  * 
  *     cpdef int64_t[::1] decryptArray(self, PyCtxt ctxt) except +:             # <<<<<<<<<<<<<<
@@ -7096,7 +7169,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_29decryptArray(PyObject *__pyx
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("decryptArray (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 388, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 393, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_28decryptArray(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_v_ctxt));
 
   /* function exit code */
@@ -7119,9 +7192,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_28decryptArray(struct __pyx_ob
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decryptArray(__pyx_v_self, __pyx_v_ctxt, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 388, __pyx_L1_error)
+    __PYX_ERR(0, 393, __pyx_L1_error)
   }
-  __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_1, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_int64_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_int64_t, 0);; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 388, __pyx_L1_error)
+  __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_1, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_int64_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_int64_t, 0);; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 393, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __PYX_XDEC_MEMVIEW(&__pyx_t_1, 1);
   __pyx_t_1.memview = NULL;
@@ -7142,7 +7215,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_28decryptArray(struct __pyx_ob
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":412
+/* "Pyfhel/Pyfhel.pyx":417
  *         return output_array
  * 
  *     cpdef PyPtxt decryptPtxt(self, PyCtxt ctxt, PyPtxt ptxt=None) except +:             # <<<<<<<<<<<<<<
@@ -7180,7 +7253,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decryptPtxt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 412, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decryptPtxt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 417, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_31decryptPtxt)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
@@ -7200,7 +7273,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_3)) {
           PyObject *__pyx_temp[3] = {__pyx_t_4, ((PyObject *)__pyx_v_ctxt), ((PyObject *)__pyx_v_ptxt)};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 412, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 417, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_GOTREF(__pyx_t_2);
         } else
@@ -7208,13 +7281,13 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_3)) {
           PyObject *__pyx_temp[3] = {__pyx_t_4, ((PyObject *)__pyx_v_ctxt), ((PyObject *)__pyx_v_ptxt)};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 412, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 417, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
           __Pyx_GOTREF(__pyx_t_2);
         } else
         #endif
         {
-          __pyx_t_6 = PyTuple_New(2+__pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 412, __pyx_L1_error)
+          __pyx_t_6 = PyTuple_New(2+__pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 417, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_6);
           if (__pyx_t_4) {
             __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_4); __pyx_t_4 = NULL;
@@ -7225,12 +7298,12 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           __Pyx_INCREF(((PyObject *)__pyx_v_ptxt));
           __Pyx_GIVEREF(((PyObject *)__pyx_v_ptxt));
           PyTuple_SET_ITEM(__pyx_t_6, 1+__pyx_t_5, ((PyObject *)__pyx_v_ptxt));
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_6, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 412, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_6, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 417, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
         }
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt))))) __PYX_ERR(0, 412, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt))))) __PYX_ERR(0, 417, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -7249,7 +7322,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":428
+  /* "Pyfhel/Pyfhel.pyx":433
  *             * PyPtxt: the decrypted plaintext
  *         """
  *         if ptxt is None:             # <<<<<<<<<<<<<<
@@ -7260,19 +7333,19 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_8 = (__pyx_t_7 != 0);
   if (__pyx_t_8) {
 
-    /* "Pyfhel/Pyfhel.pyx":429
+    /* "Pyfhel/Pyfhel.pyx":434
  *         """
  *         if ptxt is None:
  *             ptxt = PyPtxt()             # <<<<<<<<<<<<<<
  *         self.afseal.decrypt(deref(ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))
  *         ptxt._encoding = ctxt._encoding
  */
-    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 429, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 434, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF_SET(__pyx_v_ptxt, ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)__pyx_t_1));
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":428
+    /* "Pyfhel/Pyfhel.pyx":433
  *             * PyPtxt: the decrypted plaintext
  *         """
  *         if ptxt is None:             # <<<<<<<<<<<<<<
@@ -7281,7 +7354,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":430
+  /* "Pyfhel/Pyfhel.pyx":435
  *         if ptxt is None:
  *             ptxt = PyPtxt()
  *         self.afseal.decrypt(deref(ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))             # <<<<<<<<<<<<<<
@@ -7292,10 +7365,10 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_v_self->afseal->decrypt((*__pyx_v_ctxt->_ptr_ctxt), (*__pyx_v_ptxt->_ptr_ptxt));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 430, __pyx_L1_error)
+    __PYX_ERR(0, 435, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":431
+  /* "Pyfhel/Pyfhel.pyx":436
  *             ptxt = PyPtxt()
  *         self.afseal.decrypt(deref(ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))
  *         ptxt._encoding = ctxt._encoding             # <<<<<<<<<<<<<<
@@ -7305,7 +7378,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_9 = __pyx_v_ctxt->_encoding;
   __pyx_v_ptxt->_encoding = __pyx_t_9;
 
-  /* "Pyfhel/Pyfhel.pyx":432
+  /* "Pyfhel/Pyfhel.pyx":437
  *         self.afseal.decrypt(deref(ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))
  *         ptxt._encoding = ctxt._encoding
  *         return ptxt             # <<<<<<<<<<<<<<
@@ -7317,7 +7390,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_r = __pyx_v_ptxt;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":412
+  /* "Pyfhel/Pyfhel.pyx":417
  *         return output_array
  * 
  *     cpdef PyPtxt decryptPtxt(self, PyCtxt ctxt, PyPtxt ptxt=None) except +:             # <<<<<<<<<<<<<<
@@ -7378,7 +7451,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_31decryptPtxt(PyObject *__pyx_
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "decryptPtxt") < 0)) __PYX_ERR(0, 412, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "decryptPtxt") < 0)) __PYX_ERR(0, 417, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -7394,14 +7467,14 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_31decryptPtxt(PyObject *__pyx_
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("decryptPtxt", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 412, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("decryptPtxt", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 417, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.decryptPtxt", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 412, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 412, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 417, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 417, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_30decryptPtxt(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_ctxt, __pyx_v_ptxt);
 
   /* function exit code */
@@ -7424,10 +7497,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_30decryptPtxt(struct __pyx_obj
   __pyx_t_2.ptxt = __pyx_v_ptxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->decryptPtxt(__pyx_v_self, __pyx_v_ctxt, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 412, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 417, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 412, __pyx_L1_error)
+    __PYX_ERR(0, 417, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -7445,7 +7518,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_30decryptPtxt(struct __pyx_obj
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":434
+/* "Pyfhel/Pyfhel.pyx":439
  *         return ptxt
  * 
  *     def decrypt(self, PyCtxt ctxt, bool decode_value=False, PyPtxt ptxt=None):             # <<<<<<<<<<<<<<
@@ -7499,7 +7572,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_33decrypt(PyObject *__pyx_v_se
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "decrypt") < 0)) __PYX_ERR(0, 434, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "decrypt") < 0)) __PYX_ERR(0, 439, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -7514,7 +7587,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_33decrypt(PyObject *__pyx_v_se
     }
     __pyx_v_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[0]);
     if (values[1]) {
-      __pyx_v_decode_value = __Pyx_PyObject_IsTrue(values[1]); if (unlikely((__pyx_v_decode_value == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 434, __pyx_L3_error)
+      __pyx_v_decode_value = __Pyx_PyObject_IsTrue(values[1]); if (unlikely((__pyx_v_decode_value == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 439, __pyx_L3_error)
     } else {
       __pyx_v_decode_value = ((bool)0);
     }
@@ -7522,14 +7595,14 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_33decrypt(PyObject *__pyx_v_se
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("decrypt", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 434, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("decrypt", 0, 1, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 439, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.decrypt", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 434, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 434, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 439, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 439, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_32decrypt(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_ctxt, __pyx_v_decode_value, __pyx_v_ptxt);
 
   /* function exit code */
@@ -7554,7 +7627,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_32decrypt(struct __pyx_obj_6Py
   __Pyx_RefNannySetupContext("decrypt", 0);
   __Pyx_INCREF((PyObject *)__pyx_v_ptxt);
 
-  /* "Pyfhel/Pyfhel.pyx":460
+  /* "Pyfhel/Pyfhel.pyx":465
  *             * TypeError: if the plaintext doesn't have a valid type.
  *         """
  *         if (decode_value):             # <<<<<<<<<<<<<<
@@ -7564,7 +7637,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_32decrypt(struct __pyx_obj_6Py
   __pyx_t_1 = (__pyx_v_decode_value != 0);
   if (__pyx_t_1) {
 
-    /* "Pyfhel/Pyfhel.pyx":461
+    /* "Pyfhel/Pyfhel.pyx":466
  *         """
  *         if (decode_value):
  *             if (ctxt._encoding == ENCODING_T.BATCH):             # <<<<<<<<<<<<<<
@@ -7574,7 +7647,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_32decrypt(struct __pyx_obj_6Py
     switch (__pyx_v_ctxt->_encoding) {
       case __pyx_e_6Pyfhel_4util_10ENCODING_T_BATCH:
 
-      /* "Pyfhel/Pyfhel.pyx":462
+      /* "Pyfhel/Pyfhel.pyx":467
  *         if (decode_value):
  *             if (ctxt._encoding == ENCODING_T.BATCH):
  *                 return self.decryptBatch(ctxt)             # <<<<<<<<<<<<<<
@@ -7586,15 +7659,15 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_32decrypt(struct __pyx_obj_6Py
         __pyx_t_2 = ((struct __pyx_vtabstruct_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self->__pyx_vtab)->decryptBatch(__pyx_v_self, __pyx_v_ctxt, 0);
       } catch(...) {
         __Pyx_CppExn2PyErr();
-        __PYX_ERR(0, 462, __pyx_L1_error)
+        __PYX_ERR(0, 467, __pyx_L1_error)
       }
-      __pyx_t_3 = __pyx_convert_vector_to_py_int64_t(__pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 462, __pyx_L1_error)
+      __pyx_t_3 = __pyx_convert_vector_to_py_int64_t(__pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 467, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_r = __pyx_t_3;
       __pyx_t_3 = 0;
       goto __pyx_L0;
 
-      /* "Pyfhel/Pyfhel.pyx":461
+      /* "Pyfhel/Pyfhel.pyx":466
  *         """
  *         if (decode_value):
  *             if (ctxt._encoding == ENCODING_T.BATCH):             # <<<<<<<<<<<<<<
@@ -7604,7 +7677,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_32decrypt(struct __pyx_obj_6Py
       break;
       case __pyx_e_6Pyfhel_4util_10ENCODING_T_FRACTIONAL:
 
-      /* "Pyfhel/Pyfhel.pyx":464
+      /* "Pyfhel/Pyfhel.pyx":469
  *                 return self.decryptBatch(ctxt)
  *             elif (ctxt._encoding == ENCODING_T.FRACTIONAL):
  *                 return self.decryptFrac(ctxt)             # <<<<<<<<<<<<<<
@@ -7616,15 +7689,15 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_32decrypt(struct __pyx_obj_6Py
         __pyx_t_4 = ((struct __pyx_vtabstruct_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self->__pyx_vtab)->decryptFrac(__pyx_v_self, __pyx_v_ctxt, 0);
       } catch(...) {
         __Pyx_CppExn2PyErr();
-        __PYX_ERR(0, 464, __pyx_L1_error)
+        __PYX_ERR(0, 469, __pyx_L1_error)
       }
-      __pyx_t_3 = PyFloat_FromDouble(__pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 464, __pyx_L1_error)
+      __pyx_t_3 = PyFloat_FromDouble(__pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 469, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_r = __pyx_t_3;
       __pyx_t_3 = 0;
       goto __pyx_L0;
 
-      /* "Pyfhel/Pyfhel.pyx":463
+      /* "Pyfhel/Pyfhel.pyx":468
  *             if (ctxt._encoding == ENCODING_T.BATCH):
  *                 return self.decryptBatch(ctxt)
  *             elif (ctxt._encoding == ENCODING_T.FRACTIONAL):             # <<<<<<<<<<<<<<
@@ -7634,7 +7707,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_32decrypt(struct __pyx_obj_6Py
       break;
       case __pyx_e_6Pyfhel_4util_10ENCODING_T_INTEGER:
 
-      /* "Pyfhel/Pyfhel.pyx":466
+      /* "Pyfhel/Pyfhel.pyx":471
  *                 return self.decryptFrac(ctxt)
  *             elif (ctxt._encoding == ENCODING_T.INTEGER):
  *                 return self.decryptInt(ctxt)             # <<<<<<<<<<<<<<
@@ -7646,15 +7719,15 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_32decrypt(struct __pyx_obj_6Py
         __pyx_t_5 = ((struct __pyx_vtabstruct_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self->__pyx_vtab)->decryptInt(__pyx_v_self, __pyx_v_ctxt, 0);
       } catch(...) {
         __Pyx_CppExn2PyErr();
-        __PYX_ERR(0, 466, __pyx_L1_error)
+        __PYX_ERR(0, 471, __pyx_L1_error)
       }
-      __pyx_t_3 = __Pyx_PyInt_From_int64_t(__pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 466, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyInt_From_int64_t(__pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 471, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_r = __pyx_t_3;
       __pyx_t_3 = 0;
       goto __pyx_L0;
 
-      /* "Pyfhel/Pyfhel.pyx":465
+      /* "Pyfhel/Pyfhel.pyx":470
  *             elif (ctxt._encoding == ENCODING_T.FRACTIONAL):
  *                 return self.decryptFrac(ctxt)
  *             elif (ctxt._encoding == ENCODING_T.INTEGER):             # <<<<<<<<<<<<<<
@@ -7664,20 +7737,20 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_32decrypt(struct __pyx_obj_6Py
       break;
       case __pyx_e_6Pyfhel_4util_10ENCODING_T_UNDEFINED:
 
-      /* "Pyfhel/Pyfhel.pyx":468
+      /* "Pyfhel/Pyfhel.pyx":473
  *                 return self.decryptInt(ctxt)
  *             elif (ctxt._encoding == ENCODING_T.UNDEFINED):
  *                 raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyCtxt")             # <<<<<<<<<<<<<<
  *         else: # Decrypt to plaintext
  *             if ptxt is None:
  */
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 468, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 473, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_Raise(__pyx_t_3, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __PYX_ERR(0, 468, __pyx_L1_error)
+      __PYX_ERR(0, 473, __pyx_L1_error)
 
-      /* "Pyfhel/Pyfhel.pyx":467
+      /* "Pyfhel/Pyfhel.pyx":472
  *             elif (ctxt._encoding == ENCODING_T.INTEGER):
  *                 return self.decryptInt(ctxt)
  *             elif (ctxt._encoding == ENCODING_T.UNDEFINED):             # <<<<<<<<<<<<<<
@@ -7688,7 +7761,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_32decrypt(struct __pyx_obj_6Py
       default: break;
     }
 
-    /* "Pyfhel/Pyfhel.pyx":460
+    /* "Pyfhel/Pyfhel.pyx":465
  *             * TypeError: if the plaintext doesn't have a valid type.
  *         """
  *         if (decode_value):             # <<<<<<<<<<<<<<
@@ -7698,7 +7771,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_32decrypt(struct __pyx_obj_6Py
     goto __pyx_L3;
   }
 
-  /* "Pyfhel/Pyfhel.pyx":470
+  /* "Pyfhel/Pyfhel.pyx":475
  *                 raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyCtxt")
  *         else: # Decrypt to plaintext
  *             if ptxt is None:             # <<<<<<<<<<<<<<
@@ -7710,19 +7783,19 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_32decrypt(struct __pyx_obj_6Py
     __pyx_t_6 = (__pyx_t_1 != 0);
     if (__pyx_t_6) {
 
-      /* "Pyfhel/Pyfhel.pyx":471
+      /* "Pyfhel/Pyfhel.pyx":476
  *         else: # Decrypt to plaintext
  *             if ptxt is None:
  *                 ptxt = PyPtxt()             # <<<<<<<<<<<<<<
  *             return self.decryptPtxt(ctxt, ptxt)
  * 
  */
-      __pyx_t_3 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 471, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt)); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 476, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF_SET(__pyx_v_ptxt, ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)__pyx_t_3));
       __pyx_t_3 = 0;
 
-      /* "Pyfhel/Pyfhel.pyx":470
+      /* "Pyfhel/Pyfhel.pyx":475
  *                 raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyCtxt")
  *         else: # Decrypt to plaintext
  *             if ptxt is None:             # <<<<<<<<<<<<<<
@@ -7731,7 +7804,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_32decrypt(struct __pyx_obj_6Py
  */
     }
 
-    /* "Pyfhel/Pyfhel.pyx":472
+    /* "Pyfhel/Pyfhel.pyx":477
  *             if ptxt is None:
  *                 ptxt = PyPtxt()
  *             return self.decryptPtxt(ctxt, ptxt)             # <<<<<<<<<<<<<<
@@ -7743,10 +7816,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_32decrypt(struct __pyx_obj_6Py
     __pyx_t_7.ptxt = __pyx_v_ptxt;
     try {
       __pyx_t_3 = ((PyObject *)((struct __pyx_vtabstruct_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self->__pyx_vtab)->decryptPtxt(__pyx_v_self, __pyx_v_ctxt, 0, &__pyx_t_7));
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 472, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 477, __pyx_L1_error)
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 472, __pyx_L1_error)
+      __PYX_ERR(0, 477, __pyx_L1_error)
     }
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_r = __pyx_t_3;
@@ -7755,7 +7828,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_32decrypt(struct __pyx_obj_6Py
   }
   __pyx_L3:;
 
-  /* "Pyfhel/Pyfhel.pyx":434
+  /* "Pyfhel/Pyfhel.pyx":439
  *         return ptxt
  * 
  *     def decrypt(self, PyCtxt ctxt, bool decode_value=False, PyPtxt ptxt=None):             # <<<<<<<<<<<<<<
@@ -7777,7 +7850,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_32decrypt(struct __pyx_obj_6Py
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":476
+/* "Pyfhel/Pyfhel.pyx":481
  * 
  *     # ................................ OTHER ..................................
  *     cpdef int noiseLevel(self, PyCtxt ctxt) except +:             # <<<<<<<<<<<<<<
@@ -7804,7 +7877,7 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_noiseLevel(struct __pyx_obj_6Pyfhel_6
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_noiseLevel); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 476, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_noiseLevel); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 481, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_35noiseLevel)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -7820,10 +7893,10 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_noiseLevel(struct __pyx_obj_6Pyfhel_6
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, ((PyObject *)__pyx_v_ctxt)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_ctxt));
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 476, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 481, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 476, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 481, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -7842,7 +7915,7 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_noiseLevel(struct __pyx_obj_6Pyfhel_6
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":492
+  /* "Pyfhel/Pyfhel.pyx":497
  *             * int: the noise budget level
  *         """
  *         return self.afseal.noiseLevel(deref(ctxt._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -7853,12 +7926,12 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_noiseLevel(struct __pyx_obj_6Pyfhel_6
     __pyx_t_5 = __pyx_v_self->afseal->noiseLevel((*__pyx_v_ctxt->_ptr_ctxt));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 492, __pyx_L1_error)
+    __PYX_ERR(0, 497, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":476
+  /* "Pyfhel/Pyfhel.pyx":481
  * 
  *     # ................................ OTHER ..................................
  *     cpdef int noiseLevel(self, PyCtxt ctxt) except +:             # <<<<<<<<<<<<<<
@@ -7886,7 +7959,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_35noiseLevel(PyObject *__pyx_v
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("noiseLevel (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 476, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 481, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_34noiseLevel(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_v_ctxt));
 
   /* function exit code */
@@ -7909,9 +7982,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_34noiseLevel(struct __pyx_obj_
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_noiseLevel(__pyx_v_self, __pyx_v_ctxt, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 476, __pyx_L1_error)
+    __PYX_ERR(0, 481, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 476, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 481, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -7928,7 +8001,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_34noiseLevel(struct __pyx_obj_
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":494
+/* "Pyfhel/Pyfhel.pyx":499
  *         return self.afseal.noiseLevel(deref(ctxt._ptr_ctxt))
  * 
  *     cpdef void rotateKeyGen(self, int bitCount) except +:             # <<<<<<<<<<<<<<
@@ -7954,10 +8027,10 @@ static void __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_rotateKeyGen(struct __pyx_obj_6Pyfhe
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_rotateKeyGen); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 494, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_rotateKeyGen); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 499, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_37rotateKeyGen)) {
-        __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_bitCount); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 494, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_bitCount); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 499, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -7973,7 +8046,7 @@ static void __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_rotateKeyGen(struct __pyx_obj_6Pyfhe
         __pyx_t_2 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_5, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3);
         __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 494, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 499, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -7993,7 +8066,7 @@ static void __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_rotateKeyGen(struct __pyx_obj_6Pyfhe
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":511
+  /* "Pyfhel/Pyfhel.pyx":516
  *             None
  *         """
  *         self.afseal.rotateKeyGen(bitCount)             # <<<<<<<<<<<<<<
@@ -8004,10 +8077,10 @@ static void __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_rotateKeyGen(struct __pyx_obj_6Pyfhe
     __pyx_v_self->afseal->rotateKeyGen(__pyx_v_bitCount);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 511, __pyx_L1_error)
+    __PYX_ERR(0, 516, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":494
+  /* "Pyfhel/Pyfhel.pyx":499
  *         return self.afseal.noiseLevel(deref(ctxt._ptr_ctxt))
  * 
  *     cpdef void rotateKeyGen(self, int bitCount) except +:             # <<<<<<<<<<<<<<
@@ -8037,7 +8110,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_37rotateKeyGen(PyObject *__pyx
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("rotateKeyGen (wrapper)", 0);
   assert(__pyx_arg_bitCount); {
-    __pyx_v_bitCount = __Pyx_PyInt_As_int(__pyx_arg_bitCount); if (unlikely((__pyx_v_bitCount == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 494, __pyx_L3_error)
+    __pyx_v_bitCount = __Pyx_PyInt_As_int(__pyx_arg_bitCount); if (unlikely((__pyx_v_bitCount == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 499, __pyx_L3_error)
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L3_error:;
@@ -8062,9 +8135,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_36rotateKeyGen(struct __pyx_ob
     __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_rotateKeyGen(__pyx_v_self, __pyx_v_bitCount, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 494, __pyx_L1_error)
+    __PYX_ERR(0, 499, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_void_to_None(NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 494, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_void_to_None(NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 499, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -8081,7 +8154,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_36rotateKeyGen(struct __pyx_ob
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":513
+/* "Pyfhel/Pyfhel.pyx":518
  *         self.afseal.rotateKeyGen(bitCount)
  * 
  *     cpdef void relinKeyGen(self, int bitCount, int size) except +:             # <<<<<<<<<<<<<<
@@ -8110,12 +8183,12 @@ static void __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinKeyGen(struct __pyx_obj_6Pyfhel
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_relinKeyGen); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 513, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_relinKeyGen); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 518, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_39relinKeyGen)) {
-        __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_bitCount); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 513, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_bitCount); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 518, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
-        __pyx_t_4 = __Pyx_PyInt_From_int(__pyx_v_size); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 513, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyInt_From_int(__pyx_v_size); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 518, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_5 = __pyx_t_1; __pyx_t_6 = NULL;
@@ -8133,7 +8206,7 @@ static void __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinKeyGen(struct __pyx_obj_6Pyfhel
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_5)) {
           PyObject *__pyx_temp[3] = {__pyx_t_6, __pyx_t_3, __pyx_t_4};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 513, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 518, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -8143,7 +8216,7 @@ static void __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinKeyGen(struct __pyx_obj_6Pyfhel
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
           PyObject *__pyx_temp[3] = {__pyx_t_6, __pyx_t_3, __pyx_t_4};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 513, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 2+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 518, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -8151,7 +8224,7 @@ static void __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinKeyGen(struct __pyx_obj_6Pyfhel
         } else
         #endif
         {
-          __pyx_t_8 = PyTuple_New(2+__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 513, __pyx_L1_error)
+          __pyx_t_8 = PyTuple_New(2+__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 518, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_8);
           if (__pyx_t_6) {
             __Pyx_GIVEREF(__pyx_t_6); PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_6); __pyx_t_6 = NULL;
@@ -8162,7 +8235,7 @@ static void __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinKeyGen(struct __pyx_obj_6Pyfhel
           PyTuple_SET_ITEM(__pyx_t_8, 1+__pyx_t_7, __pyx_t_4);
           __pyx_t_3 = 0;
           __pyx_t_4 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_8, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 513, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_8, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 518, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
         }
@@ -8184,7 +8257,7 @@ static void __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinKeyGen(struct __pyx_obj_6Pyfhel
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":532
+  /* "Pyfhel/Pyfhel.pyx":537
  *             None
  *         """
  *         self.afseal.relinKeyGen(bitCount, size)             # <<<<<<<<<<<<<<
@@ -8195,10 +8268,10 @@ static void __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinKeyGen(struct __pyx_obj_6Pyfhel
     __pyx_v_self->afseal->relinKeyGen(__pyx_v_bitCount, __pyx_v_size);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 532, __pyx_L1_error)
+    __PYX_ERR(0, 537, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":513
+  /* "Pyfhel/Pyfhel.pyx":518
  *         self.afseal.rotateKeyGen(bitCount)
  * 
  *     cpdef void relinKeyGen(self, int bitCount, int size) except +:             # <<<<<<<<<<<<<<
@@ -8253,11 +8326,11 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_39relinKeyGen(PyObject *__pyx_
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_size)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("relinKeyGen", 1, 2, 2, 1); __PYX_ERR(0, 513, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("relinKeyGen", 1, 2, 2, 1); __PYX_ERR(0, 518, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "relinKeyGen") < 0)) __PYX_ERR(0, 513, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "relinKeyGen") < 0)) __PYX_ERR(0, 518, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -8265,12 +8338,12 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_39relinKeyGen(PyObject *__pyx_
       values[0] = PyTuple_GET_ITEM(__pyx_args, 0);
       values[1] = PyTuple_GET_ITEM(__pyx_args, 1);
     }
-    __pyx_v_bitCount = __Pyx_PyInt_As_int(values[0]); if (unlikely((__pyx_v_bitCount == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 513, __pyx_L3_error)
-    __pyx_v_size = __Pyx_PyInt_As_int(values[1]); if (unlikely((__pyx_v_size == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 513, __pyx_L3_error)
+    __pyx_v_bitCount = __Pyx_PyInt_As_int(values[0]); if (unlikely((__pyx_v_bitCount == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 518, __pyx_L3_error)
+    __pyx_v_size = __Pyx_PyInt_As_int(values[1]); if (unlikely((__pyx_v_size == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 518, __pyx_L3_error)
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("relinKeyGen", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 513, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("relinKeyGen", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 518, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.relinKeyGen", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -8293,9 +8366,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_38relinKeyGen(struct __pyx_obj
     __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinKeyGen(__pyx_v_self, __pyx_v_bitCount, __pyx_v_size, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 513, __pyx_L1_error)
+    __PYX_ERR(0, 518, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_void_to_None(NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 513, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_void_to_None(NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 518, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -8312,7 +8385,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_38relinKeyGen(struct __pyx_obj
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":534
+/* "Pyfhel/Pyfhel.pyx":539
  *         self.afseal.relinKeyGen(bitCount, size)
  * 
  *     cpdef void relinearize(self, PyCtxt ctxt) except +:             # <<<<<<<<<<<<<<
@@ -8337,7 +8410,7 @@ static void __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinearize(struct __pyx_obj_6Pyfhel
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_relinearize); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 534, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_relinearize); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 539, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_41relinearize)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -8353,7 +8426,7 @@ static void __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinearize(struct __pyx_obj_6Pyfhel
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, ((PyObject *)__pyx_v_ctxt)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_ctxt));
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 534, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 539, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -8373,7 +8446,7 @@ static void __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinearize(struct __pyx_obj_6Pyfhel
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":555
+  /* "Pyfhel/Pyfhel.pyx":560
  *             None
  *         """
  *         self.afseal.relinearize(deref(ctxt._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -8384,10 +8457,10 @@ static void __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinearize(struct __pyx_obj_6Pyfhel
     __pyx_v_self->afseal->relinearize((*__pyx_v_ctxt->_ptr_ctxt));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 555, __pyx_L1_error)
+    __PYX_ERR(0, 560, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":534
+  /* "Pyfhel/Pyfhel.pyx":539
  *         self.afseal.relinKeyGen(bitCount, size)
  * 
  *     cpdef void relinearize(self, PyCtxt ctxt) except +:             # <<<<<<<<<<<<<<
@@ -8414,7 +8487,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_41relinearize(PyObject *__pyx_
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("relinearize (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 534, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 539, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_40relinearize(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_v_ctxt));
 
   /* function exit code */
@@ -8436,9 +8509,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_40relinearize(struct __pyx_obj
     __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinearize(__pyx_v_self, __pyx_v_ctxt, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 534, __pyx_L1_error)
+    __PYX_ERR(0, 539, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_void_to_None(NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 534, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_void_to_None(NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 539, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
@@ -8455,7 +8528,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_40relinearize(struct __pyx_obj
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":561
+/* "Pyfhel/Pyfhel.pyx":566
  *     # =========================================================================
  *     # ............................... ENCODE ..................................
  *     cpdef PyPtxt encodeInt(self, int64_t &value, PyPtxt ptxt=None) except +:             # <<<<<<<<<<<<<<
@@ -8493,11 +8566,11 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encodeInt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 561, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encodeInt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 566, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_43encodeInt)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = __Pyx_PyInt_From_int64_t(__pyx_v_value); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 561, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyInt_From_int64_t(__pyx_v_value); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 566, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -8515,7 +8588,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_3, ((PyObject *)__pyx_v_ptxt)};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 561, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 566, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -8524,14 +8597,14 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_3, ((PyObject *)__pyx_v_ptxt)};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 561, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 566, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         } else
         #endif
         {
-          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 561, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 566, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           if (__pyx_t_5) {
             __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -8542,12 +8615,12 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           __Pyx_GIVEREF(((PyObject *)__pyx_v_ptxt));
           PyTuple_SET_ITEM(__pyx_t_7, 1+__pyx_t_6, ((PyObject *)__pyx_v_ptxt));
           __pyx_t_3 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 561, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 566, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt))))) __PYX_ERR(0, 561, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt))))) __PYX_ERR(0, 566, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -8566,7 +8639,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":576
+  /* "Pyfhel/Pyfhel.pyx":581
  *             * PyPtxt: the plaintext containing the encoded value
  *         """
  *         if ptxt is None:             # <<<<<<<<<<<<<<
@@ -8577,19 +8650,19 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_9 = (__pyx_t_8 != 0);
   if (__pyx_t_9) {
 
-    /* "Pyfhel/Pyfhel.pyx":577
+    /* "Pyfhel/Pyfhel.pyx":582
  *         """
  *         if ptxt is None:
  *             ptxt = PyPtxt()             # <<<<<<<<<<<<<<
  *         self.afseal.encode(value, deref(ptxt._ptr_ptxt))
  *         ptxt._encoding = ENCODING_T.INTEGER
  */
-    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 577, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 582, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF_SET(__pyx_v_ptxt, ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)__pyx_t_1));
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":576
+    /* "Pyfhel/Pyfhel.pyx":581
  *             * PyPtxt: the plaintext containing the encoded value
  *         """
  *         if ptxt is None:             # <<<<<<<<<<<<<<
@@ -8598,7 +8671,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":578
+  /* "Pyfhel/Pyfhel.pyx":583
  *         if ptxt is None:
  *             ptxt = PyPtxt()
  *         self.afseal.encode(value, deref(ptxt._ptr_ptxt))             # <<<<<<<<<<<<<<
@@ -8609,10 +8682,10 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_v_self->afseal->encode(__pyx_v_value, (*__pyx_v_ptxt->_ptr_ptxt));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 578, __pyx_L1_error)
+    __PYX_ERR(0, 583, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":579
+  /* "Pyfhel/Pyfhel.pyx":584
  *             ptxt = PyPtxt()
  *         self.afseal.encode(value, deref(ptxt._ptr_ptxt))
  *         ptxt._encoding = ENCODING_T.INTEGER             # <<<<<<<<<<<<<<
@@ -8621,7 +8694,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   __pyx_v_ptxt->_encoding = __pyx_e_6Pyfhel_4util_10ENCODING_T_INTEGER;
 
-  /* "Pyfhel/Pyfhel.pyx":580
+  /* "Pyfhel/Pyfhel.pyx":585
  *         self.afseal.encode(value, deref(ptxt._ptr_ptxt))
  *         ptxt._encoding = ENCODING_T.INTEGER
  *         return ptxt             # <<<<<<<<<<<<<<
@@ -8633,7 +8706,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_r = __pyx_v_ptxt;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":561
+  /* "Pyfhel/Pyfhel.pyx":566
  *     # =========================================================================
  *     # ............................... ENCODE ..................................
  *     cpdef PyPtxt encodeInt(self, int64_t &value, PyPtxt ptxt=None) except +:             # <<<<<<<<<<<<<<
@@ -8695,7 +8768,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_43encodeInt(PyObject *__pyx_v_
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encodeInt") < 0)) __PYX_ERR(0, 561, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encodeInt") < 0)) __PYX_ERR(0, 566, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -8706,18 +8779,18 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_43encodeInt(PyObject *__pyx_v_
         default: goto __pyx_L5_argtuple_error;
       }
     }
-    __pyx_v_value = __Pyx_PyInt_As_int64_t(values[0]); if (unlikely((__pyx_v_value == ((int64_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 561, __pyx_L3_error)
+    __pyx_v_value = __Pyx_PyInt_As_int64_t(values[0]); if (unlikely((__pyx_v_value == ((int64_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 566, __pyx_L3_error)
     __pyx_v_ptxt = ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)values[1]);
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("encodeInt", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 561, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("encodeInt", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 566, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.encodeInt", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 561, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 566, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_42encodeInt(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_value, __pyx_v_ptxt);
 
   /* function exit code */
@@ -8740,10 +8813,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_42encodeInt(struct __pyx_obj_6
   __pyx_t_2.ptxt = __pyx_v_ptxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->encodeInt(__pyx_v_self, __pyx_v_value, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 561, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 566, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 561, __pyx_L1_error)
+    __PYX_ERR(0, 566, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -8761,7 +8834,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_42encodeInt(struct __pyx_obj_6
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":582
+/* "Pyfhel/Pyfhel.pyx":587
  *         return ptxt
  * 
  *     cpdef PyPtxt encodeFrac(self, double &value, PyPtxt ptxt=None) except +:             # <<<<<<<<<<<<<<
@@ -8799,11 +8872,11 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encodeFrac); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 582, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encodeFrac); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 587, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_45encodeFrac)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = PyFloat_FromDouble(__pyx_v_value); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 582, __pyx_L1_error)
+        __pyx_t_3 = PyFloat_FromDouble(__pyx_v_value); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 587, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -8821,7 +8894,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_3, ((PyObject *)__pyx_v_ptxt)};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 582, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 587, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -8830,14 +8903,14 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_3, ((PyObject *)__pyx_v_ptxt)};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 582, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 587, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         } else
         #endif
         {
-          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 582, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 587, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           if (__pyx_t_5) {
             __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -8848,12 +8921,12 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           __Pyx_GIVEREF(((PyObject *)__pyx_v_ptxt));
           PyTuple_SET_ITEM(__pyx_t_7, 1+__pyx_t_6, ((PyObject *)__pyx_v_ptxt));
           __pyx_t_3 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 582, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 587, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt))))) __PYX_ERR(0, 582, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt))))) __PYX_ERR(0, 587, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -8872,7 +8945,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":597
+  /* "Pyfhel/Pyfhel.pyx":602
  *             * PyPtxt: the plaintext containing the encoded value
  *         """
  *         if ptxt is None:             # <<<<<<<<<<<<<<
@@ -8883,19 +8956,19 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_9 = (__pyx_t_8 != 0);
   if (__pyx_t_9) {
 
-    /* "Pyfhel/Pyfhel.pyx":598
+    /* "Pyfhel/Pyfhel.pyx":603
  *         """
  *         if ptxt is None:
  *             ptxt = PyPtxt()             # <<<<<<<<<<<<<<
  *         self.afseal.encode(value, deref(ptxt._ptr_ptxt))
  *         ptxt._encoding = ENCODING_T.FRACTIONAL
  */
-    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 598, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 603, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF_SET(__pyx_v_ptxt, ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)__pyx_t_1));
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":597
+    /* "Pyfhel/Pyfhel.pyx":602
  *             * PyPtxt: the plaintext containing the encoded value
  *         """
  *         if ptxt is None:             # <<<<<<<<<<<<<<
@@ -8904,7 +8977,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":599
+  /* "Pyfhel/Pyfhel.pyx":604
  *         if ptxt is None:
  *             ptxt = PyPtxt()
  *         self.afseal.encode(value, deref(ptxt._ptr_ptxt))             # <<<<<<<<<<<<<<
@@ -8915,10 +8988,10 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_v_self->afseal->encode(__pyx_v_value, (*__pyx_v_ptxt->_ptr_ptxt));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 599, __pyx_L1_error)
+    __PYX_ERR(0, 604, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":600
+  /* "Pyfhel/Pyfhel.pyx":605
  *             ptxt = PyPtxt()
  *         self.afseal.encode(value, deref(ptxt._ptr_ptxt))
  *         ptxt._encoding = ENCODING_T.FRACTIONAL             # <<<<<<<<<<<<<<
@@ -8927,7 +9000,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   __pyx_v_ptxt->_encoding = __pyx_e_6Pyfhel_4util_10ENCODING_T_FRACTIONAL;
 
-  /* "Pyfhel/Pyfhel.pyx":601
+  /* "Pyfhel/Pyfhel.pyx":606
  *         self.afseal.encode(value, deref(ptxt._ptr_ptxt))
  *         ptxt._encoding = ENCODING_T.FRACTIONAL
  *         return ptxt             # <<<<<<<<<<<<<<
@@ -8939,7 +9012,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_r = __pyx_v_ptxt;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":582
+  /* "Pyfhel/Pyfhel.pyx":587
  *         return ptxt
  * 
  *     cpdef PyPtxt encodeFrac(self, double &value, PyPtxt ptxt=None) except +:             # <<<<<<<<<<<<<<
@@ -9001,7 +9074,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_45encodeFrac(PyObject *__pyx_v
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encodeFrac") < 0)) __PYX_ERR(0, 582, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encodeFrac") < 0)) __PYX_ERR(0, 587, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -9012,18 +9085,18 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_45encodeFrac(PyObject *__pyx_v
         default: goto __pyx_L5_argtuple_error;
       }
     }
-    __pyx_v_value = __pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_value == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 582, __pyx_L3_error)
+    __pyx_v_value = __pyx_PyFloat_AsDouble(values[0]); if (unlikely((__pyx_v_value == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 587, __pyx_L3_error)
     __pyx_v_ptxt = ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)values[1]);
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("encodeFrac", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 582, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("encodeFrac", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 587, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.encodeFrac", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 582, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 587, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_44encodeFrac(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_value, __pyx_v_ptxt);
 
   /* function exit code */
@@ -9046,10 +9119,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_44encodeFrac(struct __pyx_obj_
   __pyx_t_2.ptxt = __pyx_v_ptxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->encodeFrac(__pyx_v_self, __pyx_v_value, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 582, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 587, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 582, __pyx_L1_error)
+    __PYX_ERR(0, 587, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -9067,7 +9140,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_44encodeFrac(struct __pyx_obj_
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":603
+/* "Pyfhel/Pyfhel.pyx":608
  *         return ptxt
  * 
  *     cpdef PyPtxt encodeBatch(self, vector[int64_t]& vec, PyPtxt ptxt=None) except +:             # <<<<<<<<<<<<<<
@@ -9105,11 +9178,11 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encodeBatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 603, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encodeBatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 608, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_47encodeBatch)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = __pyx_convert_vector_to_py_int64_t(__pyx_v_vec); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 603, __pyx_L1_error)
+        __pyx_t_3 = __pyx_convert_vector_to_py_int64_t(__pyx_v_vec); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 608, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -9127,7 +9200,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_3, ((PyObject *)__pyx_v_ptxt)};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 603, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 608, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -9136,14 +9209,14 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_3, ((PyObject *)__pyx_v_ptxt)};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 603, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 608, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         } else
         #endif
         {
-          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 603, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 608, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           if (__pyx_t_5) {
             __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -9154,12 +9227,12 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           __Pyx_GIVEREF(((PyObject *)__pyx_v_ptxt));
           PyTuple_SET_ITEM(__pyx_t_7, 1+__pyx_t_6, ((PyObject *)__pyx_v_ptxt));
           __pyx_t_3 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 603, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 608, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt))))) __PYX_ERR(0, 603, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt))))) __PYX_ERR(0, 608, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -9178,7 +9251,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":621
+  /* "Pyfhel/Pyfhel.pyx":626
  *             * PyPtxt: the plaintext containing the encoded vector.
  *         """
  *         if ptxt is None:             # <<<<<<<<<<<<<<
@@ -9189,19 +9262,19 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_9 = (__pyx_t_8 != 0);
   if (__pyx_t_9) {
 
-    /* "Pyfhel/Pyfhel.pyx":622
+    /* "Pyfhel/Pyfhel.pyx":627
  *         """
  *         if ptxt is None:
  *             ptxt = PyPtxt()             # <<<<<<<<<<<<<<
  *         self.afseal.encode(vec, deref(ptxt._ptr_ptxt))
  *         ptxt._encoding = ENCODING_T.BATCH
  */
-    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 622, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 627, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF_SET(__pyx_v_ptxt, ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)__pyx_t_1));
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":621
+    /* "Pyfhel/Pyfhel.pyx":626
  *             * PyPtxt: the plaintext containing the encoded vector.
  *         """
  *         if ptxt is None:             # <<<<<<<<<<<<<<
@@ -9210,7 +9283,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":623
+  /* "Pyfhel/Pyfhel.pyx":628
  *         if ptxt is None:
  *             ptxt = PyPtxt()
  *         self.afseal.encode(vec, deref(ptxt._ptr_ptxt))             # <<<<<<<<<<<<<<
@@ -9221,10 +9294,10 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_v_self->afseal->encode(__pyx_v_vec, (*__pyx_v_ptxt->_ptr_ptxt));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 623, __pyx_L1_error)
+    __PYX_ERR(0, 628, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":624
+  /* "Pyfhel/Pyfhel.pyx":629
  *             ptxt = PyPtxt()
  *         self.afseal.encode(vec, deref(ptxt._ptr_ptxt))
  *         ptxt._encoding = ENCODING_T.BATCH             # <<<<<<<<<<<<<<
@@ -9233,7 +9306,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   __pyx_v_ptxt->_encoding = __pyx_e_6Pyfhel_4util_10ENCODING_T_BATCH;
 
-  /* "Pyfhel/Pyfhel.pyx":625
+  /* "Pyfhel/Pyfhel.pyx":630
  *         self.afseal.encode(vec, deref(ptxt._ptr_ptxt))
  *         ptxt._encoding = ENCODING_T.BATCH
  *         return ptxt             # <<<<<<<<<<<<<<
@@ -9245,7 +9318,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_r = __pyx_v_ptxt;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":603
+  /* "Pyfhel/Pyfhel.pyx":608
  *         return ptxt
  * 
  *     cpdef PyPtxt encodeBatch(self, vector[int64_t]& vec, PyPtxt ptxt=None) except +:             # <<<<<<<<<<<<<<
@@ -9307,7 +9380,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_47encodeBatch(PyObject *__pyx_
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encodeBatch") < 0)) __PYX_ERR(0, 603, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encodeBatch") < 0)) __PYX_ERR(0, 608, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -9318,18 +9391,18 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_47encodeBatch(PyObject *__pyx_
         default: goto __pyx_L5_argtuple_error;
       }
     }
-    __pyx_v_vec = __pyx_convert_vector_from_py_int64_t(values[0]); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 603, __pyx_L3_error)
+    __pyx_v_vec = __pyx_convert_vector_from_py_int64_t(values[0]); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 608, __pyx_L3_error)
     __pyx_v_ptxt = ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)values[1]);
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("encodeBatch", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 603, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("encodeBatch", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 608, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.encodeBatch", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 603, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 608, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_46encodeBatch(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_vec, __pyx_v_ptxt);
 
   /* function exit code */
@@ -9352,10 +9425,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_46encodeBatch(struct __pyx_obj
   __pyx_t_2.ptxt = __pyx_v_ptxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->encodeBatch(__pyx_v_self, __pyx_v_vec, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 603, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 608, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 603, __pyx_L1_error)
+    __PYX_ERR(0, 608, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -9373,7 +9446,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_46encodeBatch(struct __pyx_obj
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":627
+/* "Pyfhel/Pyfhel.pyx":632
  *         return ptxt
  * 
  *     cpdef PyPtxt encodeArray(self, int64_t[::1] &arr, PyPtxt ptxt=None) except +:             # <<<<<<<<<<<<<<
@@ -9415,11 +9488,11 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encodeArray); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 627, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encodeArray); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 632, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_49encodeArray)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = __pyx_memoryview_fromslice(__pyx_v_arr, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_int64_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_int64_t, 0);; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 627, __pyx_L1_error)
+        __pyx_t_3 = __pyx_memoryview_fromslice(__pyx_v_arr, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_int64_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_int64_t, 0);; if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 632, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -9437,7 +9510,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_3, ((PyObject *)__pyx_v_ptxt)};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 627, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 632, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -9446,14 +9519,14 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_3, ((PyObject *)__pyx_v_ptxt)};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 627, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 632, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         } else
         #endif
         {
-          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 627, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 632, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           if (__pyx_t_5) {
             __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -9464,12 +9537,12 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           __Pyx_GIVEREF(((PyObject *)__pyx_v_ptxt));
           PyTuple_SET_ITEM(__pyx_t_7, 1+__pyx_t_6, ((PyObject *)__pyx_v_ptxt));
           __pyx_t_3 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 627, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 632, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt))))) __PYX_ERR(0, 627, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt))))) __PYX_ERR(0, 632, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -9488,7 +9561,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":645
+  /* "Pyfhel/Pyfhel.pyx":650
  *             * PyPtxt: the plaintext containing the encoded vector.
  *         """
  *         if ptxt is None:             # <<<<<<<<<<<<<<
@@ -9499,19 +9572,19 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_9 = (__pyx_t_8 != 0);
   if (__pyx_t_9) {
 
-    /* "Pyfhel/Pyfhel.pyx":646
+    /* "Pyfhel/Pyfhel.pyx":651
  *         """
  *         if ptxt is None:
  *             ptxt = PyPtxt()             # <<<<<<<<<<<<<<
  *         cdef vector[int64_t] vec=[0];
  *         vec.assign(&arr[0], &arr[-1]+1)
  */
-    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 646, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallNoArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 651, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF_SET(__pyx_v_ptxt, ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)__pyx_t_1));
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":645
+    /* "Pyfhel/Pyfhel.pyx":650
  *             * PyPtxt: the plaintext containing the encoded vector.
  *         """
  *         if ptxt is None:             # <<<<<<<<<<<<<<
@@ -9520,23 +9593,23 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":647
+  /* "Pyfhel/Pyfhel.pyx":652
  *         if ptxt is None:
  *             ptxt = PyPtxt()
  *         cdef vector[int64_t] vec=[0];             # <<<<<<<<<<<<<<
  *         vec.assign(&arr[0], &arr[-1]+1)
  *         self.afseal.encode(vec, deref(ptxt._ptr_ptxt))
  */
-  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 647, __pyx_L1_error)
+  __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 652, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_INCREF(__pyx_int_0);
   __Pyx_GIVEREF(__pyx_int_0);
   PyList_SET_ITEM(__pyx_t_1, 0, __pyx_int_0);
-  __pyx_t_10 = __pyx_convert_vector_from_py_int64_t(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 647, __pyx_L1_error)
+  __pyx_t_10 = __pyx_convert_vector_from_py_int64_t(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 652, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_vec = __pyx_t_10;
 
-  /* "Pyfhel/Pyfhel.pyx":648
+  /* "Pyfhel/Pyfhel.pyx":653
  *             ptxt = PyPtxt()
  *         cdef vector[int64_t] vec=[0];
  *         vec.assign(&arr[0], &arr[-1]+1)             # <<<<<<<<<<<<<<
@@ -9551,10 +9624,10 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_v_vec.assign((&(*((int64_t *) ( /* dim=0 */ ((char *) (((int64_t *) __pyx_v_arr.data) + __pyx_t_11)) )))), ((&(*((int64_t *) ( /* dim=0 */ ((char *) (((int64_t *) __pyx_v_arr.data) + __pyx_t_12)) )))) + 1));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 648, __pyx_L1_error)
+    __PYX_ERR(0, 653, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":649
+  /* "Pyfhel/Pyfhel.pyx":654
  *         cdef vector[int64_t] vec=[0];
  *         vec.assign(&arr[0], &arr[-1]+1)
  *         self.afseal.encode(vec, deref(ptxt._ptr_ptxt))             # <<<<<<<<<<<<<<
@@ -9565,10 +9638,10 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_v_self->afseal->encode(__pyx_v_vec, (*__pyx_v_ptxt->_ptr_ptxt));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 649, __pyx_L1_error)
+    __PYX_ERR(0, 654, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":650
+  /* "Pyfhel/Pyfhel.pyx":655
  *         vec.assign(&arr[0], &arr[-1]+1)
  *         self.afseal.encode(vec, deref(ptxt._ptr_ptxt))
  *         ptxt._encoding = ENCODING_T.BATCH             # <<<<<<<<<<<<<<
@@ -9577,7 +9650,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   __pyx_v_ptxt->_encoding = __pyx_e_6Pyfhel_4util_10ENCODING_T_BATCH;
 
-  /* "Pyfhel/Pyfhel.pyx":651
+  /* "Pyfhel/Pyfhel.pyx":656
  *         self.afseal.encode(vec, deref(ptxt._ptr_ptxt))
  *         ptxt._encoding = ENCODING_T.BATCH
  *         return ptxt             # <<<<<<<<<<<<<<
@@ -9589,7 +9662,7 @@ static struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_r = __pyx_v_ptxt;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":627
+  /* "Pyfhel/Pyfhel.pyx":632
  *         return ptxt
  * 
  *     cpdef PyPtxt encodeArray(self, int64_t[::1] &arr, PyPtxt ptxt=None) except +:             # <<<<<<<<<<<<<<
@@ -9651,7 +9724,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_49encodeArray(PyObject *__pyx_
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encodeArray") < 0)) __PYX_ERR(0, 627, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encodeArray") < 0)) __PYX_ERR(0, 632, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -9662,18 +9735,18 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_49encodeArray(PyObject *__pyx_
         default: goto __pyx_L5_argtuple_error;
       }
     }
-    __pyx_v_arr = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_int64_t(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_arr.memview)) __PYX_ERR(0, 627, __pyx_L3_error)
+    __pyx_v_arr = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_int64_t(values[0], PyBUF_WRITABLE); if (unlikely(!__pyx_v_arr.memview)) __PYX_ERR(0, 632, __pyx_L3_error)
     __pyx_v_ptxt = ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)values[1]);
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("encodeArray", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 627, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("encodeArray", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 632, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.encodeArray", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 627, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 632, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_48encodeArray(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_arr, __pyx_v_ptxt);
 
   /* function exit code */
@@ -9692,15 +9765,15 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_48encodeArray(struct __pyx_obj
   struct __pyx_opt_args_6Pyfhel_6Pyfhel_6Pyfhel_encodeArray __pyx_t_2;
   __Pyx_RefNannySetupContext("encodeArray", 0);
   __Pyx_XDECREF(__pyx_r);
-  if (unlikely(!__pyx_v_arr.memview)) { __Pyx_RaiseUnboundLocalError("arr"); __PYX_ERR(0, 627, __pyx_L1_error) }
+  if (unlikely(!__pyx_v_arr.memview)) { __Pyx_RaiseUnboundLocalError("arr"); __PYX_ERR(0, 632, __pyx_L1_error) }
   __pyx_t_2.__pyx_n = 1;
   __pyx_t_2.ptxt = __pyx_v_ptxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->encodeArray(__pyx_v_self, __pyx_v_arr, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 627, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 632, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 627, __pyx_L1_error)
+    __PYX_ERR(0, 632, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -9719,7 +9792,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_48encodeArray(struct __pyx_obj
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":653
+/* "Pyfhel/Pyfhel.pyx":658
  *         return ptxt
  * 
  *     def encode(self, val_vec not None, PyPtxt ptxt=None):             # <<<<<<<<<<<<<<
@@ -9764,7 +9837,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_51encode(PyObject *__pyx_v_sel
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encode") < 0)) __PYX_ERR(0, 653, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "encode") < 0)) __PYX_ERR(0, 658, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -9780,16 +9853,16 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_51encode(PyObject *__pyx_v_sel
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("encode", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 653, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("encode", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 658, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.encode", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
   if (unlikely(((PyObject *)__pyx_v_val_vec) == Py_None)) {
-    PyErr_Format(PyExc_TypeError, "Argument '%.200s' must not be None", "val_vec"); __PYX_ERR(0, 653, __pyx_L1_error)
+    PyErr_Format(PyExc_TypeError, "Argument '%.200s' must not be None", "val_vec"); __PYX_ERR(0, 658, __pyx_L1_error)
   }
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 653, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 658, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_val_vec, __pyx_v_ptxt);
 
   /* function exit code */
@@ -9818,7 +9891,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
   PyObject *__pyx_t_12 = NULL;
   __Pyx_RefNannySetupContext("encode", 0);
 
-  /* "Pyfhel/Pyfhel.pyx":674
+  /* "Pyfhel/Pyfhel.pyx":679
  *             * TypeError: if the val_vec doesn't have a valid type.
  *         """
  *         if isinstance(val_vec, np.ndarray):             # <<<<<<<<<<<<<<
@@ -9829,14 +9902,14 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "Pyfhel/Pyfhel.pyx":675
+    /* "Pyfhel/Pyfhel.pyx":680
  *         """
  *         if isinstance(val_vec, np.ndarray):
  *             if (val_vec.ndim is not 1) or (val_vec.dtype is not int):             # <<<<<<<<<<<<<<
  *                 raise TypeError('<Pyfhel ERROR> Plaintext numpy array is not'
  *                                 '1D vector of int values, cannot encode.')
  */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_val_vec, __pyx_n_s_ndim); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 675, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_val_vec, __pyx_n_s_ndim); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 680, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_1 = (__pyx_t_3 != __pyx_int_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -9846,7 +9919,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
       __pyx_t_2 = __pyx_t_4;
       goto __pyx_L5_bool_binop_done;
     }
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_val_vec, __pyx_n_s_dtype); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 675, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_val_vec, __pyx_n_s_dtype); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 680, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_4 = (__pyx_t_3 != ((PyObject *)(&PyInt_Type)));
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -9855,20 +9928,20 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
     __pyx_L5_bool_binop_done:;
     if (unlikely(__pyx_t_2)) {
 
-      /* "Pyfhel/Pyfhel.pyx":676
+      /* "Pyfhel/Pyfhel.pyx":681
  *         if isinstance(val_vec, np.ndarray):
  *             if (val_vec.ndim is not 1) or (val_vec.dtype is not int):
  *                 raise TypeError('<Pyfhel ERROR> Plaintext numpy array is not'             # <<<<<<<<<<<<<<
  *                                 '1D vector of int values, cannot encode.')
  *             return self.encodeBatch(val_vec, ptxt)
  */
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__4, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 676, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 681, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_Raise(__pyx_t_3, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __PYX_ERR(0, 676, __pyx_L1_error)
+      __PYX_ERR(0, 681, __pyx_L1_error)
 
-      /* "Pyfhel/Pyfhel.pyx":675
+      /* "Pyfhel/Pyfhel.pyx":680
  *         """
  *         if isinstance(val_vec, np.ndarray):
  *             if (val_vec.ndim is not 1) or (val_vec.dtype is not int):             # <<<<<<<<<<<<<<
@@ -9877,7 +9950,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
  */
     }
 
-    /* "Pyfhel/Pyfhel.pyx":678
+    /* "Pyfhel/Pyfhel.pyx":683
  *                 raise TypeError('<Pyfhel ERROR> Plaintext numpy array is not'
  *                                 '1D vector of int values, cannot encode.')
  *             return self.encodeBatch(val_vec, ptxt)             # <<<<<<<<<<<<<<
@@ -9885,22 +9958,22 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
  *             return self.encodeValue(<float>val_vec, ptxt)
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_5 = __pyx_convert_vector_from_py_int64_t(__pyx_v_val_vec); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 678, __pyx_L1_error)
+    __pyx_t_5 = __pyx_convert_vector_from_py_int64_t(__pyx_v_val_vec); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 683, __pyx_L1_error)
     __pyx_t_6.__pyx_n = 1;
     __pyx_t_6.ptxt = __pyx_v_ptxt;
     try {
       __pyx_t_3 = ((PyObject *)((struct __pyx_vtabstruct_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self->__pyx_vtab)->encodeBatch(__pyx_v_self, __pyx_t_5, 0, &__pyx_t_6));
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 678, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 683, __pyx_L1_error)
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 678, __pyx_L1_error)
+      __PYX_ERR(0, 683, __pyx_L1_error)
     }
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_r = __pyx_t_3;
     __pyx_t_3 = 0;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":674
+    /* "Pyfhel/Pyfhel.pyx":679
  *             * TypeError: if the val_vec doesn't have a valid type.
  *         """
  *         if isinstance(val_vec, np.ndarray):             # <<<<<<<<<<<<<<
@@ -9909,21 +9982,21 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":679
+  /* "Pyfhel/Pyfhel.pyx":684
  *                                 '1D vector of int values, cannot encode.')
  *             return self.encodeBatch(val_vec, ptxt)
  *         elif isinstance(val_vec, FLOAT_T):             # <<<<<<<<<<<<<<
  *             return self.encodeValue(<float>val_vec, ptxt)
  *         elif isinstance(val_vec, Number):
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_FLOAT_T); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 679, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_FLOAT_T); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 684, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = PyObject_IsInstance(__pyx_v_val_vec, __pyx_t_3); if (unlikely(__pyx_t_2 == ((int)-1))) __PYX_ERR(0, 679, __pyx_L1_error)
+  __pyx_t_2 = PyObject_IsInstance(__pyx_v_val_vec, __pyx_t_3); if (unlikely(__pyx_t_2 == ((int)-1))) __PYX_ERR(0, 684, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_1 = (__pyx_t_2 != 0);
   if (__pyx_t_1) {
 
-    /* "Pyfhel/Pyfhel.pyx":680
+    /* "Pyfhel/Pyfhel.pyx":685
  *             return self.encodeBatch(val_vec, ptxt)
  *         elif isinstance(val_vec, FLOAT_T):
  *             return self.encodeValue(<float>val_vec, ptxt)             # <<<<<<<<<<<<<<
@@ -9931,10 +10004,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
  *             return self.encodeValue(<int>val_vec, ptxt)
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encodeValue); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 680, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encodeValue); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 685, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_8 = __pyx_PyFloat_AsFloat(__pyx_v_val_vec); if (unlikely((__pyx_t_8 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 680, __pyx_L1_error)
-    __pyx_t_9 = PyFloat_FromDouble(((float)__pyx_t_8)); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 680, __pyx_L1_error)
+    __pyx_t_8 = __pyx_PyFloat_AsFloat(__pyx_v_val_vec); if (unlikely((__pyx_t_8 == (float)-1) && PyErr_Occurred())) __PYX_ERR(0, 685, __pyx_L1_error)
+    __pyx_t_9 = PyFloat_FromDouble(((float)__pyx_t_8)); if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 685, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __pyx_t_10 = NULL;
     __pyx_t_11 = 0;
@@ -9951,7 +10024,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_7)) {
       PyObject *__pyx_temp[3] = {__pyx_t_10, __pyx_t_9, ((PyObject *)__pyx_v_ptxt)};
-      __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_11, 2+__pyx_t_11); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 680, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_11, 2+__pyx_t_11); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 685, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
@@ -9960,14 +10033,14 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_7)) {
       PyObject *__pyx_temp[3] = {__pyx_t_10, __pyx_t_9, ((PyObject *)__pyx_v_ptxt)};
-      __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_11, 2+__pyx_t_11); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 680, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_11, 2+__pyx_t_11); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 685, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_10); __pyx_t_10 = 0;
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
     } else
     #endif
     {
-      __pyx_t_12 = PyTuple_New(2+__pyx_t_11); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 680, __pyx_L1_error)
+      __pyx_t_12 = PyTuple_New(2+__pyx_t_11); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 685, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
       if (__pyx_t_10) {
         __Pyx_GIVEREF(__pyx_t_10); PyTuple_SET_ITEM(__pyx_t_12, 0, __pyx_t_10); __pyx_t_10 = NULL;
@@ -9978,7 +10051,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
       __Pyx_GIVEREF(((PyObject *)__pyx_v_ptxt));
       PyTuple_SET_ITEM(__pyx_t_12, 1+__pyx_t_11, ((PyObject *)__pyx_v_ptxt));
       __pyx_t_9 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_12, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 680, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_12, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 685, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
     }
@@ -9987,7 +10060,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
     __pyx_t_3 = 0;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":679
+    /* "Pyfhel/Pyfhel.pyx":684
  *                                 '1D vector of int values, cannot encode.')
  *             return self.encodeBatch(val_vec, ptxt)
  *         elif isinstance(val_vec, FLOAT_T):             # <<<<<<<<<<<<<<
@@ -9996,21 +10069,21 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":681
+  /* "Pyfhel/Pyfhel.pyx":686
  *         elif isinstance(val_vec, FLOAT_T):
  *             return self.encodeValue(<float>val_vec, ptxt)
  *         elif isinstance(val_vec, Number):             # <<<<<<<<<<<<<<
  *             return self.encodeValue(<int>val_vec, ptxt)
  *         else:
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Number); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 681, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Number); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 686, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = PyObject_IsInstance(__pyx_v_val_vec, __pyx_t_3); if (unlikely(__pyx_t_1 == ((int)-1))) __PYX_ERR(0, 681, __pyx_L1_error)
+  __pyx_t_1 = PyObject_IsInstance(__pyx_v_val_vec, __pyx_t_3); if (unlikely(__pyx_t_1 == ((int)-1))) __PYX_ERR(0, 686, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (likely(__pyx_t_2)) {
 
-    /* "Pyfhel/Pyfhel.pyx":682
+    /* "Pyfhel/Pyfhel.pyx":687
  *             return self.encodeValue(<float>val_vec, ptxt)
  *         elif isinstance(val_vec, Number):
  *             return self.encodeValue(<int>val_vec, ptxt)             # <<<<<<<<<<<<<<
@@ -10018,10 +10091,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
  *             raise TypeError('<Pyfhel ERROR> Value/Vector type \['+type(val_vec)+
  */
     __Pyx_XDECREF(__pyx_r);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encodeValue); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 682, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_encodeValue); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 687, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_11 = __Pyx_PyInt_As_int(__pyx_v_val_vec); if (unlikely((__pyx_t_11 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 682, __pyx_L1_error)
-    __pyx_t_12 = __Pyx_PyInt_From_int(((int)__pyx_t_11)); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 682, __pyx_L1_error)
+    __pyx_t_11 = __Pyx_PyInt_As_int(__pyx_v_val_vec); if (unlikely((__pyx_t_11 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 687, __pyx_L1_error)
+    __pyx_t_12 = __Pyx_PyInt_From_int(((int)__pyx_t_11)); if (unlikely(!__pyx_t_12)) __PYX_ERR(0, 687, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_12);
     __pyx_t_9 = NULL;
     __pyx_t_11 = 0;
@@ -10038,7 +10111,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_7)) {
       PyObject *__pyx_temp[3] = {__pyx_t_9, __pyx_t_12, ((PyObject *)__pyx_v_ptxt)};
-      __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_11, 2+__pyx_t_11); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 682, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_11, 2+__pyx_t_11); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 687, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
@@ -10047,14 +10120,14 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_7)) {
       PyObject *__pyx_temp[3] = {__pyx_t_9, __pyx_t_12, ((PyObject *)__pyx_v_ptxt)};
-      __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_11, 2+__pyx_t_11); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 682, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_11, 2+__pyx_t_11); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 687, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
     } else
     #endif
     {
-      __pyx_t_10 = PyTuple_New(2+__pyx_t_11); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 682, __pyx_L1_error)
+      __pyx_t_10 = PyTuple_New(2+__pyx_t_11); if (unlikely(!__pyx_t_10)) __PYX_ERR(0, 687, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
       if (__pyx_t_9) {
         __Pyx_GIVEREF(__pyx_t_9); PyTuple_SET_ITEM(__pyx_t_10, 0, __pyx_t_9); __pyx_t_9 = NULL;
@@ -10065,7 +10138,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
       __Pyx_GIVEREF(((PyObject *)__pyx_v_ptxt));
       PyTuple_SET_ITEM(__pyx_t_10, 1+__pyx_t_11, ((PyObject *)__pyx_v_ptxt));
       __pyx_t_12 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_10, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 682, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_10, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 687, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
     }
@@ -10074,7 +10147,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
     __pyx_t_3 = 0;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":681
+    /* "Pyfhel/Pyfhel.pyx":686
  *         elif isinstance(val_vec, FLOAT_T):
  *             return self.encodeValue(<float>val_vec, ptxt)
  *         elif isinstance(val_vec, Number):             # <<<<<<<<<<<<<<
@@ -10083,7 +10156,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":684
+  /* "Pyfhel/Pyfhel.pyx":689
  *             return self.encodeValue(<int>val_vec, ptxt)
  *         else:
  *             raise TypeError('<Pyfhel ERROR> Value/Vector type \['+type(val_vec)+             # <<<<<<<<<<<<<<
@@ -10091,20 +10164,20 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
  * 
  */
   /*else*/ {
-    __pyx_t_3 = PyNumber_Add(__pyx_kp_u_Pyfhel_ERROR_Value_Vector_type, ((PyObject *)Py_TYPE(__pyx_v_val_vec))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 684, __pyx_L1_error)
+    __pyx_t_3 = PyNumber_Add(__pyx_kp_u_Pyfhel_ERROR_Value_Vector_type, ((PyObject *)Py_TYPE(__pyx_v_val_vec))); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 689, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_7 = PyNumber_Add(__pyx_t_3, __pyx_kp_u_not_supported_for_encoding); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 684, __pyx_L1_error)
+    __pyx_t_7 = PyNumber_Add(__pyx_t_3, __pyx_kp_u_not_supported_for_encoding); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 689, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_7); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 684, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_TypeError, __pyx_t_7); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 689, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __PYX_ERR(0, 684, __pyx_L1_error)
+    __PYX_ERR(0, 689, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":653
+  /* "Pyfhel/Pyfhel.pyx":658
  *         return ptxt
  * 
  *     def encode(self, val_vec not None, PyPtxt ptxt=None):             # <<<<<<<<<<<<<<
@@ -10127,7 +10200,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_50encode(struct __pyx_obj_6Pyf
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":688
+/* "Pyfhel/Pyfhel.pyx":693
  * 
  *     # ................................ DECODE .................................
  *     cpdef int64_t decodeInt(self, PyPtxt ptxt) except +:             # <<<<<<<<<<<<<<
@@ -10156,7 +10229,7 @@ static int64_t __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeInt(struct __pyx_obj_6Pyfhe
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decodeInt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 688, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decodeInt); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 693, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_53decodeInt)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -10172,10 +10245,10 @@ static int64_t __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeInt(struct __pyx_obj_6Pyfhe
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, ((PyObject *)__pyx_v_ptxt)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_ptxt));
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 688, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 693, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyInt_As_int64_t(__pyx_t_2); if (unlikely((__pyx_t_5 == ((int64_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 688, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyInt_As_int64_t(__pyx_t_2); if (unlikely((__pyx_t_5 == ((int64_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 693, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -10194,7 +10267,7 @@ static int64_t __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeInt(struct __pyx_obj_6Pyfhe
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":705
+  /* "Pyfhel/Pyfhel.pyx":710
  *             * RuntimeError: if the ciphertext encoding isn't ENCODING_T.INTEGER.
  *         """
  *         if (ptxt._encoding != ENCODING_T.INTEGER):             # <<<<<<<<<<<<<<
@@ -10204,20 +10277,20 @@ static int64_t __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeInt(struct __pyx_obj_6Pyfhe
   __pyx_t_6 = ((__pyx_v_ptxt->_encoding != __pyx_e_6Pyfhel_4util_10ENCODING_T_INTEGER) != 0);
   if (unlikely(__pyx_t_6)) {
 
-    /* "Pyfhel/Pyfhel.pyx":706
+    /* "Pyfhel/Pyfhel.pyx":711
  *         """
  *         if (ptxt._encoding != ENCODING_T.INTEGER):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyPtxt")             # <<<<<<<<<<<<<<
  *         cdef int64_t output_value=0
  *         self.afseal.decode(deref(ptxt._ptr_ptxt), output_value)
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 706, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 711, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 706, __pyx_L1_error)
+    __PYX_ERR(0, 711, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":705
+    /* "Pyfhel/Pyfhel.pyx":710
  *             * RuntimeError: if the ciphertext encoding isn't ENCODING_T.INTEGER.
  *         """
  *         if (ptxt._encoding != ENCODING_T.INTEGER):             # <<<<<<<<<<<<<<
@@ -10226,7 +10299,7 @@ static int64_t __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeInt(struct __pyx_obj_6Pyfhe
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":707
+  /* "Pyfhel/Pyfhel.pyx":712
  *         if (ptxt._encoding != ENCODING_T.INTEGER):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyPtxt")
  *         cdef int64_t output_value=0             # <<<<<<<<<<<<<<
@@ -10235,7 +10308,7 @@ static int64_t __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeInt(struct __pyx_obj_6Pyfhe
  */
   __pyx_v_output_value = 0;
 
-  /* "Pyfhel/Pyfhel.pyx":708
+  /* "Pyfhel/Pyfhel.pyx":713
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyPtxt")
  *         cdef int64_t output_value=0
  *         self.afseal.decode(deref(ptxt._ptr_ptxt), output_value)             # <<<<<<<<<<<<<<
@@ -10246,10 +10319,10 @@ static int64_t __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeInt(struct __pyx_obj_6Pyfhe
     __pyx_v_self->afseal->decode((*__pyx_v_ptxt->_ptr_ptxt), __pyx_v_output_value);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 708, __pyx_L1_error)
+    __PYX_ERR(0, 713, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":709
+  /* "Pyfhel/Pyfhel.pyx":714
  *         cdef int64_t output_value=0
  *         self.afseal.decode(deref(ptxt._ptr_ptxt), output_value)
  *         return output_value             # <<<<<<<<<<<<<<
@@ -10259,7 +10332,7 @@ static int64_t __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeInt(struct __pyx_obj_6Pyfhe
   __pyx_r = __pyx_v_output_value;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":688
+  /* "Pyfhel/Pyfhel.pyx":693
  * 
  *     # ................................ DECODE .................................
  *     cpdef int64_t decodeInt(self, PyPtxt ptxt) except +:             # <<<<<<<<<<<<<<
@@ -10287,7 +10360,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_53decodeInt(PyObject *__pyx_v_
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("decodeInt (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 688, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 693, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_52decodeInt(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)__pyx_v_ptxt));
 
   /* function exit code */
@@ -10310,9 +10383,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_52decodeInt(struct __pyx_obj_6
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeInt(__pyx_v_self, __pyx_v_ptxt, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 688, __pyx_L1_error)
+    __PYX_ERR(0, 693, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyInt_From_int64_t(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 688, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int64_t(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 693, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -10329,7 +10402,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_52decodeInt(struct __pyx_obj_6
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":711
+/* "Pyfhel/Pyfhel.pyx":716
  *         return output_value
  * 
  *     cpdef double decodeFrac(self, PyPtxt ptxt) except +:             # <<<<<<<<<<<<<<
@@ -10358,7 +10431,7 @@ static double __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeFrac(struct __pyx_obj_6Pyfhe
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decodeFrac); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 711, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decodeFrac); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 716, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_55decodeFrac)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -10374,10 +10447,10 @@ static double __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeFrac(struct __pyx_obj_6Pyfhe
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, ((PyObject *)__pyx_v_ptxt)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_ptxt));
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 711, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 716, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_5 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 711, __pyx_L1_error)
+        __pyx_t_5 = __pyx_PyFloat_AsDouble(__pyx_t_2); if (unlikely((__pyx_t_5 == (double)-1) && PyErr_Occurred())) __PYX_ERR(0, 716, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -10396,7 +10469,7 @@ static double __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeFrac(struct __pyx_obj_6Pyfhe
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":728
+  /* "Pyfhel/Pyfhel.pyx":733
  *             * RuntimeError: if the ciphertext encoding isn't ENCODING_T.FRACTIONAL.
  *         """
  *         if (ptxt._encoding != ENCODING_T.FRACTIONAL):             # <<<<<<<<<<<<<<
@@ -10406,20 +10479,20 @@ static double __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeFrac(struct __pyx_obj_6Pyfhe
   __pyx_t_6 = ((__pyx_v_ptxt->_encoding != __pyx_e_6Pyfhel_4util_10ENCODING_T_FRACTIONAL) != 0);
   if (unlikely(__pyx_t_6)) {
 
-    /* "Pyfhel/Pyfhel.pyx":729
+    /* "Pyfhel/Pyfhel.pyx":734
  *         """
  *         if (ptxt._encoding != ENCODING_T.FRACTIONAL):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyPtxt")             # <<<<<<<<<<<<<<
  *         cdef double output_value=0
  *         self.afseal.decode(deref(ptxt._ptr_ptxt), output_value)
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 729, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 734, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 729, __pyx_L1_error)
+    __PYX_ERR(0, 734, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":728
+    /* "Pyfhel/Pyfhel.pyx":733
  *             * RuntimeError: if the ciphertext encoding isn't ENCODING_T.FRACTIONAL.
  *         """
  *         if (ptxt._encoding != ENCODING_T.FRACTIONAL):             # <<<<<<<<<<<<<<
@@ -10428,7 +10501,7 @@ static double __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeFrac(struct __pyx_obj_6Pyfhe
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":730
+  /* "Pyfhel/Pyfhel.pyx":735
  *         if (ptxt._encoding != ENCODING_T.FRACTIONAL):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyPtxt")
  *         cdef double output_value=0             # <<<<<<<<<<<<<<
@@ -10437,7 +10510,7 @@ static double __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeFrac(struct __pyx_obj_6Pyfhe
  */
   __pyx_v_output_value = 0.0;
 
-  /* "Pyfhel/Pyfhel.pyx":731
+  /* "Pyfhel/Pyfhel.pyx":736
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyPtxt")
  *         cdef double output_value=0
  *         self.afseal.decode(deref(ptxt._ptr_ptxt), output_value)             # <<<<<<<<<<<<<<
@@ -10448,10 +10521,10 @@ static double __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeFrac(struct __pyx_obj_6Pyfhe
     __pyx_v_self->afseal->decode((*__pyx_v_ptxt->_ptr_ptxt), __pyx_v_output_value);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 731, __pyx_L1_error)
+    __PYX_ERR(0, 736, __pyx_L1_error)
   }
 
-  /* "Pyfhel/Pyfhel.pyx":732
+  /* "Pyfhel/Pyfhel.pyx":737
  *         cdef double output_value=0
  *         self.afseal.decode(deref(ptxt._ptr_ptxt), output_value)
  *         return output_value             # <<<<<<<<<<<<<<
@@ -10461,7 +10534,7 @@ static double __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeFrac(struct __pyx_obj_6Pyfhe
   __pyx_r = __pyx_v_output_value;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":711
+  /* "Pyfhel/Pyfhel.pyx":716
  *         return output_value
  * 
  *     cpdef double decodeFrac(self, PyPtxt ptxt) except +:             # <<<<<<<<<<<<<<
@@ -10489,7 +10562,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_55decodeFrac(PyObject *__pyx_v
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("decodeFrac (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 711, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 716, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_54decodeFrac(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)__pyx_v_ptxt));
 
   /* function exit code */
@@ -10512,9 +10585,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_54decodeFrac(struct __pyx_obj_
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeFrac(__pyx_v_self, __pyx_v_ptxt, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 711, __pyx_L1_error)
+    __PYX_ERR(0, 716, __pyx_L1_error)
   }
-  __pyx_t_2 = PyFloat_FromDouble(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 711, __pyx_L1_error)
+  __pyx_t_2 = PyFloat_FromDouble(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 716, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -10531,7 +10604,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_54decodeFrac(struct __pyx_obj_
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":734
+/* "Pyfhel/Pyfhel.pyx":739
  *         return output_value
  * 
  *     cpdef vector[int64_t] decodeBatch(self, PyPtxt ptxt) except +:             # <<<<<<<<<<<<<<
@@ -10560,7 +10633,7 @@ static std::vector<int64_t>  __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeBatch(struct 
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decodeBatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 734, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decodeBatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 739, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_57decodeBatch)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -10576,10 +10649,10 @@ static std::vector<int64_t>  __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeBatch(struct 
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, ((PyObject *)__pyx_v_ptxt)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_ptxt));
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 734, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 739, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __pyx_convert_vector_from_py_int64_t(__pyx_t_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 734, __pyx_L1_error)
+        __pyx_t_5 = __pyx_convert_vector_from_py_int64_t(__pyx_t_2); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 739, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -10598,7 +10671,7 @@ static std::vector<int64_t>  __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeBatch(struct 
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":751
+  /* "Pyfhel/Pyfhel.pyx":756
  *             * RuntimeError: if the plaintext encoding isn't ENCODING_T.BATCH.
  *         """
  *         if (ptxt._encoding != ENCODING_T.BATCH):             # <<<<<<<<<<<<<<
@@ -10608,20 +10681,20 @@ static std::vector<int64_t>  __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeBatch(struct 
   __pyx_t_6 = ((__pyx_v_ptxt->_encoding != __pyx_e_6Pyfhel_4util_10ENCODING_T_BATCH) != 0);
   if (unlikely(__pyx_t_6)) {
 
-    /* "Pyfhel/Pyfhel.pyx":752
+    /* "Pyfhel/Pyfhel.pyx":757
  *         """
  *         if (ptxt._encoding != ENCODING_T.BATCH):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyPtxt")             # <<<<<<<<<<<<<<
  *         cdef vector[int64_t] output_vector=self.afseal.decode(deref(ptxt._ptr_ptxt))
  *         return output_vector
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 752, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 757, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 752, __pyx_L1_error)
+    __PYX_ERR(0, 757, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":751
+    /* "Pyfhel/Pyfhel.pyx":756
  *             * RuntimeError: if the plaintext encoding isn't ENCODING_T.BATCH.
  *         """
  *         if (ptxt._encoding != ENCODING_T.BATCH):             # <<<<<<<<<<<<<<
@@ -10630,7 +10703,7 @@ static std::vector<int64_t>  __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeBatch(struct 
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":753
+  /* "Pyfhel/Pyfhel.pyx":758
  *         if (ptxt._encoding != ENCODING_T.BATCH):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyPtxt")
  *         cdef vector[int64_t] output_vector=self.afseal.decode(deref(ptxt._ptr_ptxt))             # <<<<<<<<<<<<<<
@@ -10641,11 +10714,11 @@ static std::vector<int64_t>  __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeBatch(struct 
     __pyx_t_5 = __pyx_v_self->afseal->decode((*__pyx_v_ptxt->_ptr_ptxt));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 753, __pyx_L1_error)
+    __PYX_ERR(0, 758, __pyx_L1_error)
   }
   __pyx_v_output_vector = __pyx_t_5;
 
-  /* "Pyfhel/Pyfhel.pyx":754
+  /* "Pyfhel/Pyfhel.pyx":759
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyPtxt")
  *         cdef vector[int64_t] output_vector=self.afseal.decode(deref(ptxt._ptr_ptxt))
  *         return output_vector             # <<<<<<<<<<<<<<
@@ -10655,7 +10728,7 @@ static std::vector<int64_t>  __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeBatch(struct 
   __pyx_r = __pyx_v_output_vector;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":734
+  /* "Pyfhel/Pyfhel.pyx":739
  *         return output_value
  * 
  *     cpdef vector[int64_t] decodeBatch(self, PyPtxt ptxt) except +:             # <<<<<<<<<<<<<<
@@ -10683,7 +10756,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_57decodeBatch(PyObject *__pyx_
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("decodeBatch (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 734, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 739, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_56decodeBatch(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)__pyx_v_ptxt));
 
   /* function exit code */
@@ -10706,9 +10779,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_56decodeBatch(struct __pyx_obj
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeBatch(__pyx_v_self, __pyx_v_ptxt, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 734, __pyx_L1_error)
+    __PYX_ERR(0, 739, __pyx_L1_error)
   }
-  __pyx_t_2 = __pyx_convert_vector_to_py_int64_t(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 734, __pyx_L1_error)
+  __pyx_t_2 = __pyx_convert_vector_to_py_int64_t(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 739, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -10725,7 +10798,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_56decodeBatch(struct __pyx_obj
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":756
+/* "Pyfhel/Pyfhel.pyx":761
  *         return output_vector
  * 
  *     cpdef int64_t[::1] decodeArray(self, PyPtxt ptxt) except +:             # <<<<<<<<<<<<<<
@@ -10758,7 +10831,7 @@ static __Pyx_memviewslice __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeArray(struct __p
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decodeArray); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 756, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decodeArray); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 761, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_59decodeArray)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -10774,10 +10847,10 @@ static __Pyx_memviewslice __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeArray(struct __p
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, ((PyObject *)__pyx_v_ptxt)) : __Pyx_PyObject_CallOneArg(__pyx_t_3, ((PyObject *)__pyx_v_ptxt));
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 756, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 761, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_int64_t(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_5.memview)) __PYX_ERR(0, 756, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_int64_t(__pyx_t_2, PyBUF_WRITABLE); if (unlikely(!__pyx_t_5.memview)) __PYX_ERR(0, 761, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __pyx_t_5.memview = NULL;
@@ -10798,7 +10871,7 @@ static __Pyx_memviewslice __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeArray(struct __p
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":773
+  /* "Pyfhel/Pyfhel.pyx":778
  *             * RuntimeError: if the plaintext encoding isn't ENCODING_T.BATCH.
  *         """
  *         if (ptxt._encoding != ENCODING_T.BATCH):             # <<<<<<<<<<<<<<
@@ -10808,20 +10881,20 @@ static __Pyx_memviewslice __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeArray(struct __p
   __pyx_t_6 = ((__pyx_v_ptxt->_encoding != __pyx_e_6Pyfhel_4util_10ENCODING_T_BATCH) != 0);
   if (unlikely(__pyx_t_6)) {
 
-    /* "Pyfhel/Pyfhel.pyx":774
+    /* "Pyfhel/Pyfhel.pyx":779
  *         """
  *         if (ptxt._encoding != ENCODING_T.BATCH):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyPtxt")             # <<<<<<<<<<<<<<
  *         cdef vector[int64_t] output_vector = self.afseal.decode(deref(ptxt._ptr_ptxt))
  *         cdef int64_t[::1] output_array = <int64_t [:output_vector.size()]>output_vector.data()
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 774, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 779, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 774, __pyx_L1_error)
+    __PYX_ERR(0, 779, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":773
+    /* "Pyfhel/Pyfhel.pyx":778
  *             * RuntimeError: if the plaintext encoding isn't ENCODING_T.BATCH.
  *         """
  *         if (ptxt._encoding != ENCODING_T.BATCH):             # <<<<<<<<<<<<<<
@@ -10830,7 +10903,7 @@ static __Pyx_memviewslice __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeArray(struct __p
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":775
+  /* "Pyfhel/Pyfhel.pyx":780
  *         if (ptxt._encoding != ENCODING_T.BATCH):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyPtxt")
  *         cdef vector[int64_t] output_vector = self.afseal.decode(deref(ptxt._ptr_ptxt))             # <<<<<<<<<<<<<<
@@ -10841,11 +10914,11 @@ static __Pyx_memviewslice __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeArray(struct __p
     __pyx_t_7 = __pyx_v_self->afseal->decode((*__pyx_v_ptxt->_ptr_ptxt));
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 775, __pyx_L1_error)
+    __PYX_ERR(0, 780, __pyx_L1_error)
   }
   __pyx_v_output_vector = __pyx_t_7;
 
-  /* "Pyfhel/Pyfhel.pyx":776
+  /* "Pyfhel/Pyfhel.pyx":781
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyPtxt")
  *         cdef vector[int64_t] output_vector = self.afseal.decode(deref(ptxt._ptr_ptxt))
  *         cdef int64_t[::1] output_array = <int64_t [:output_vector.size()]>output_vector.data()             # <<<<<<<<<<<<<<
@@ -10855,25 +10928,25 @@ static __Pyx_memviewslice __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeArray(struct __p
   __pyx_t_8 = __pyx_v_output_vector.data();
   if (!__pyx_t_8) {
     PyErr_SetString(PyExc_ValueError,"Cannot create cython.array from NULL pointer");
-    __PYX_ERR(0, 776, __pyx_L1_error)
+    __PYX_ERR(0, 781, __pyx_L1_error)
   }
   __pyx_t_2 = __pyx_format_from_typeinfo(&__Pyx_TypeInfo_nn_int64_t);
   __pyx_t_1 = Py_BuildValue((char*) "("  __PYX_BUILD_PY_SSIZE_T  ")", ((Py_ssize_t)__pyx_v_output_vector.size()));
-  if (unlikely(!__pyx_t_2 || !__pyx_t_1 || !PyBytes_AsString(__pyx_t_2))) __PYX_ERR(0, 776, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2 || !__pyx_t_1 || !PyBytes_AsString(__pyx_t_2))) __PYX_ERR(0, 781, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_9 = __pyx_array_new(__pyx_t_1, sizeof(int64_t), PyBytes_AS_STRING(__pyx_t_2), (char *) "c", (char *) __pyx_t_8);
-  if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 776, __pyx_L1_error)
+  if (unlikely(!__pyx_t_9)) __PYX_ERR(0, 781, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_9);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_5 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_int64_t(((PyObject *)__pyx_t_9), PyBUF_WRITABLE); if (unlikely(!__pyx_t_5.memview)) __PYX_ERR(0, 776, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_to_MemoryviewSlice_dc_nn_int64_t(((PyObject *)__pyx_t_9), PyBUF_WRITABLE); if (unlikely(!__pyx_t_5.memview)) __PYX_ERR(0, 781, __pyx_L1_error)
   __Pyx_DECREF(((PyObject *)__pyx_t_9)); __pyx_t_9 = 0;
   __pyx_v_output_array = __pyx_t_5;
   __pyx_t_5.memview = NULL;
   __pyx_t_5.data = NULL;
 
-  /* "Pyfhel/Pyfhel.pyx":777
+  /* "Pyfhel/Pyfhel.pyx":782
  *         cdef vector[int64_t] output_vector = self.afseal.decode(deref(ptxt._ptr_ptxt))
  *         cdef int64_t[::1] output_array = <int64_t [:output_vector.size()]>output_vector.data()
  *         return output_array             # <<<<<<<<<<<<<<
@@ -10884,7 +10957,7 @@ static __Pyx_memviewslice __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeArray(struct __p
   __pyx_r = __pyx_v_output_array;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":756
+  /* "Pyfhel/Pyfhel.pyx":761
  *         return output_vector
  * 
  *     cpdef int64_t[::1] decodeArray(self, PyPtxt ptxt) except +:             # <<<<<<<<<<<<<<
@@ -10921,7 +10994,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_59decodeArray(PyObject *__pyx_
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("decodeArray (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 756, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 761, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_58decodeArray(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)__pyx_v_ptxt));
 
   /* function exit code */
@@ -10944,9 +11017,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_58decodeArray(struct __pyx_obj
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_decodeArray(__pyx_v_self, __pyx_v_ptxt, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 756, __pyx_L1_error)
+    __PYX_ERR(0, 761, __pyx_L1_error)
   }
-  __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_1, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_int64_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_int64_t, 0);; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 756, __pyx_L1_error)
+  __pyx_t_2 = __pyx_memoryview_fromslice(__pyx_t_1, 1, (PyObject *(*)(char *)) __pyx_memview_get_nn_int64_t, (int (*)(char *, PyObject *)) __pyx_memview_set_nn_int64_t, 0);; if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 761, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __PYX_XDEC_MEMVIEW(&__pyx_t_1, 1);
   __pyx_t_1.memview = NULL;
@@ -10967,7 +11040,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_58decodeArray(struct __pyx_obj
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":779
+/* "Pyfhel/Pyfhel.pyx":784
  *         return output_array
  * 
  *     def decode(self, PyPtxt ptxt):             # <<<<<<<<<<<<<<
@@ -10982,7 +11055,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_61decode(PyObject *__pyx_v_sel
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("decode (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 779, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 784, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_60decode(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)__pyx_v_ptxt));
 
   /* function exit code */
@@ -11003,7 +11076,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_60decode(struct __pyx_obj_6Pyf
   int64_t __pyx_t_4;
   __Pyx_RefNannySetupContext("decode", 0);
 
-  /* "Pyfhel/Pyfhel.pyx":799
+  /* "Pyfhel/Pyfhel.pyx":804
  *             * TypeError: if the plaintext doesn't have a valid type.
  *         """
  *         if (ptxt._encoding == ENCODING_T.BATCH):             # <<<<<<<<<<<<<<
@@ -11013,7 +11086,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_60decode(struct __pyx_obj_6Pyf
   switch (__pyx_v_ptxt->_encoding) {
     case __pyx_e_6Pyfhel_4util_10ENCODING_T_BATCH:
 
-    /* "Pyfhel/Pyfhel.pyx":800
+    /* "Pyfhel/Pyfhel.pyx":805
  *         """
  *         if (ptxt._encoding == ENCODING_T.BATCH):
  *             return self.decodeBatch(ptxt)             # <<<<<<<<<<<<<<
@@ -11025,15 +11098,15 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_60decode(struct __pyx_obj_6Pyf
       __pyx_t_1 = ((struct __pyx_vtabstruct_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self->__pyx_vtab)->decodeBatch(__pyx_v_self, __pyx_v_ptxt, 0);
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 800, __pyx_L1_error)
+      __PYX_ERR(0, 805, __pyx_L1_error)
     }
-    __pyx_t_2 = __pyx_convert_vector_to_py_int64_t(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 800, __pyx_L1_error)
+    __pyx_t_2 = __pyx_convert_vector_to_py_int64_t(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 805, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_r = __pyx_t_2;
     __pyx_t_2 = 0;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":799
+    /* "Pyfhel/Pyfhel.pyx":804
  *             * TypeError: if the plaintext doesn't have a valid type.
  *         """
  *         if (ptxt._encoding == ENCODING_T.BATCH):             # <<<<<<<<<<<<<<
@@ -11043,7 +11116,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_60decode(struct __pyx_obj_6Pyf
     break;
     case __pyx_e_6Pyfhel_4util_10ENCODING_T_FRACTIONAL:
 
-    /* "Pyfhel/Pyfhel.pyx":802
+    /* "Pyfhel/Pyfhel.pyx":807
  *             return self.decodeBatch(ptxt)
  *         elif (ptxt._encoding == ENCODING_T.FRACTIONAL):
  *             return self.decodeFrac(ptxt)             # <<<<<<<<<<<<<<
@@ -11055,15 +11128,15 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_60decode(struct __pyx_obj_6Pyf
       __pyx_t_3 = ((struct __pyx_vtabstruct_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self->__pyx_vtab)->decodeFrac(__pyx_v_self, __pyx_v_ptxt, 0);
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 802, __pyx_L1_error)
+      __PYX_ERR(0, 807, __pyx_L1_error)
     }
-    __pyx_t_2 = PyFloat_FromDouble(__pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 802, __pyx_L1_error)
+    __pyx_t_2 = PyFloat_FromDouble(__pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 807, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_r = __pyx_t_2;
     __pyx_t_2 = 0;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":801
+    /* "Pyfhel/Pyfhel.pyx":806
  *         if (ptxt._encoding == ENCODING_T.BATCH):
  *             return self.decodeBatch(ptxt)
  *         elif (ptxt._encoding == ENCODING_T.FRACTIONAL):             # <<<<<<<<<<<<<<
@@ -11073,7 +11146,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_60decode(struct __pyx_obj_6Pyf
     break;
     case __pyx_e_6Pyfhel_4util_10ENCODING_T_INTEGER:
 
-    /* "Pyfhel/Pyfhel.pyx":804
+    /* "Pyfhel/Pyfhel.pyx":809
  *             return self.decodeFrac(ptxt)
  *         elif (ptxt._encoding == ENCODING_T.INTEGER):
  *             return self.decodeInt(ptxt)             # <<<<<<<<<<<<<<
@@ -11085,15 +11158,15 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_60decode(struct __pyx_obj_6Pyf
       __pyx_t_4 = ((struct __pyx_vtabstruct_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self->__pyx_vtab)->decodeInt(__pyx_v_self, __pyx_v_ptxt, 0);
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 804, __pyx_L1_error)
+      __PYX_ERR(0, 809, __pyx_L1_error)
     }
-    __pyx_t_2 = __Pyx_PyInt_From_int64_t(__pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 804, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int64_t(__pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 809, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_r = __pyx_t_2;
     __pyx_t_2 = 0;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":803
+    /* "Pyfhel/Pyfhel.pyx":808
  *         elif (ptxt._encoding == ENCODING_T.FRACTIONAL):
  *             return self.decodeFrac(ptxt)
  *         elif (ptxt._encoding == ENCODING_T.INTEGER):             # <<<<<<<<<<<<<<
@@ -11103,20 +11176,20 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_60decode(struct __pyx_obj_6Pyf
     break;
     case __pyx_e_6Pyfhel_4util_10ENCODING_T_UNDEFINED:
 
-    /* "Pyfhel/Pyfhel.pyx":806
+    /* "Pyfhel/Pyfhel.pyx":811
  *             return self.decodeInt(ptxt)
  *         elif (ptxt._encoding == ENCODING_T.UNDEFINED):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyCtxt")             # <<<<<<<<<<<<<<
  * 
  * 
  */
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__3, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 806, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 811, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __PYX_ERR(0, 806, __pyx_L1_error)
+    __PYX_ERR(0, 811, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":805
+    /* "Pyfhel/Pyfhel.pyx":810
  *         elif (ptxt._encoding == ENCODING_T.INTEGER):
  *             return self.decodeInt(ptxt)
  *         elif (ptxt._encoding == ENCODING_T.UNDEFINED):             # <<<<<<<<<<<<<<
@@ -11127,7 +11200,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_60decode(struct __pyx_obj_6Pyf
     default: break;
   }
 
-  /* "Pyfhel/Pyfhel.pyx":779
+  /* "Pyfhel/Pyfhel.pyx":784
  *         return output_array
  * 
  *     def decode(self, PyPtxt ptxt):             # <<<<<<<<<<<<<<
@@ -11148,7 +11221,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_60decode(struct __pyx_obj_6Pyf
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":812
+/* "Pyfhel/Pyfhel.pyx":817
  *     # ============================= OPERATIONS ================================
  *     # =========================================================================
  *     cpdef PyCtxt square(self, PyCtxt ctxt, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -11185,11 +11258,11 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_square); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 812, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_square); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 817, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_63square)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 812, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 817, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -11207,7 +11280,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, ((PyObject *)__pyx_v_ctxt), __pyx_t_3};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 812, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 817, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -11216,14 +11289,14 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, ((PyObject *)__pyx_v_ctxt), __pyx_t_3};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 812, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 817, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         } else
         #endif
         {
-          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 812, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 817, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           if (__pyx_t_5) {
             __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -11234,12 +11307,12 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           __Pyx_GIVEREF(__pyx_t_3);
           PyTuple_SET_ITEM(__pyx_t_7, 1+__pyx_t_6, __pyx_t_3);
           __pyx_t_3 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 812, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 817, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 812, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 817, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -11258,7 +11331,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":823
+  /* "Pyfhel/Pyfhel.pyx":828
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -11268,19 +11341,19 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_8 = (__pyx_v_in_new_ctxt != 0);
   if (__pyx_t_8) {
 
-    /* "Pyfhel/Pyfhel.pyx":824
+    /* "Pyfhel/Pyfhel.pyx":829
  *         """
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)             # <<<<<<<<<<<<<<
  *             self.afseal.square(deref(new_ctxt._ptr_ctxt))
  *             return new_ctxt
  */
-    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 824, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 829, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_new_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":825
+    /* "Pyfhel/Pyfhel.pyx":830
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.square(deref(new_ctxt._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -11291,10 +11364,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->square((*__pyx_v_new_ctxt->_ptr_ctxt));
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 825, __pyx_L1_error)
+      __PYX_ERR(0, 830, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":826
+    /* "Pyfhel/Pyfhel.pyx":831
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.square(deref(new_ctxt._ptr_ctxt))
  *             return new_ctxt             # <<<<<<<<<<<<<<
@@ -11306,7 +11379,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_r = __pyx_v_new_ctxt;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":823
+    /* "Pyfhel/Pyfhel.pyx":828
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -11315,7 +11388,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":828
+  /* "Pyfhel/Pyfhel.pyx":833
  *             return new_ctxt
  *         else:
  *             self.afseal.square(deref(ctxt._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -11327,10 +11400,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->square((*__pyx_v_ctxt->_ptr_ctxt));
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 828, __pyx_L1_error)
+      __PYX_ERR(0, 833, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":829
+    /* "Pyfhel/Pyfhel.pyx":834
  *         else:
  *             self.afseal.square(deref(ctxt._ptr_ctxt))
  *             return ctxt             # <<<<<<<<<<<<<<
@@ -11343,7 +11416,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     goto __pyx_L0;
   }
 
-  /* "Pyfhel/Pyfhel.pyx":812
+  /* "Pyfhel/Pyfhel.pyx":817
  *     # ============================= OPERATIONS ================================
  *     # =========================================================================
  *     cpdef PyCtxt square(self, PyCtxt ctxt, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -11404,7 +11477,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_63square(PyObject *__pyx_v_sel
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "square") < 0)) __PYX_ERR(0, 812, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "square") < 0)) __PYX_ERR(0, 817, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -11417,20 +11490,20 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_63square(PyObject *__pyx_v_sel
     }
     __pyx_v_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[0]);
     if (values[1]) {
-      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[1]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 812, __pyx_L3_error)
+      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[1]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 817, __pyx_L3_error)
     } else {
       __pyx_v_in_new_ctxt = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("square", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 812, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("square", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 817, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.square", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 812, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 817, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_62square(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_ctxt, __pyx_v_in_new_ctxt);
 
   /* function exit code */
@@ -11453,10 +11526,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_62square(struct __pyx_obj_6Pyf
   __pyx_t_2.in_new_ctxt = __pyx_v_in_new_ctxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->square(__pyx_v_self, __pyx_v_ctxt, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 812, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 817, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 812, __pyx_L1_error)
+    __PYX_ERR(0, 817, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -11474,7 +11547,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_62square(struct __pyx_obj_6Pyf
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":831
+/* "Pyfhel/Pyfhel.pyx":836
  *             return ctxt
  * 
  *     cpdef PyCtxt negate(self, PyCtxt ctxt, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -11511,11 +11584,11 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_negate); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 831, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_negate); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 836, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_65negate)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 831, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 836, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -11533,7 +11606,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, ((PyObject *)__pyx_v_ctxt), __pyx_t_3};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 831, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 836, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -11542,14 +11615,14 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[3] = {__pyx_t_5, ((PyObject *)__pyx_v_ctxt), __pyx_t_3};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 831, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 2+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 836, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         } else
         #endif
         {
-          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 831, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_New(2+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 836, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           if (__pyx_t_5) {
             __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -11560,12 +11633,12 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           __Pyx_GIVEREF(__pyx_t_3);
           PyTuple_SET_ITEM(__pyx_t_7, 1+__pyx_t_6, __pyx_t_3);
           __pyx_t_3 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 831, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 836, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 831, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 836, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -11584,7 +11657,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":843
+  /* "Pyfhel/Pyfhel.pyx":848
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -11594,19 +11667,19 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_8 = (__pyx_v_in_new_ctxt != 0);
   if (__pyx_t_8) {
 
-    /* "Pyfhel/Pyfhel.pyx":844
+    /* "Pyfhel/Pyfhel.pyx":849
  *         """
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)             # <<<<<<<<<<<<<<
  *             self.afseal.negate(deref(new_ctxt._ptr_ctxt))
  *             return new_ctxt
  */
-    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 844, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 849, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_new_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":845
+    /* "Pyfhel/Pyfhel.pyx":850
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.negate(deref(new_ctxt._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -11617,10 +11690,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->negate((*__pyx_v_new_ctxt->_ptr_ctxt));
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 845, __pyx_L1_error)
+      __PYX_ERR(0, 850, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":846
+    /* "Pyfhel/Pyfhel.pyx":851
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.negate(deref(new_ctxt._ptr_ctxt))
  *             return new_ctxt             # <<<<<<<<<<<<<<
@@ -11632,7 +11705,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_r = __pyx_v_new_ctxt;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":843
+    /* "Pyfhel/Pyfhel.pyx":848
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -11641,7 +11714,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":848
+  /* "Pyfhel/Pyfhel.pyx":853
  *             return new_ctxt
  *         else:
  *             self.afseal.negate(deref(ctxt._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -11653,10 +11726,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->negate((*__pyx_v_ctxt->_ptr_ctxt));
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 848, __pyx_L1_error)
+      __PYX_ERR(0, 853, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":849
+    /* "Pyfhel/Pyfhel.pyx":854
  *         else:
  *             self.afseal.negate(deref(ctxt._ptr_ctxt))
  *             return ctxt             # <<<<<<<<<<<<<<
@@ -11669,7 +11742,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     goto __pyx_L0;
   }
 
-  /* "Pyfhel/Pyfhel.pyx":831
+  /* "Pyfhel/Pyfhel.pyx":836
  *             return ctxt
  * 
  *     cpdef PyCtxt negate(self, PyCtxt ctxt, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -11730,7 +11803,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_65negate(PyObject *__pyx_v_sel
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "negate") < 0)) __PYX_ERR(0, 831, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "negate") < 0)) __PYX_ERR(0, 836, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -11743,20 +11816,20 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_65negate(PyObject *__pyx_v_sel
     }
     __pyx_v_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[0]);
     if (values[1]) {
-      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[1]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 831, __pyx_L3_error)
+      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[1]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 836, __pyx_L3_error)
     } else {
       __pyx_v_in_new_ctxt = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("negate", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 831, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("negate", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 836, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.negate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 831, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 836, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_64negate(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_ctxt, __pyx_v_in_new_ctxt);
 
   /* function exit code */
@@ -11779,10 +11852,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_64negate(struct __pyx_obj_6Pyf
   __pyx_t_2.in_new_ctxt = __pyx_v_in_new_ctxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->negate(__pyx_v_self, __pyx_v_ctxt, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 831, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 836, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 831, __pyx_L1_error)
+    __PYX_ERR(0, 836, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -11800,7 +11873,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_64negate(struct __pyx_obj_6Pyf
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":852
+/* "Pyfhel/Pyfhel.pyx":857
  * 
  * 
  *     cpdef PyCtxt add(self, PyCtxt ctxt, PyCtxt ctxt_other, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -11837,11 +11910,11 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_add); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 852, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_add); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 857, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_67add)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 852, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 857, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -11859,7 +11932,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[4] = {__pyx_t_5, ((PyObject *)__pyx_v_ctxt), ((PyObject *)__pyx_v_ctxt_other), __pyx_t_3};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 852, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 857, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -11868,14 +11941,14 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[4] = {__pyx_t_5, ((PyObject *)__pyx_v_ctxt), ((PyObject *)__pyx_v_ctxt_other), __pyx_t_3};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 852, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 857, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         } else
         #endif
         {
-          __pyx_t_7 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 852, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 857, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           if (__pyx_t_5) {
             __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -11889,12 +11962,12 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           __Pyx_GIVEREF(__pyx_t_3);
           PyTuple_SET_ITEM(__pyx_t_7, 2+__pyx_t_6, __pyx_t_3);
           __pyx_t_3 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 852, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 857, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 852, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 857, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -11913,7 +11986,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":869
+  /* "Pyfhel/Pyfhel.pyx":874
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (ctxt._encoding != ctxt_other._encoding):             # <<<<<<<<<<<<<<
@@ -11923,20 +11996,20 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_8 = ((__pyx_v_ctxt->_encoding != __pyx_v_ctxt_other->_encoding) != 0);
   if (unlikely(__pyx_t_8)) {
 
-    /* "Pyfhel/Pyfhel.pyx":870
+    /* "Pyfhel/Pyfhel.pyx":875
  *         """
  *         if (ctxt._encoding != ctxt_other._encoding):
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in add terms")             # <<<<<<<<<<<<<<
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 870, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__11, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 875, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 870, __pyx_L1_error)
+    __PYX_ERR(0, 875, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":869
+    /* "Pyfhel/Pyfhel.pyx":874
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (ctxt._encoding != ctxt_other._encoding):             # <<<<<<<<<<<<<<
@@ -11945,7 +12018,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":871
+  /* "Pyfhel/Pyfhel.pyx":876
  *         if (ctxt._encoding != ctxt_other._encoding):
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in add terms")
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -11955,19 +12028,19 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_8 = (__pyx_v_in_new_ctxt != 0);
   if (__pyx_t_8) {
 
-    /* "Pyfhel/Pyfhel.pyx":872
+    /* "Pyfhel/Pyfhel.pyx":877
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in add terms")
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)             # <<<<<<<<<<<<<<
  *             self.afseal.add(deref(new_ctxt._ptr_ctxt), deref(ctxt_other._ptr_ctxt))
  *             return new_ctxt
  */
-    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 872, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 877, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_new_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":873
+    /* "Pyfhel/Pyfhel.pyx":878
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.add(deref(new_ctxt._ptr_ctxt), deref(ctxt_other._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -11978,10 +12051,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->add((*__pyx_v_new_ctxt->_ptr_ctxt), (*__pyx_v_ctxt_other->_ptr_ctxt));
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 873, __pyx_L1_error)
+      __PYX_ERR(0, 878, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":874
+    /* "Pyfhel/Pyfhel.pyx":879
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.add(deref(new_ctxt._ptr_ctxt), deref(ctxt_other._ptr_ctxt))
  *             return new_ctxt             # <<<<<<<<<<<<<<
@@ -11993,7 +12066,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_r = __pyx_v_new_ctxt;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":871
+    /* "Pyfhel/Pyfhel.pyx":876
  *         if (ctxt._encoding != ctxt_other._encoding):
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in add terms")
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -12002,7 +12075,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":876
+  /* "Pyfhel/Pyfhel.pyx":881
  *             return new_ctxt
  *         else:
  *             self.afseal.add(deref(ctxt._ptr_ctxt), deref(ctxt_other._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -12014,10 +12087,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->add((*__pyx_v_ctxt->_ptr_ctxt), (*__pyx_v_ctxt_other->_ptr_ctxt));
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 876, __pyx_L1_error)
+      __PYX_ERR(0, 881, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":877
+    /* "Pyfhel/Pyfhel.pyx":882
  *         else:
  *             self.afseal.add(deref(ctxt._ptr_ctxt), deref(ctxt_other._ptr_ctxt))
  *             return ctxt             # <<<<<<<<<<<<<<
@@ -12030,7 +12103,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     goto __pyx_L0;
   }
 
-  /* "Pyfhel/Pyfhel.pyx":852
+  /* "Pyfhel/Pyfhel.pyx":857
  * 
  * 
  *     cpdef PyCtxt add(self, PyCtxt ctxt, PyCtxt ctxt_other, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -12090,7 +12163,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_67add(PyObject *__pyx_v_self, 
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_ctxt_other)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("add", 0, 2, 3, 1); __PYX_ERR(0, 852, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("add", 0, 2, 3, 1); __PYX_ERR(0, 857, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
@@ -12100,7 +12173,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_67add(PyObject *__pyx_v_self, 
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "add") < 0)) __PYX_ERR(0, 852, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "add") < 0)) __PYX_ERR(0, 857, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -12115,21 +12188,21 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_67add(PyObject *__pyx_v_self, 
     __pyx_v_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[0]);
     __pyx_v_ctxt_other = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[1]);
     if (values[2]) {
-      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 852, __pyx_L3_error)
+      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 857, __pyx_L3_error)
     } else {
       __pyx_v_in_new_ctxt = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("add", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 852, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("add", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 857, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.add", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 852, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt_other), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt_other", 0))) __PYX_ERR(0, 852, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 857, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt_other), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt_other", 0))) __PYX_ERR(0, 857, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_66add(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_ctxt, __pyx_v_ctxt_other, __pyx_v_in_new_ctxt);
 
   /* function exit code */
@@ -12152,10 +12225,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_66add(struct __pyx_obj_6Pyfhel
   __pyx_t_2.in_new_ctxt = __pyx_v_in_new_ctxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->add(__pyx_v_self, __pyx_v_ctxt, __pyx_v_ctxt_other, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 852, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 857, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 852, __pyx_L1_error)
+    __PYX_ERR(0, 857, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -12173,7 +12246,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_66add(struct __pyx_obj_6Pyfhel
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":880
+/* "Pyfhel/Pyfhel.pyx":885
  * 
  * 
  *     cpdef PyCtxt add_plain(self, PyCtxt ctxt, PyPtxt ptxt, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -12210,11 +12283,11 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_add_plain); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 880, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_add_plain); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 885, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_69add_plain)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 880, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 885, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -12232,7 +12305,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[4] = {__pyx_t_5, ((PyObject *)__pyx_v_ctxt), ((PyObject *)__pyx_v_ptxt), __pyx_t_3};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 880, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 885, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -12241,14 +12314,14 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[4] = {__pyx_t_5, ((PyObject *)__pyx_v_ctxt), ((PyObject *)__pyx_v_ptxt), __pyx_t_3};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 880, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 885, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         } else
         #endif
         {
-          __pyx_t_7 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 880, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 885, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           if (__pyx_t_5) {
             __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -12262,12 +12335,12 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           __Pyx_GIVEREF(__pyx_t_3);
           PyTuple_SET_ITEM(__pyx_t_7, 2+__pyx_t_6, __pyx_t_3);
           __pyx_t_3 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 880, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 885, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 880, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 885, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -12286,7 +12359,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":897
+  /* "Pyfhel/Pyfhel.pyx":902
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (ctxt._encoding != ptxt._encoding):             # <<<<<<<<<<<<<<
@@ -12296,20 +12369,20 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_8 = ((__pyx_v_ctxt->_encoding != __pyx_v_ptxt->_encoding) != 0);
   if (unlikely(__pyx_t_8)) {
 
-    /* "Pyfhel/Pyfhel.pyx":898
+    /* "Pyfhel/Pyfhel.pyx":903
  *         """
  *         if (ctxt._encoding != ptxt._encoding):
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in add terms")             # <<<<<<<<<<<<<<
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__6, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 898, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__11, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 903, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 898, __pyx_L1_error)
+    __PYX_ERR(0, 903, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":897
+    /* "Pyfhel/Pyfhel.pyx":902
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (ctxt._encoding != ptxt._encoding):             # <<<<<<<<<<<<<<
@@ -12318,7 +12391,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":899
+  /* "Pyfhel/Pyfhel.pyx":904
  *         if (ctxt._encoding != ptxt._encoding):
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in add terms")
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -12328,19 +12401,19 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_8 = (__pyx_v_in_new_ctxt != 0);
   if (__pyx_t_8) {
 
-    /* "Pyfhel/Pyfhel.pyx":900
+    /* "Pyfhel/Pyfhel.pyx":905
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in add terms")
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)             # <<<<<<<<<<<<<<
  *             self.afseal.add(deref(new_ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))
  *             return new_ctxt
  */
-    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 900, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 905, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_new_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":901
+    /* "Pyfhel/Pyfhel.pyx":906
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.add(deref(new_ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))             # <<<<<<<<<<<<<<
@@ -12351,10 +12424,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->add((*__pyx_v_new_ctxt->_ptr_ctxt), (*__pyx_v_ptxt->_ptr_ptxt));
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 901, __pyx_L1_error)
+      __PYX_ERR(0, 906, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":902
+    /* "Pyfhel/Pyfhel.pyx":907
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.add(deref(new_ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))
  *             return new_ctxt             # <<<<<<<<<<<<<<
@@ -12366,7 +12439,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_r = __pyx_v_new_ctxt;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":899
+    /* "Pyfhel/Pyfhel.pyx":904
  *         if (ctxt._encoding != ptxt._encoding):
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in add terms")
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -12375,7 +12448,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":904
+  /* "Pyfhel/Pyfhel.pyx":909
  *             return new_ctxt
  *         else:
  *             self.afseal.add(deref(ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))             # <<<<<<<<<<<<<<
@@ -12387,10 +12460,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->add((*__pyx_v_ctxt->_ptr_ctxt), (*__pyx_v_ptxt->_ptr_ptxt));
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 904, __pyx_L1_error)
+      __PYX_ERR(0, 909, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":905
+    /* "Pyfhel/Pyfhel.pyx":910
  *         else:
  *             self.afseal.add(deref(ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))
  *             return ctxt             # <<<<<<<<<<<<<<
@@ -12403,7 +12476,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     goto __pyx_L0;
   }
 
-  /* "Pyfhel/Pyfhel.pyx":880
+  /* "Pyfhel/Pyfhel.pyx":885
  * 
  * 
  *     cpdef PyCtxt add_plain(self, PyCtxt ctxt, PyPtxt ptxt, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -12463,7 +12536,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_69add_plain(PyObject *__pyx_v_
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_ptxt)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("add_plain", 0, 2, 3, 1); __PYX_ERR(0, 880, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("add_plain", 0, 2, 3, 1); __PYX_ERR(0, 885, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
@@ -12473,7 +12546,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_69add_plain(PyObject *__pyx_v_
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "add_plain") < 0)) __PYX_ERR(0, 880, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "add_plain") < 0)) __PYX_ERR(0, 885, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -12488,21 +12561,21 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_69add_plain(PyObject *__pyx_v_
     __pyx_v_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[0]);
     __pyx_v_ptxt = ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)values[1]);
     if (values[2]) {
-      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 880, __pyx_L3_error)
+      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 885, __pyx_L3_error)
     } else {
       __pyx_v_in_new_ctxt = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("add_plain", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 880, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("add_plain", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 885, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.add_plain", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 880, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 880, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 885, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 885, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_68add_plain(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_ctxt, __pyx_v_ptxt, __pyx_v_in_new_ctxt);
 
   /* function exit code */
@@ -12525,10 +12598,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_68add_plain(struct __pyx_obj_6
   __pyx_t_2.in_new_ctxt = __pyx_v_in_new_ctxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->add_plain(__pyx_v_self, __pyx_v_ctxt, __pyx_v_ptxt, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 880, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 885, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 880, __pyx_L1_error)
+    __PYX_ERR(0, 885, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -12546,7 +12619,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_68add_plain(struct __pyx_obj_6
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":908
+/* "Pyfhel/Pyfhel.pyx":913
  * 
  * 
  *     cpdef PyCtxt sub(self, PyCtxt ctxt, PyCtxt ctxt_other, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -12583,11 +12656,11 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_sub); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 908, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_sub); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 913, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_71sub)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 908, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 913, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -12605,7 +12678,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[4] = {__pyx_t_5, ((PyObject *)__pyx_v_ctxt), ((PyObject *)__pyx_v_ctxt_other), __pyx_t_3};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 908, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 913, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -12614,14 +12687,14 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[4] = {__pyx_t_5, ((PyObject *)__pyx_v_ctxt), ((PyObject *)__pyx_v_ctxt_other), __pyx_t_3};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 908, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 913, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         } else
         #endif
         {
-          __pyx_t_7 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 908, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 913, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           if (__pyx_t_5) {
             __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -12635,12 +12708,12 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           __Pyx_GIVEREF(__pyx_t_3);
           PyTuple_SET_ITEM(__pyx_t_7, 2+__pyx_t_6, __pyx_t_3);
           __pyx_t_3 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 908, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 913, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 908, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 913, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -12659,7 +12732,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":925
+  /* "Pyfhel/Pyfhel.pyx":930
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (ctxt._encoding != ctxt_other._encoding):             # <<<<<<<<<<<<<<
@@ -12669,20 +12742,20 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_8 = ((__pyx_v_ctxt->_encoding != __pyx_v_ctxt_other->_encoding) != 0);
   if (unlikely(__pyx_t_8)) {
 
-    /* "Pyfhel/Pyfhel.pyx":926
+    /* "Pyfhel/Pyfhel.pyx":931
  *         """
  *         if (ctxt._encoding != ctxt_other._encoding):
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in sub terms")             # <<<<<<<<<<<<<<
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 926, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__12, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 931, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 926, __pyx_L1_error)
+    __PYX_ERR(0, 931, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":925
+    /* "Pyfhel/Pyfhel.pyx":930
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (ctxt._encoding != ctxt_other._encoding):             # <<<<<<<<<<<<<<
@@ -12691,7 +12764,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":927
+  /* "Pyfhel/Pyfhel.pyx":932
  *         if (ctxt._encoding != ctxt_other._encoding):
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in sub terms")
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -12701,19 +12774,19 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_8 = (__pyx_v_in_new_ctxt != 0);
   if (__pyx_t_8) {
 
-    /* "Pyfhel/Pyfhel.pyx":928
+    /* "Pyfhel/Pyfhel.pyx":933
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in sub terms")
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)             # <<<<<<<<<<<<<<
  *             self.afseal.sub(deref(new_ctxt._ptr_ctxt), deref(ctxt_other._ptr_ctxt))
  *             return new_ctxt
  */
-    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 928, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 933, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_new_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":929
+    /* "Pyfhel/Pyfhel.pyx":934
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.sub(deref(new_ctxt._ptr_ctxt), deref(ctxt_other._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -12724,10 +12797,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->sub((*__pyx_v_new_ctxt->_ptr_ctxt), (*__pyx_v_ctxt_other->_ptr_ctxt));
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 929, __pyx_L1_error)
+      __PYX_ERR(0, 934, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":930
+    /* "Pyfhel/Pyfhel.pyx":935
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.sub(deref(new_ctxt._ptr_ctxt), deref(ctxt_other._ptr_ctxt))
  *             return new_ctxt             # <<<<<<<<<<<<<<
@@ -12739,7 +12812,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_r = __pyx_v_new_ctxt;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":927
+    /* "Pyfhel/Pyfhel.pyx":932
  *         if (ctxt._encoding != ctxt_other._encoding):
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in sub terms")
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -12748,7 +12821,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":932
+  /* "Pyfhel/Pyfhel.pyx":937
  *             return new_ctxt
  *         else:
  *             self.afseal.sub(deref(ctxt._ptr_ctxt), deref(ctxt_other._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -12760,10 +12833,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->sub((*__pyx_v_ctxt->_ptr_ctxt), (*__pyx_v_ctxt_other->_ptr_ctxt));
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 932, __pyx_L1_error)
+      __PYX_ERR(0, 937, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":933
+    /* "Pyfhel/Pyfhel.pyx":938
  *         else:
  *             self.afseal.sub(deref(ctxt._ptr_ctxt), deref(ctxt_other._ptr_ctxt))
  *             return ctxt             # <<<<<<<<<<<<<<
@@ -12776,7 +12849,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     goto __pyx_L0;
   }
 
-  /* "Pyfhel/Pyfhel.pyx":908
+  /* "Pyfhel/Pyfhel.pyx":913
  * 
  * 
  *     cpdef PyCtxt sub(self, PyCtxt ctxt, PyCtxt ctxt_other, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -12836,7 +12909,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_71sub(PyObject *__pyx_v_self, 
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_ctxt_other)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("sub", 0, 2, 3, 1); __PYX_ERR(0, 908, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("sub", 0, 2, 3, 1); __PYX_ERR(0, 913, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
@@ -12846,7 +12919,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_71sub(PyObject *__pyx_v_self, 
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "sub") < 0)) __PYX_ERR(0, 908, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "sub") < 0)) __PYX_ERR(0, 913, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -12861,21 +12934,21 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_71sub(PyObject *__pyx_v_self, 
     __pyx_v_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[0]);
     __pyx_v_ctxt_other = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[1]);
     if (values[2]) {
-      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 908, __pyx_L3_error)
+      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 913, __pyx_L3_error)
     } else {
       __pyx_v_in_new_ctxt = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("sub", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 908, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("sub", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 913, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.sub", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 908, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt_other), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt_other", 0))) __PYX_ERR(0, 908, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 913, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt_other), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt_other", 0))) __PYX_ERR(0, 913, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_70sub(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_ctxt, __pyx_v_ctxt_other, __pyx_v_in_new_ctxt);
 
   /* function exit code */
@@ -12898,10 +12971,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_70sub(struct __pyx_obj_6Pyfhel
   __pyx_t_2.in_new_ctxt = __pyx_v_in_new_ctxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->sub(__pyx_v_self, __pyx_v_ctxt, __pyx_v_ctxt_other, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 908, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 913, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 908, __pyx_L1_error)
+    __PYX_ERR(0, 913, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -12919,7 +12992,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_70sub(struct __pyx_obj_6Pyfhel
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":935
+/* "Pyfhel/Pyfhel.pyx":940
  *             return ctxt
  * 
  *     cpdef PyCtxt sub_plain (self, PyCtxt ctxt, PyPtxt ptxt, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -12956,11 +13029,11 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_sub_plain); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 935, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_sub_plain); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 940, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_73sub_plain)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 935, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 940, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -12978,7 +13051,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[4] = {__pyx_t_5, ((PyObject *)__pyx_v_ctxt), ((PyObject *)__pyx_v_ptxt), __pyx_t_3};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 935, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 940, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -12987,14 +13060,14 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[4] = {__pyx_t_5, ((PyObject *)__pyx_v_ctxt), ((PyObject *)__pyx_v_ptxt), __pyx_t_3};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 935, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 940, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         } else
         #endif
         {
-          __pyx_t_7 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 935, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 940, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           if (__pyx_t_5) {
             __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -13008,12 +13081,12 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           __Pyx_GIVEREF(__pyx_t_3);
           PyTuple_SET_ITEM(__pyx_t_7, 2+__pyx_t_6, __pyx_t_3);
           __pyx_t_3 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 935, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 940, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 935, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 940, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -13032,7 +13105,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":952
+  /* "Pyfhel/Pyfhel.pyx":957
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (ctxt._encoding != ptxt._encoding):             # <<<<<<<<<<<<<<
@@ -13042,20 +13115,20 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_8 = ((__pyx_v_ctxt->_encoding != __pyx_v_ptxt->_encoding) != 0);
   if (unlikely(__pyx_t_8)) {
 
-    /* "Pyfhel/Pyfhel.pyx":953
+    /* "Pyfhel/Pyfhel.pyx":958
  *         """
  *         if (ctxt._encoding != ptxt._encoding):
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in sub terms")             # <<<<<<<<<<<<<<
  * 
  *         if (in_new_ctxt):
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__7, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 953, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__12, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 958, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 953, __pyx_L1_error)
+    __PYX_ERR(0, 958, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":952
+    /* "Pyfhel/Pyfhel.pyx":957
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (ctxt._encoding != ptxt._encoding):             # <<<<<<<<<<<<<<
@@ -13064,7 +13137,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":955
+  /* "Pyfhel/Pyfhel.pyx":960
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in sub terms")
  * 
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -13074,19 +13147,19 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_8 = (__pyx_v_in_new_ctxt != 0);
   if (__pyx_t_8) {
 
-    /* "Pyfhel/Pyfhel.pyx":956
+    /* "Pyfhel/Pyfhel.pyx":961
  * 
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)             # <<<<<<<<<<<<<<
  *             self.afseal.sub(deref(new_ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))
  *             return new_ctxt
  */
-    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 956, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 961, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_new_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":957
+    /* "Pyfhel/Pyfhel.pyx":962
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.sub(deref(new_ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))             # <<<<<<<<<<<<<<
@@ -13097,10 +13170,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->sub((*__pyx_v_new_ctxt->_ptr_ctxt), (*__pyx_v_ptxt->_ptr_ptxt));
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 957, __pyx_L1_error)
+      __PYX_ERR(0, 962, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":958
+    /* "Pyfhel/Pyfhel.pyx":963
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.sub(deref(new_ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))
  *             return new_ctxt             # <<<<<<<<<<<<<<
@@ -13112,7 +13185,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_r = __pyx_v_new_ctxt;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":955
+    /* "Pyfhel/Pyfhel.pyx":960
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in sub terms")
  * 
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -13121,7 +13194,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":960
+  /* "Pyfhel/Pyfhel.pyx":965
  *             return new_ctxt
  *         else:
  *             self.afseal.sub(deref(ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))             # <<<<<<<<<<<<<<
@@ -13133,10 +13206,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->sub((*__pyx_v_ctxt->_ptr_ctxt), (*__pyx_v_ptxt->_ptr_ptxt));
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 960, __pyx_L1_error)
+      __PYX_ERR(0, 965, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":961
+    /* "Pyfhel/Pyfhel.pyx":966
  *         else:
  *             self.afseal.sub(deref(ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))
  *             return ctxt             # <<<<<<<<<<<<<<
@@ -13149,7 +13222,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     goto __pyx_L0;
   }
 
-  /* "Pyfhel/Pyfhel.pyx":935
+  /* "Pyfhel/Pyfhel.pyx":940
  *             return ctxt
  * 
  *     cpdef PyCtxt sub_plain (self, PyCtxt ctxt, PyPtxt ptxt, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -13209,7 +13282,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_73sub_plain(PyObject *__pyx_v_
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_ptxt)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("sub_plain", 0, 2, 3, 1); __PYX_ERR(0, 935, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("sub_plain", 0, 2, 3, 1); __PYX_ERR(0, 940, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
@@ -13219,7 +13292,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_73sub_plain(PyObject *__pyx_v_
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "sub_plain") < 0)) __PYX_ERR(0, 935, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "sub_plain") < 0)) __PYX_ERR(0, 940, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -13234,21 +13307,21 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_73sub_plain(PyObject *__pyx_v_
     __pyx_v_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[0]);
     __pyx_v_ptxt = ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)values[1]);
     if (values[2]) {
-      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 935, __pyx_L3_error)
+      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 940, __pyx_L3_error)
     } else {
       __pyx_v_in_new_ctxt = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("sub_plain", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 935, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("sub_plain", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 940, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.sub_plain", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 935, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 935, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 940, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 940, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_72sub_plain(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_ctxt, __pyx_v_ptxt, __pyx_v_in_new_ctxt);
 
   /* function exit code */
@@ -13271,10 +13344,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_72sub_plain(struct __pyx_obj_6
   __pyx_t_2.in_new_ctxt = __pyx_v_in_new_ctxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->sub_plain(__pyx_v_self, __pyx_v_ctxt, __pyx_v_ptxt, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 935, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 940, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 935, __pyx_L1_error)
+    __PYX_ERR(0, 940, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -13292,7 +13365,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_72sub_plain(struct __pyx_obj_6
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":964
+/* "Pyfhel/Pyfhel.pyx":969
  * 
  * 
  *     cpdef PyCtxt multiply (self, PyCtxt ctxt, PyCtxt ctxt_other, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -13329,11 +13402,11 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_multiply); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 964, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_multiply); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 969, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_75multiply)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 964, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 969, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -13351,7 +13424,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[4] = {__pyx_t_5, ((PyObject *)__pyx_v_ctxt), ((PyObject *)__pyx_v_ctxt_other), __pyx_t_3};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 964, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 969, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -13360,14 +13433,14 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[4] = {__pyx_t_5, ((PyObject *)__pyx_v_ctxt), ((PyObject *)__pyx_v_ctxt_other), __pyx_t_3};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 964, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 969, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         } else
         #endif
         {
-          __pyx_t_7 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 964, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 969, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           if (__pyx_t_5) {
             __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -13381,12 +13454,12 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           __Pyx_GIVEREF(__pyx_t_3);
           PyTuple_SET_ITEM(__pyx_t_7, 2+__pyx_t_6, __pyx_t_3);
           __pyx_t_3 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 964, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 969, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 964, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 969, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -13405,7 +13478,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":981
+  /* "Pyfhel/Pyfhel.pyx":986
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (ctxt._encoding != ctxt_other._encoding):             # <<<<<<<<<<<<<<
@@ -13415,20 +13488,20 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_8 = ((__pyx_v_ctxt->_encoding != __pyx_v_ctxt_other->_encoding) != 0);
   if (unlikely(__pyx_t_8)) {
 
-    /* "Pyfhel/Pyfhel.pyx":982
+    /* "Pyfhel/Pyfhel.pyx":987
  *         """
  *         if (ctxt._encoding != ctxt_other._encoding):
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in mult terms")             # <<<<<<<<<<<<<<
  * 
  *         if (in_new_ctxt):
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 982, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__13, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 987, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 982, __pyx_L1_error)
+    __PYX_ERR(0, 987, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":981
+    /* "Pyfhel/Pyfhel.pyx":986
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (ctxt._encoding != ctxt_other._encoding):             # <<<<<<<<<<<<<<
@@ -13437,7 +13510,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":984
+  /* "Pyfhel/Pyfhel.pyx":989
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in mult terms")
  * 
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -13447,19 +13520,19 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_8 = (__pyx_v_in_new_ctxt != 0);
   if (__pyx_t_8) {
 
-    /* "Pyfhel/Pyfhel.pyx":985
+    /* "Pyfhel/Pyfhel.pyx":990
  * 
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)             # <<<<<<<<<<<<<<
  *             self.afseal.multiply(deref(new_ctxt._ptr_ctxt), deref(ctxt_other._ptr_ctxt))
  *             return new_ctxt
  */
-    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 985, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 990, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_new_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":986
+    /* "Pyfhel/Pyfhel.pyx":991
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.multiply(deref(new_ctxt._ptr_ctxt), deref(ctxt_other._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -13470,10 +13543,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->multiply((*__pyx_v_new_ctxt->_ptr_ctxt), (*__pyx_v_ctxt_other->_ptr_ctxt));
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 986, __pyx_L1_error)
+      __PYX_ERR(0, 991, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":987
+    /* "Pyfhel/Pyfhel.pyx":992
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.multiply(deref(new_ctxt._ptr_ctxt), deref(ctxt_other._ptr_ctxt))
  *             return new_ctxt             # <<<<<<<<<<<<<<
@@ -13485,7 +13558,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_r = __pyx_v_new_ctxt;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":984
+    /* "Pyfhel/Pyfhel.pyx":989
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in mult terms")
  * 
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -13494,7 +13567,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":989
+  /* "Pyfhel/Pyfhel.pyx":994
  *             return new_ctxt
  *         else:
  *             self.afseal.multiply(deref(ctxt._ptr_ctxt), deref(ctxt_other._ptr_ctxt))             # <<<<<<<<<<<<<<
@@ -13506,10 +13579,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->multiply((*__pyx_v_ctxt->_ptr_ctxt), (*__pyx_v_ctxt_other->_ptr_ctxt));
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 989, __pyx_L1_error)
+      __PYX_ERR(0, 994, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":990
+    /* "Pyfhel/Pyfhel.pyx":995
  *         else:
  *             self.afseal.multiply(deref(ctxt._ptr_ctxt), deref(ctxt_other._ptr_ctxt))
  *             return ctxt             # <<<<<<<<<<<<<<
@@ -13522,7 +13595,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     goto __pyx_L0;
   }
 
-  /* "Pyfhel/Pyfhel.pyx":964
+  /* "Pyfhel/Pyfhel.pyx":969
  * 
  * 
  *     cpdef PyCtxt multiply (self, PyCtxt ctxt, PyCtxt ctxt_other, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -13582,7 +13655,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_75multiply(PyObject *__pyx_v_s
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_ctxt_other)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("multiply", 0, 2, 3, 1); __PYX_ERR(0, 964, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("multiply", 0, 2, 3, 1); __PYX_ERR(0, 969, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
@@ -13592,7 +13665,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_75multiply(PyObject *__pyx_v_s
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "multiply") < 0)) __PYX_ERR(0, 964, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "multiply") < 0)) __PYX_ERR(0, 969, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -13607,21 +13680,21 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_75multiply(PyObject *__pyx_v_s
     __pyx_v_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[0]);
     __pyx_v_ctxt_other = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[1]);
     if (values[2]) {
-      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 964, __pyx_L3_error)
+      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 969, __pyx_L3_error)
     } else {
       __pyx_v_in_new_ctxt = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("multiply", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 964, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("multiply", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 969, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.multiply", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 964, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt_other), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt_other", 0))) __PYX_ERR(0, 964, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 969, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt_other), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt_other", 0))) __PYX_ERR(0, 969, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_74multiply(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_ctxt, __pyx_v_ctxt_other, __pyx_v_in_new_ctxt);
 
   /* function exit code */
@@ -13644,10 +13717,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_74multiply(struct __pyx_obj_6P
   __pyx_t_2.in_new_ctxt = __pyx_v_in_new_ctxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->multiply(__pyx_v_self, __pyx_v_ctxt, __pyx_v_ctxt_other, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 964, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 969, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 964, __pyx_L1_error)
+    __PYX_ERR(0, 969, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -13665,7 +13738,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_74multiply(struct __pyx_obj_6P
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":992
+/* "Pyfhel/Pyfhel.pyx":997
  *             return ctxt
  * 
  *     cpdef PyCtxt multiply_plain (self, PyCtxt ctxt, PyPtxt ptxt, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -13702,11 +13775,11 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_multiply_plain); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 992, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_multiply_plain); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 997, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_77multiply_plain)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 992, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 997, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_4 = __pyx_t_1; __pyx_t_5 = NULL;
@@ -13724,7 +13797,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[4] = {__pyx_t_5, ((PyObject *)__pyx_v_ctxt), ((PyObject *)__pyx_v_ptxt), __pyx_t_3};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 992, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 997, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -13733,14 +13806,14 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
           PyObject *__pyx_temp[4] = {__pyx_t_5, ((PyObject *)__pyx_v_ctxt), ((PyObject *)__pyx_v_ptxt), __pyx_t_3};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 992, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_6, 3+__pyx_t_6); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 997, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
         } else
         #endif
         {
-          __pyx_t_7 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 992, __pyx_L1_error)
+          __pyx_t_7 = PyTuple_New(3+__pyx_t_6); if (unlikely(!__pyx_t_7)) __PYX_ERR(0, 997, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_7);
           if (__pyx_t_5) {
             __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -13754,12 +13827,12 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           __Pyx_GIVEREF(__pyx_t_3);
           PyTuple_SET_ITEM(__pyx_t_7, 2+__pyx_t_6, __pyx_t_3);
           __pyx_t_3 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 992, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_7, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 997, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
         }
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 992, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 997, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -13778,7 +13851,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1008
+  /* "Pyfhel/Pyfhel.pyx":1013
  *             * PyCtxt resulting ciphertext, either the input transformed or a new one
  *         """
  *         if (ctxt._encoding != ptxt._encoding):             # <<<<<<<<<<<<<<
@@ -13788,20 +13861,20 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_8 = ((__pyx_v_ctxt->_encoding != __pyx_v_ptxt->_encoding) != 0);
   if (unlikely(__pyx_t_8)) {
 
-    /* "Pyfhel/Pyfhel.pyx":1009
+    /* "Pyfhel/Pyfhel.pyx":1014
  *         """
  *         if (ctxt._encoding != ptxt._encoding):
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in mult terms")             # <<<<<<<<<<<<<<
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1009, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__13, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1014, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 1009, __pyx_L1_error)
+    __PYX_ERR(0, 1014, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":1008
+    /* "Pyfhel/Pyfhel.pyx":1013
  *             * PyCtxt resulting ciphertext, either the input transformed or a new one
  *         """
  *         if (ctxt._encoding != ptxt._encoding):             # <<<<<<<<<<<<<<
@@ -13810,7 +13883,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1010
+  /* "Pyfhel/Pyfhel.pyx":1015
  *         if (ctxt._encoding != ptxt._encoding):
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in mult terms")
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -13820,19 +13893,19 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_8 = (__pyx_v_in_new_ctxt != 0);
   if (__pyx_t_8) {
 
-    /* "Pyfhel/Pyfhel.pyx":1011
+    /* "Pyfhel/Pyfhel.pyx":1016
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in mult terms")
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)             # <<<<<<<<<<<<<<
  *             self.afseal.multiply(deref(new_ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))
  *             return new_ctxt
  */
-    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1011, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1016, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_new_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":1012
+    /* "Pyfhel/Pyfhel.pyx":1017
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.multiply(deref(new_ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))             # <<<<<<<<<<<<<<
@@ -13843,10 +13916,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->multiply((*__pyx_v_new_ctxt->_ptr_ctxt), (*__pyx_v_ptxt->_ptr_ptxt));
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 1012, __pyx_L1_error)
+      __PYX_ERR(0, 1017, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":1013
+    /* "Pyfhel/Pyfhel.pyx":1018
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.multiply(deref(new_ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))
  *             return new_ctxt             # <<<<<<<<<<<<<<
@@ -13858,7 +13931,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_r = __pyx_v_new_ctxt;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":1010
+    /* "Pyfhel/Pyfhel.pyx":1015
  *         if (ctxt._encoding != ptxt._encoding):
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in mult terms")
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -13867,7 +13940,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1015
+  /* "Pyfhel/Pyfhel.pyx":1020
  *             return new_ctxt
  *         else:
  *             self.afseal.multiply(deref(ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))             # <<<<<<<<<<<<<<
@@ -13879,10 +13952,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->multiply((*__pyx_v_ctxt->_ptr_ctxt), (*__pyx_v_ptxt->_ptr_ptxt));
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 1015, __pyx_L1_error)
+      __PYX_ERR(0, 1020, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":1016
+    /* "Pyfhel/Pyfhel.pyx":1021
  *         else:
  *             self.afseal.multiply(deref(ctxt._ptr_ctxt), deref(ptxt._ptr_ptxt))
  *             return ctxt             # <<<<<<<<<<<<<<
@@ -13895,7 +13968,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     goto __pyx_L0;
   }
 
-  /* "Pyfhel/Pyfhel.pyx":992
+  /* "Pyfhel/Pyfhel.pyx":997
  *             return ctxt
  * 
  *     cpdef PyCtxt multiply_plain (self, PyCtxt ctxt, PyPtxt ptxt, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -13955,7 +14028,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_77multiply_plain(PyObject *__p
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_ptxt)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("multiply_plain", 0, 2, 3, 1); __PYX_ERR(0, 992, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("multiply_plain", 0, 2, 3, 1); __PYX_ERR(0, 997, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
@@ -13965,7 +14038,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_77multiply_plain(PyObject *__p
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "multiply_plain") < 0)) __PYX_ERR(0, 992, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "multiply_plain") < 0)) __PYX_ERR(0, 997, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -13980,21 +14053,21 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_77multiply_plain(PyObject *__p
     __pyx_v_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[0]);
     __pyx_v_ptxt = ((struct __pyx_obj_6Pyfhel_6PyPtxt_PyPtxt *)values[1]);
     if (values[2]) {
-      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 992, __pyx_L3_error)
+      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 997, __pyx_L3_error)
     } else {
       __pyx_v_in_new_ctxt = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("multiply_plain", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 992, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("multiply_plain", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 997, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.multiply_plain", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 992, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 992, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 997, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ptxt), __pyx_ptype_6Pyfhel_6PyPtxt_PyPtxt, 1, "ptxt", 0))) __PYX_ERR(0, 997, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_76multiply_plain(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_ctxt, __pyx_v_ptxt, __pyx_v_in_new_ctxt);
 
   /* function exit code */
@@ -14017,10 +14090,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_76multiply_plain(struct __pyx_
   __pyx_t_2.in_new_ctxt = __pyx_v_in_new_ctxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->multiply_plain(__pyx_v_self, __pyx_v_ctxt, __pyx_v_ptxt, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 992, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 997, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 992, __pyx_L1_error)
+    __PYX_ERR(0, 997, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -14038,7 +14111,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_76multiply_plain(struct __pyx_
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1018
+/* "Pyfhel/Pyfhel.pyx":1023
  *             return ctxt
  * 
  *     cpdef PyCtxt rotate(self, PyCtxt ctxt, int k, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -14076,13 +14149,13 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_rotate); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1018, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_rotate); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1023, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_79rotate)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_k); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1018, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_k); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1023, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
-        __pyx_t_4 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1018, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1023, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_5 = __pyx_t_1; __pyx_t_6 = NULL;
@@ -14100,7 +14173,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_5)) {
           PyObject *__pyx_temp[4] = {__pyx_t_6, ((PyObject *)__pyx_v_ctxt), __pyx_t_3, __pyx_t_4};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 3+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1018, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 3+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1023, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -14110,7 +14183,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
           PyObject *__pyx_temp[4] = {__pyx_t_6, ((PyObject *)__pyx_v_ctxt), __pyx_t_3, __pyx_t_4};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 3+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1018, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 3+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1023, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -14118,7 +14191,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         } else
         #endif
         {
-          __pyx_t_8 = PyTuple_New(3+__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1018, __pyx_L1_error)
+          __pyx_t_8 = PyTuple_New(3+__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1023, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_8);
           if (__pyx_t_6) {
             __Pyx_GIVEREF(__pyx_t_6); PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_6); __pyx_t_6 = NULL;
@@ -14132,12 +14205,12 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           PyTuple_SET_ITEM(__pyx_t_8, 2+__pyx_t_7, __pyx_t_4);
           __pyx_t_3 = 0;
           __pyx_t_4 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_8, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1018, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_8, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1023, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
         }
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 1018, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 1023, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -14156,7 +14229,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1034
+  /* "Pyfhel/Pyfhel.pyx":1039
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (ctxt._encoding != ENCODING_T.BATCH):             # <<<<<<<<<<<<<<
@@ -14166,20 +14239,20 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_9 = ((__pyx_v_ctxt->_encoding != __pyx_e_6Pyfhel_4util_10ENCODING_T_BATCH) != 0);
   if (unlikely(__pyx_t_9)) {
 
-    /* "Pyfhel/Pyfhel.pyx":1035
+    /* "Pyfhel/Pyfhel.pyx":1040
  *         """
  *         if (ctxt._encoding != ENCODING_T.BATCH):
  *             raise RuntimeError("<Pyfhel ERROR> BATCH encoding required for rotation")             # <<<<<<<<<<<<<<
  * 
  *         if (in_new_ctxt):
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__9, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1035, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__14, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1040, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 1035, __pyx_L1_error)
+    __PYX_ERR(0, 1040, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":1034
+    /* "Pyfhel/Pyfhel.pyx":1039
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (ctxt._encoding != ENCODING_T.BATCH):             # <<<<<<<<<<<<<<
@@ -14188,7 +14261,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1037
+  /* "Pyfhel/Pyfhel.pyx":1042
  *             raise RuntimeError("<Pyfhel ERROR> BATCH encoding required for rotation")
  * 
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -14198,19 +14271,19 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_9 = (__pyx_v_in_new_ctxt != 0);
   if (__pyx_t_9) {
 
-    /* "Pyfhel/Pyfhel.pyx":1038
+    /* "Pyfhel/Pyfhel.pyx":1043
  * 
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)             # <<<<<<<<<<<<<<
  *             self.afseal.rotate(deref(new_ctxt._ptr_ctxt), k)
  *             return new_ctxt
  */
-    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1038, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1043, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_new_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":1039
+    /* "Pyfhel/Pyfhel.pyx":1044
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.rotate(deref(new_ctxt._ptr_ctxt), k)             # <<<<<<<<<<<<<<
@@ -14221,10 +14294,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->rotate((*__pyx_v_new_ctxt->_ptr_ctxt), __pyx_v_k);
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 1039, __pyx_L1_error)
+      __PYX_ERR(0, 1044, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":1040
+    /* "Pyfhel/Pyfhel.pyx":1045
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.rotate(deref(new_ctxt._ptr_ctxt), k)
  *             return new_ctxt             # <<<<<<<<<<<<<<
@@ -14236,7 +14309,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_r = __pyx_v_new_ctxt;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":1037
+    /* "Pyfhel/Pyfhel.pyx":1042
  *             raise RuntimeError("<Pyfhel ERROR> BATCH encoding required for rotation")
  * 
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -14245,7 +14318,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1042
+  /* "Pyfhel/Pyfhel.pyx":1047
  *             return new_ctxt
  *         else:
  *             self.afseal.rotate(deref(ctxt._ptr_ctxt), k)             # <<<<<<<<<<<<<<
@@ -14257,10 +14330,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->rotate((*__pyx_v_ctxt->_ptr_ctxt), __pyx_v_k);
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 1042, __pyx_L1_error)
+      __PYX_ERR(0, 1047, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":1043
+    /* "Pyfhel/Pyfhel.pyx":1048
  *         else:
  *             self.afseal.rotate(deref(ctxt._ptr_ctxt), k)
  *             return ctxt             # <<<<<<<<<<<<<<
@@ -14273,7 +14346,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     goto __pyx_L0;
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1018
+  /* "Pyfhel/Pyfhel.pyx":1023
  *             return ctxt
  * 
  *     cpdef PyCtxt rotate(self, PyCtxt ctxt, int k, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -14334,7 +14407,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_79rotate(PyObject *__pyx_v_sel
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_k)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("rotate", 0, 2, 3, 1); __PYX_ERR(0, 1018, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("rotate", 0, 2, 3, 1); __PYX_ERR(0, 1023, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
@@ -14344,7 +14417,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_79rotate(PyObject *__pyx_v_sel
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "rotate") < 0)) __PYX_ERR(0, 1018, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "rotate") < 0)) __PYX_ERR(0, 1023, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -14357,22 +14430,22 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_79rotate(PyObject *__pyx_v_sel
       }
     }
     __pyx_v_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[0]);
-    __pyx_v_k = __Pyx_PyInt_As_int(values[1]); if (unlikely((__pyx_v_k == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1018, __pyx_L3_error)
+    __pyx_v_k = __Pyx_PyInt_As_int(values[1]); if (unlikely((__pyx_v_k == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1023, __pyx_L3_error)
     if (values[2]) {
-      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1018, __pyx_L3_error)
+      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1023, __pyx_L3_error)
     } else {
       __pyx_v_in_new_ctxt = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("rotate", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1018, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("rotate", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1023, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.rotate", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 1018, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 1023, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_78rotate(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_ctxt, __pyx_v_k, __pyx_v_in_new_ctxt);
 
   /* function exit code */
@@ -14395,10 +14468,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_78rotate(struct __pyx_obj_6Pyf
   __pyx_t_2.in_new_ctxt = __pyx_v_in_new_ctxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->rotate(__pyx_v_self, __pyx_v_ctxt, __pyx_v_k, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1018, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1023, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1018, __pyx_L1_error)
+    __PYX_ERR(0, 1023, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -14416,7 +14489,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_78rotate(struct __pyx_obj_6Pyf
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1045
+/* "Pyfhel/Pyfhel.pyx":1050
  *             return ctxt
  * 
  *     cpdef PyCtxt power(self, PyCtxt ctxt, uint64_t expon, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -14454,13 +14527,13 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_power); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1045, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_power); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1050, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_81power)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = __Pyx_PyInt_From_uint64_t(__pyx_v_expon); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1045, __pyx_L1_error)
+        __pyx_t_3 = __Pyx_PyInt_From_uint64_t(__pyx_v_expon); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1050, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
-        __pyx_t_4 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1045, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1050, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_5 = __pyx_t_1; __pyx_t_6 = NULL;
@@ -14478,7 +14551,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_5)) {
           PyObject *__pyx_temp[4] = {__pyx_t_6, ((PyObject *)__pyx_v_ctxt), __pyx_t_3, __pyx_t_4};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 3+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1045, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 3+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1050, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -14488,7 +14561,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
           PyObject *__pyx_temp[4] = {__pyx_t_6, ((PyObject *)__pyx_v_ctxt), __pyx_t_3, __pyx_t_4};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 3+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1045, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 3+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1050, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -14496,7 +14569,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         } else
         #endif
         {
-          __pyx_t_8 = PyTuple_New(3+__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1045, __pyx_L1_error)
+          __pyx_t_8 = PyTuple_New(3+__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1050, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_8);
           if (__pyx_t_6) {
             __Pyx_GIVEREF(__pyx_t_6); PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_6); __pyx_t_6 = NULL;
@@ -14510,12 +14583,12 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           PyTuple_SET_ITEM(__pyx_t_8, 2+__pyx_t_7, __pyx_t_4);
           __pyx_t_3 = 0;
           __pyx_t_4 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_8, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1045, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_8, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1050, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
         }
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 1045, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 1050, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -14534,7 +14607,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1062
+  /* "Pyfhel/Pyfhel.pyx":1067
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -14544,19 +14617,19 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_9 = (__pyx_v_in_new_ctxt != 0);
   if (__pyx_t_9) {
 
-    /* "Pyfhel/Pyfhel.pyx":1063
+    /* "Pyfhel/Pyfhel.pyx":1068
  *         """
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)             # <<<<<<<<<<<<<<
  *             self.afseal.exponentiate(deref(new_ctxt._ptr_ctxt), expon)
  *             return new_ctxt
  */
-    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1063, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1068, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_new_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":1064
+    /* "Pyfhel/Pyfhel.pyx":1069
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.exponentiate(deref(new_ctxt._ptr_ctxt), expon)             # <<<<<<<<<<<<<<
@@ -14567,10 +14640,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->exponentiate((*__pyx_v_new_ctxt->_ptr_ctxt), __pyx_v_expon);
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 1064, __pyx_L1_error)
+      __PYX_ERR(0, 1069, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":1065
+    /* "Pyfhel/Pyfhel.pyx":1070
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.exponentiate(deref(new_ctxt._ptr_ctxt), expon)
  *             return new_ctxt             # <<<<<<<<<<<<<<
@@ -14582,7 +14655,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_r = __pyx_v_new_ctxt;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":1062
+    /* "Pyfhel/Pyfhel.pyx":1067
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -14591,7 +14664,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1067
+  /* "Pyfhel/Pyfhel.pyx":1072
  *             return new_ctxt
  *         else:
  *             self.afseal.exponentiate(deref(ctxt._ptr_ctxt), expon)             # <<<<<<<<<<<<<<
@@ -14603,10 +14676,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->exponentiate((*__pyx_v_ctxt->_ptr_ctxt), __pyx_v_expon);
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 1067, __pyx_L1_error)
+      __PYX_ERR(0, 1072, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":1068
+    /* "Pyfhel/Pyfhel.pyx":1073
  *         else:
  *             self.afseal.exponentiate(deref(ctxt._ptr_ctxt), expon)
  *             return ctxt             # <<<<<<<<<<<<<<
@@ -14619,7 +14692,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     goto __pyx_L0;
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1045
+  /* "Pyfhel/Pyfhel.pyx":1050
  *             return ctxt
  * 
  *     cpdef PyCtxt power(self, PyCtxt ctxt, uint64_t expon, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -14680,7 +14753,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_81power(PyObject *__pyx_v_self
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_expon)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("power", 0, 2, 3, 1); __PYX_ERR(0, 1045, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("power", 0, 2, 3, 1); __PYX_ERR(0, 1050, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
@@ -14690,7 +14763,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_81power(PyObject *__pyx_v_self
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "power") < 0)) __PYX_ERR(0, 1045, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "power") < 0)) __PYX_ERR(0, 1050, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -14703,22 +14776,22 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_81power(PyObject *__pyx_v_self
       }
     }
     __pyx_v_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[0]);
-    __pyx_v_expon = __Pyx_PyInt_As_uint64_t(values[1]); if (unlikely((__pyx_v_expon == ((uint64_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1045, __pyx_L3_error)
+    __pyx_v_expon = __Pyx_PyInt_As_uint64_t(values[1]); if (unlikely((__pyx_v_expon == ((uint64_t)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1050, __pyx_L3_error)
     if (values[2]) {
-      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1045, __pyx_L3_error)
+      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1050, __pyx_L3_error)
     } else {
       __pyx_v_in_new_ctxt = ((bool)0);
     }
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("power", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1045, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("power", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1050, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.power", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 1045, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 1050, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_80power(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_ctxt, __pyx_v_expon, __pyx_v_in_new_ctxt);
 
   /* function exit code */
@@ -14741,10 +14814,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_80power(struct __pyx_obj_6Pyfh
   __pyx_t_2.in_new_ctxt = __pyx_v_in_new_ctxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->power(__pyx_v_self, __pyx_v_ctxt, __pyx_v_expon, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1045, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1050, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1045, __pyx_L1_error)
+    __PYX_ERR(0, 1050, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -14762,7 +14835,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_80power(struct __pyx_obj_6Pyfh
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1070
+/* "Pyfhel/Pyfhel.pyx":1075
  *             return ctxt
  * 
  *     cpdef PyCtxt polyEval(self, PyCtxt ctxt,             # <<<<<<<<<<<<<<
@@ -14773,7 +14846,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_80power(struct __pyx_obj_6Pyfh
 static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_83polyEval(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_polyEval(struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *__pyx_v_self, struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_v_ctxt, std::vector<int64_t>  __pyx_v_coeffPoly, int __pyx_skip_dispatch, struct __pyx_opt_args_6Pyfhel_6Pyfhel_6Pyfhel_polyEval *__pyx_optional_args) {
 
-  /* "Pyfhel/Pyfhel.pyx":1071
+  /* "Pyfhel/Pyfhel.pyx":1076
  * 
  *     cpdef PyCtxt polyEval(self, PyCtxt ctxt,
  *                         vector[int64_t] coeffPoly, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -14800,7 +14873,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     }
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1070
+  /* "Pyfhel/Pyfhel.pyx":1075
  *             return ctxt
  * 
  *     cpdef PyCtxt polyEval(self, PyCtxt ctxt,             # <<<<<<<<<<<<<<
@@ -14816,13 +14889,13 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_polyEval); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1070, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_polyEval); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1075, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_83polyEval)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = __pyx_convert_vector_to_py_int64_t(__pyx_v_coeffPoly); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1070, __pyx_L1_error)
+        __pyx_t_3 = __pyx_convert_vector_to_py_int64_t(__pyx_v_coeffPoly); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1075, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
-        __pyx_t_4 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1070, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1075, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_5 = __pyx_t_1; __pyx_t_6 = NULL;
@@ -14840,7 +14913,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_5)) {
           PyObject *__pyx_temp[4] = {__pyx_t_6, ((PyObject *)__pyx_v_ctxt), __pyx_t_3, __pyx_t_4};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 3+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1070, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 3+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1075, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -14850,7 +14923,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
           PyObject *__pyx_temp[4] = {__pyx_t_6, ((PyObject *)__pyx_v_ctxt), __pyx_t_3, __pyx_t_4};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 3+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1070, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 3+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1075, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -14858,7 +14931,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         } else
         #endif
         {
-          __pyx_t_8 = PyTuple_New(3+__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1070, __pyx_L1_error)
+          __pyx_t_8 = PyTuple_New(3+__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1075, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_8);
           if (__pyx_t_6) {
             __Pyx_GIVEREF(__pyx_t_6); PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_6); __pyx_t_6 = NULL;
@@ -14872,12 +14945,12 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           PyTuple_SET_ITEM(__pyx_t_8, 2+__pyx_t_7, __pyx_t_4);
           __pyx_t_3 = 0;
           __pyx_t_4 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_8, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1070, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_8, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1075, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
         }
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 1070, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 1075, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -14896,7 +14969,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1093
+  /* "Pyfhel/Pyfhel.pyx":1098
  *         """
  * 
  *         if (ctxt._encoding != ENCODING_T.BATCH) and (ctxt._encoding != ENCODING_T.INTEGER) :             # <<<<<<<<<<<<<<
@@ -14914,20 +14987,20 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   }
   if (unlikely(__pyx_t_9)) {
 
-    /* "Pyfhel/Pyfhel.pyx":1094
+    /* "Pyfhel/Pyfhel.pyx":1099
  * 
  *         if (ctxt._encoding != ENCODING_T.BATCH) and (ctxt._encoding != ENCODING_T.INTEGER) :
  *             raise RuntimeError("<Pyfhel ERROR> encoding type must be INTEGER or BATCH")             # <<<<<<<<<<<<<<
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1094, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__15, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1099, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 1094, __pyx_L1_error)
+    __PYX_ERR(0, 1099, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":1093
+    /* "Pyfhel/Pyfhel.pyx":1098
  *         """
  * 
  *         if (ctxt._encoding != ENCODING_T.BATCH) and (ctxt._encoding != ENCODING_T.INTEGER) :             # <<<<<<<<<<<<<<
@@ -14936,7 +15009,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1095
+  /* "Pyfhel/Pyfhel.pyx":1100
  *         if (ctxt._encoding != ENCODING_T.BATCH) and (ctxt._encoding != ENCODING_T.INTEGER) :
  *             raise RuntimeError("<Pyfhel ERROR> encoding type must be INTEGER or BATCH")
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -14946,19 +15019,19 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_9 = (__pyx_v_in_new_ctxt != 0);
   if (__pyx_t_9) {
 
-    /* "Pyfhel/Pyfhel.pyx":1096
+    /* "Pyfhel/Pyfhel.pyx":1101
  *             raise RuntimeError("<Pyfhel ERROR> encoding type must be INTEGER or BATCH")
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)             # <<<<<<<<<<<<<<
  *             self.afseal.polyEval(deref(new_ctxt._ptr_ctxt), coeffPoly)
  *             return new_ctxt
  */
-    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1096, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1101, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_new_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":1097
+    /* "Pyfhel/Pyfhel.pyx":1102
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.polyEval(deref(new_ctxt._ptr_ctxt), coeffPoly)             # <<<<<<<<<<<<<<
@@ -14969,10 +15042,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->polyEval((*__pyx_v_new_ctxt->_ptr_ctxt), __pyx_v_coeffPoly);
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 1097, __pyx_L1_error)
+      __PYX_ERR(0, 1102, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":1098
+    /* "Pyfhel/Pyfhel.pyx":1103
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.polyEval(deref(new_ctxt._ptr_ctxt), coeffPoly)
  *             return new_ctxt             # <<<<<<<<<<<<<<
@@ -14984,7 +15057,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_r = __pyx_v_new_ctxt;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":1095
+    /* "Pyfhel/Pyfhel.pyx":1100
  *         if (ctxt._encoding != ENCODING_T.BATCH) and (ctxt._encoding != ENCODING_T.INTEGER) :
  *             raise RuntimeError("<Pyfhel ERROR> encoding type must be INTEGER or BATCH")
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -14993,7 +15066,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1100
+  /* "Pyfhel/Pyfhel.pyx":1105
  *             return new_ctxt
  *         else:
  *             self.afseal.polyEval(deref(ctxt._ptr_ctxt), coeffPoly)             # <<<<<<<<<<<<<<
@@ -15005,10 +15078,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->polyEval((*__pyx_v_ctxt->_ptr_ctxt), __pyx_v_coeffPoly);
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 1100, __pyx_L1_error)
+      __PYX_ERR(0, 1105, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":1101
+    /* "Pyfhel/Pyfhel.pyx":1106
  *         else:
  *             self.afseal.polyEval(deref(ctxt._ptr_ctxt), coeffPoly)
  *             return ctxt             # <<<<<<<<<<<<<<
@@ -15021,7 +15094,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     goto __pyx_L0;
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1070
+  /* "Pyfhel/Pyfhel.pyx":1075
  *             return ctxt
  * 
  *     cpdef PyCtxt polyEval(self, PyCtxt ctxt,             # <<<<<<<<<<<<<<
@@ -15082,7 +15155,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_83polyEval(PyObject *__pyx_v_s
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_coeffPoly)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("polyEval", 0, 2, 3, 1); __PYX_ERR(0, 1070, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("polyEval", 0, 2, 3, 1); __PYX_ERR(0, 1075, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
@@ -15092,7 +15165,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_83polyEval(PyObject *__pyx_v_s
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "polyEval") < 0)) __PYX_ERR(0, 1070, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "polyEval") < 0)) __PYX_ERR(0, 1075, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -15105,12 +15178,12 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_83polyEval(PyObject *__pyx_v_s
       }
     }
     __pyx_v_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[0]);
-    __pyx_v_coeffPoly = __pyx_convert_vector_from_py_int64_t(values[1]); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1071, __pyx_L3_error)
+    __pyx_v_coeffPoly = __pyx_convert_vector_from_py_int64_t(values[1]); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1076, __pyx_L3_error)
     if (values[2]) {
-      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1071, __pyx_L3_error)
+      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1076, __pyx_L3_error)
     } else {
 
-      /* "Pyfhel/Pyfhel.pyx":1071
+      /* "Pyfhel/Pyfhel.pyx":1076
  * 
  *     cpdef PyCtxt polyEval(self, PyCtxt ctxt,
  *                         vector[int64_t] coeffPoly, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -15122,16 +15195,16 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_83polyEval(PyObject *__pyx_v_s
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("polyEval", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1070, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("polyEval", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1075, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.polyEval", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 1070, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 1075, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_82polyEval(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_ctxt, __pyx_v_coeffPoly, __pyx_v_in_new_ctxt);
 
-  /* "Pyfhel/Pyfhel.pyx":1070
+  /* "Pyfhel/Pyfhel.pyx":1075
  *             return ctxt
  * 
  *     cpdef PyCtxt polyEval(self, PyCtxt ctxt,             # <<<<<<<<<<<<<<
@@ -15159,10 +15232,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_82polyEval(struct __pyx_obj_6P
   __pyx_t_2.in_new_ctxt = __pyx_v_in_new_ctxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->polyEval(__pyx_v_self, __pyx_v_ctxt, __pyx_v_coeffPoly, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1070, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1075, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1070, __pyx_L1_error)
+    __PYX_ERR(0, 1075, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -15180,7 +15253,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_82polyEval(struct __pyx_obj_6P
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1103
+/* "Pyfhel/Pyfhel.pyx":1108
  *             return ctxt
  * 
  *     cpdef PyCtxt polyEval_double (self, PyCtxt ctxt,             # <<<<<<<<<<<<<<
@@ -15191,7 +15264,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_82polyEval(struct __pyx_obj_6P
 static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_85polyEval_double(PyObject *__pyx_v_self, PyObject *__pyx_args, PyObject *__pyx_kwds); /*proto*/
 static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_polyEval_double(struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *__pyx_v_self, struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_v_ctxt, std::vector<double>  __pyx_v_coeffPoly, int __pyx_skip_dispatch, struct __pyx_opt_args_6Pyfhel_6Pyfhel_6Pyfhel_polyEval_double *__pyx_optional_args) {
 
-  /* "Pyfhel/Pyfhel.pyx":1104
+  /* "Pyfhel/Pyfhel.pyx":1109
  * 
  *     cpdef PyCtxt polyEval_double (self, PyCtxt ctxt,
  *                  vector[double] coeffPoly, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -15219,7 +15292,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     }
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1103
+  /* "Pyfhel/Pyfhel.pyx":1108
  *             return ctxt
  * 
  *     cpdef PyCtxt polyEval_double (self, PyCtxt ctxt,             # <<<<<<<<<<<<<<
@@ -15235,13 +15308,13 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_polyEval_double); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1103, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_polyEval_double); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1108, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_85polyEval_double)) {
         __Pyx_XDECREF(((PyObject *)__pyx_r));
-        __pyx_t_3 = __pyx_convert_vector_to_py_double(__pyx_v_coeffPoly); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1103, __pyx_L1_error)
+        __pyx_t_3 = __pyx_convert_vector_to_py_double(__pyx_v_coeffPoly); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 1108, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
-        __pyx_t_4 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1103, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyBool_FromLong(__pyx_v_in_new_ctxt); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 1108, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_INCREF(__pyx_t_1);
         __pyx_t_5 = __pyx_t_1; __pyx_t_6 = NULL;
@@ -15259,7 +15332,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCALL
         if (PyFunction_Check(__pyx_t_5)) {
           PyObject *__pyx_temp[4] = {__pyx_t_6, ((PyObject *)__pyx_v_ctxt), __pyx_t_3, __pyx_t_4};
-          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 3+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1103, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 3+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1108, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -15269,7 +15342,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         #if CYTHON_FAST_PYCCALL
         if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
           PyObject *__pyx_temp[4] = {__pyx_t_6, ((PyObject *)__pyx_v_ctxt), __pyx_t_3, __pyx_t_4};
-          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 3+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1103, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_7, 3+__pyx_t_7); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1108, __pyx_L1_error)
           __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -15277,7 +15350,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
         } else
         #endif
         {
-          __pyx_t_8 = PyTuple_New(3+__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1103, __pyx_L1_error)
+          __pyx_t_8 = PyTuple_New(3+__pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(0, 1108, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_8);
           if (__pyx_t_6) {
             __Pyx_GIVEREF(__pyx_t_6); PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_6); __pyx_t_6 = NULL;
@@ -15291,12 +15364,12 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
           PyTuple_SET_ITEM(__pyx_t_8, 2+__pyx_t_7, __pyx_t_4);
           __pyx_t_3 = 0;
           __pyx_t_4 = 0;
-          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_8, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1103, __pyx_L1_error)
+          __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_8, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1108, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_2);
           __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
         }
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 1103, __pyx_L1_error)
+        if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt))))) __PYX_ERR(0, 1108, __pyx_L1_error)
         __pyx_r = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_2);
         __pyx_t_2 = 0;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -15315,7 +15388,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1124
+  /* "Pyfhel/Pyfhel.pyx":1129
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (ctxt._encoding != ENCODING_T.BATCH) or (ctxt._encoding != ENCODING_T.INTEGER) :             # <<<<<<<<<<<<<<
@@ -15333,20 +15406,20 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_L4_bool_binop_done:;
   if (unlikely(__pyx_t_9)) {
 
-    /* "Pyfhel/Pyfhel.pyx":1125
+    /* "Pyfhel/Pyfhel.pyx":1130
  *         """
  *         if (ctxt._encoding != ENCODING_T.BATCH) or (ctxt._encoding != ENCODING_T.INTEGER) :
  *             raise RuntimeError("<Pyfhel ERROR> encoding type must be INTEGER or BATCH")             # <<<<<<<<<<<<<<
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  */
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__10, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1125, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__15, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1130, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_Raise(__pyx_t_1, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __PYX_ERR(0, 1125, __pyx_L1_error)
+    __PYX_ERR(0, 1130, __pyx_L1_error)
 
-    /* "Pyfhel/Pyfhel.pyx":1124
+    /* "Pyfhel/Pyfhel.pyx":1129
  *             * PyCtxt resulting ciphertext, the input transformed or a new one
  *         """
  *         if (ctxt._encoding != ENCODING_T.BATCH) or (ctxt._encoding != ENCODING_T.INTEGER) :             # <<<<<<<<<<<<<<
@@ -15355,7 +15428,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1126
+  /* "Pyfhel/Pyfhel.pyx":1131
  *         if (ctxt._encoding != ENCODING_T.BATCH) or (ctxt._encoding != ENCODING_T.INTEGER) :
  *             raise RuntimeError("<Pyfhel ERROR> encoding type must be INTEGER or BATCH")
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -15365,19 +15438,19 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
   __pyx_t_9 = (__pyx_v_in_new_ctxt != 0);
   if (__pyx_t_9) {
 
-    /* "Pyfhel/Pyfhel.pyx":1127
+    /* "Pyfhel/Pyfhel.pyx":1132
  *             raise RuntimeError("<Pyfhel ERROR> encoding type must be INTEGER or BATCH")
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)             # <<<<<<<<<<<<<<
  *             self.afseal.polyEval(deref(new_ctxt._ptr_ctxt), coeffPoly)
  *             return new_ctxt
  */
-    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1127, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_CallOneArg(((PyObject *)__pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt), ((PyObject *)__pyx_v_ctxt)); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1132, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_v_new_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "Pyfhel/Pyfhel.pyx":1128
+    /* "Pyfhel/Pyfhel.pyx":1133
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.polyEval(deref(new_ctxt._ptr_ctxt), coeffPoly)             # <<<<<<<<<<<<<<
@@ -15388,10 +15461,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->polyEval((*__pyx_v_new_ctxt->_ptr_ctxt), __pyx_v_coeffPoly);
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 1128, __pyx_L1_error)
+      __PYX_ERR(0, 1133, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":1129
+    /* "Pyfhel/Pyfhel.pyx":1134
  *             new_ctxt = PyCtxt(ctxt)
  *             self.afseal.polyEval(deref(new_ctxt._ptr_ctxt), coeffPoly)
  *             return new_ctxt             # <<<<<<<<<<<<<<
@@ -15403,7 +15476,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     __pyx_r = __pyx_v_new_ctxt;
     goto __pyx_L0;
 
-    /* "Pyfhel/Pyfhel.pyx":1126
+    /* "Pyfhel/Pyfhel.pyx":1131
  *         if (ctxt._encoding != ENCODING_T.BATCH) or (ctxt._encoding != ENCODING_T.INTEGER) :
  *             raise RuntimeError("<Pyfhel ERROR> encoding type must be INTEGER or BATCH")
  *         if (in_new_ctxt):             # <<<<<<<<<<<<<<
@@ -15412,7 +15485,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
  */
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1131
+  /* "Pyfhel/Pyfhel.pyx":1136
  *             return new_ctxt
  *         else:
  *             self.afseal.polyEval(deref(ctxt._ptr_ctxt), coeffPoly)             # <<<<<<<<<<<<<<
@@ -15424,10 +15497,10 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
       __pyx_v_self->afseal->polyEval((*__pyx_v_ctxt->_ptr_ctxt), __pyx_v_coeffPoly);
     } catch(...) {
       __Pyx_CppExn2PyErr();
-      __PYX_ERR(0, 1131, __pyx_L1_error)
+      __PYX_ERR(0, 1136, __pyx_L1_error)
     }
 
-    /* "Pyfhel/Pyfhel.pyx":1132
+    /* "Pyfhel/Pyfhel.pyx":1137
  *         else:
  *             self.afseal.polyEval(deref(ctxt._ptr_ctxt), coeffPoly)
  *             return ctxt             # <<<<<<<<<<<<<<
@@ -15440,7 +15513,7 @@ static struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *__pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_
     goto __pyx_L0;
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1103
+  /* "Pyfhel/Pyfhel.pyx":1108
  *             return ctxt
  * 
  *     cpdef PyCtxt polyEval_double (self, PyCtxt ctxt,             # <<<<<<<<<<<<<<
@@ -15501,7 +15574,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_85polyEval_double(PyObject *__
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_coeffPoly)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("polyEval_double", 0, 2, 3, 1); __PYX_ERR(0, 1103, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("polyEval_double", 0, 2, 3, 1); __PYX_ERR(0, 1108, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
@@ -15511,7 +15584,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_85polyEval_double(PyObject *__
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "polyEval_double") < 0)) __PYX_ERR(0, 1103, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "polyEval_double") < 0)) __PYX_ERR(0, 1108, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -15524,12 +15597,12 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_85polyEval_double(PyObject *__
       }
     }
     __pyx_v_ctxt = ((struct __pyx_obj_6Pyfhel_6PyCtxt_PyCtxt *)values[0]);
-    __pyx_v_coeffPoly = __pyx_convert_vector_from_py_double(values[1]); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1104, __pyx_L3_error)
+    __pyx_v_coeffPoly = __pyx_convert_vector_from_py_double(values[1]); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1109, __pyx_L3_error)
     if (values[2]) {
-      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1104, __pyx_L3_error)
+      __pyx_v_in_new_ctxt = __Pyx_PyObject_IsTrue(values[2]); if (unlikely((__pyx_v_in_new_ctxt == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1109, __pyx_L3_error)
     } else {
 
-      /* "Pyfhel/Pyfhel.pyx":1104
+      /* "Pyfhel/Pyfhel.pyx":1109
  * 
  *     cpdef PyCtxt polyEval_double (self, PyCtxt ctxt,
  *                  vector[double] coeffPoly, bool in_new_ctxt=False) except +:             # <<<<<<<<<<<<<<
@@ -15541,16 +15614,16 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_85polyEval_double(PyObject *__
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("polyEval_double", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1103, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("polyEval_double", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(0, 1108, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("Pyfhel.Pyfhel.Pyfhel.polyEval_double", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 1103, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_ctxt), __pyx_ptype_6Pyfhel_6PyCtxt_PyCtxt, 1, "ctxt", 0))) __PYX_ERR(0, 1108, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_84polyEval_double(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), __pyx_v_ctxt, __pyx_v_coeffPoly, __pyx_v_in_new_ctxt);
 
-  /* "Pyfhel/Pyfhel.pyx":1103
+  /* "Pyfhel/Pyfhel.pyx":1108
  *             return ctxt
  * 
  *     cpdef PyCtxt polyEval_double (self, PyCtxt ctxt,             # <<<<<<<<<<<<<<
@@ -15578,10 +15651,10 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_84polyEval_double(struct __pyx
   __pyx_t_2.in_new_ctxt = __pyx_v_in_new_ctxt;
   try {
     __pyx_t_1 = ((PyObject *)__pyx_vtabptr_6Pyfhel_6Pyfhel_Pyfhel->polyEval_double(__pyx_v_self, __pyx_v_ctxt, __pyx_v_coeffPoly, 1, &__pyx_t_2));
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1103, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1108, __pyx_L1_error)
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1103, __pyx_L1_error)
+    __PYX_ERR(0, 1108, __pyx_L1_error)
   }
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
@@ -15599,7 +15672,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_84polyEval_double(struct __pyx
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1140
+/* "Pyfhel/Pyfhel.pyx":1145
  *     # ================================ I/O ====================================
  *     # =========================================================================
  *     cpdef bool saveContext(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -15627,7 +15700,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_saveContext(struct __pyx_obj_6Pyfhel
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_saveContext); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1140, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_saveContext); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1145, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_87saveContext)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -15643,10 +15716,10 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_saveContext(struct __pyx_obj_6Pyfhel
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_v_fileName) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_fileName);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1140, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1145, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1140, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1145, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -15665,7 +15738,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_saveContext(struct __pyx_obj_6Pyfhel
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1151
+  /* "Pyfhel/Pyfhel.pyx":1156
  *             * bool: Result, True if OK, False otherwise.
  *         """
  *         return self.afseal.saveContext(fileName.encode())             # <<<<<<<<<<<<<<
@@ -15674,22 +15747,22 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_saveContext(struct __pyx_obj_6Pyfhel
  */
   if (unlikely(__pyx_v_fileName == Py_None)) {
     PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "encode");
-    __PYX_ERR(0, 1151, __pyx_L1_error)
+    __PYX_ERR(0, 1156, __pyx_L1_error)
   }
-  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1151, __pyx_L1_error)
+  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1156, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1151, __pyx_L1_error)
+  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1156, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   try {
     __pyx_t_5 = __pyx_v_self->afseal->saveContext(__pyx_t_6);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1151, __pyx_L1_error)
+    __PYX_ERR(0, 1156, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1140
+  /* "Pyfhel/Pyfhel.pyx":1145
  *     # ================================ I/O ====================================
  *     # =========================================================================
  *     cpdef bool saveContext(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -15717,7 +15790,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_87saveContext(PyObject *__pyx_
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("saveContext (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1140, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1145, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_86saveContext(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((PyObject*)__pyx_v_fileName));
 
   /* function exit code */
@@ -15740,9 +15813,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_86saveContext(struct __pyx_obj
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_saveContext(__pyx_v_self, __pyx_v_fileName, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1140, __pyx_L1_error)
+    __PYX_ERR(0, 1145, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1140, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1145, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -15759,7 +15832,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_86saveContext(struct __pyx_obj
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1153
+/* "Pyfhel/Pyfhel.pyx":1158
  *         return self.afseal.saveContext(fileName.encode())
  * 
  *     cpdef bool restoreContext(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -15787,7 +15860,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restoreContext(struct __pyx_obj_6Pyf
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_restoreContext); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1153, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_restoreContext); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1158, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_89restoreContext)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -15803,10 +15876,10 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restoreContext(struct __pyx_obj_6Pyf
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_v_fileName) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_fileName);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1153, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1158, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1153, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1158, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -15825,7 +15898,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restoreContext(struct __pyx_obj_6Pyf
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1164
+  /* "Pyfhel/Pyfhel.pyx":1169
  *             * bool: Result, True if OK, False otherwise.
  *         """
  *         return self.afseal.restoreContext(fileName.encode())             # <<<<<<<<<<<<<<
@@ -15834,22 +15907,22 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restoreContext(struct __pyx_obj_6Pyf
  */
   if (unlikely(__pyx_v_fileName == Py_None)) {
     PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "encode");
-    __PYX_ERR(0, 1164, __pyx_L1_error)
+    __PYX_ERR(0, 1169, __pyx_L1_error)
   }
-  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1164, __pyx_L1_error)
+  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1169, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1164, __pyx_L1_error)
+  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1169, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   try {
     __pyx_t_5 = __pyx_v_self->afseal->restoreContext(__pyx_t_6);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1164, __pyx_L1_error)
+    __PYX_ERR(0, 1169, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1153
+  /* "Pyfhel/Pyfhel.pyx":1158
  *         return self.afseal.saveContext(fileName.encode())
  * 
  *     cpdef bool restoreContext(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -15877,7 +15950,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_89restoreContext(PyObject *__p
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("restoreContext (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1153, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1158, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_88restoreContext(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((PyObject*)__pyx_v_fileName));
 
   /* function exit code */
@@ -15900,9 +15973,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_88restoreContext(struct __pyx_
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restoreContext(__pyx_v_self, __pyx_v_fileName, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1153, __pyx_L1_error)
+    __PYX_ERR(0, 1158, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1153, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1158, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -15919,7 +15992,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_88restoreContext(struct __pyx_
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1166
+/* "Pyfhel/Pyfhel.pyx":1171
  *         return self.afseal.restoreContext(fileName.encode())
  * 
  *     cpdef bool savepublicKey(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -15947,7 +16020,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_savepublicKey(struct __pyx_obj_6Pyfh
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_savepublicKey); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1166, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_savepublicKey); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1171, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_91savepublicKey)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -15963,10 +16036,10 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_savepublicKey(struct __pyx_obj_6Pyfh
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_v_fileName) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_fileName);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1166, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1171, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1166, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1171, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -15985,7 +16058,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_savepublicKey(struct __pyx_obj_6Pyfh
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1177
+  /* "Pyfhel/Pyfhel.pyx":1182
  *             * bool: Result, True if OK, False otherwise.
  *         """
  *         return self.afseal.savepublicKey(fileName.encode())             # <<<<<<<<<<<<<<
@@ -15994,22 +16067,22 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_savepublicKey(struct __pyx_obj_6Pyfh
  */
   if (unlikely(__pyx_v_fileName == Py_None)) {
     PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "encode");
-    __PYX_ERR(0, 1177, __pyx_L1_error)
+    __PYX_ERR(0, 1182, __pyx_L1_error)
   }
-  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1177, __pyx_L1_error)
+  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1182, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1177, __pyx_L1_error)
+  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1182, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   try {
     __pyx_t_5 = __pyx_v_self->afseal->savepublicKey(__pyx_t_6);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1177, __pyx_L1_error)
+    __PYX_ERR(0, 1182, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1166
+  /* "Pyfhel/Pyfhel.pyx":1171
  *         return self.afseal.restoreContext(fileName.encode())
  * 
  *     cpdef bool savepublicKey(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -16037,7 +16110,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_91savepublicKey(PyObject *__py
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("savepublicKey (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1166, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1171, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_90savepublicKey(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((PyObject*)__pyx_v_fileName));
 
   /* function exit code */
@@ -16060,9 +16133,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_90savepublicKey(struct __pyx_o
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_savepublicKey(__pyx_v_self, __pyx_v_fileName, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1166, __pyx_L1_error)
+    __PYX_ERR(0, 1171, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1166, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1171, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -16079,7 +16152,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_90savepublicKey(struct __pyx_o
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1179
+/* "Pyfhel/Pyfhel.pyx":1184
  *         return self.afseal.savepublicKey(fileName.encode())
  * 
  *     cpdef bool restorepublicKey(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -16107,7 +16180,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restorepublicKey(struct __pyx_obj_6P
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_restorepublicKey); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1179, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_restorepublicKey); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1184, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_93restorepublicKey)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -16123,10 +16196,10 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restorepublicKey(struct __pyx_obj_6P
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_v_fileName) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_fileName);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1179, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1184, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1179, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1184, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -16145,7 +16218,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restorepublicKey(struct __pyx_obj_6P
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1190
+  /* "Pyfhel/Pyfhel.pyx":1195
  *             * bool: Result, True if OK, False otherwise.
  *         """
  *         return self.afseal.restorepublicKey(fileName.encode())             # <<<<<<<<<<<<<<
@@ -16154,22 +16227,22 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restorepublicKey(struct __pyx_obj_6P
  */
   if (unlikely(__pyx_v_fileName == Py_None)) {
     PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "encode");
-    __PYX_ERR(0, 1190, __pyx_L1_error)
+    __PYX_ERR(0, 1195, __pyx_L1_error)
   }
-  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1190, __pyx_L1_error)
+  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1195, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1190, __pyx_L1_error)
+  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1195, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   try {
     __pyx_t_5 = __pyx_v_self->afseal->restorepublicKey(__pyx_t_6);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1190, __pyx_L1_error)
+    __PYX_ERR(0, 1195, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1179
+  /* "Pyfhel/Pyfhel.pyx":1184
  *         return self.afseal.savepublicKey(fileName.encode())
  * 
  *     cpdef bool restorepublicKey(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -16197,7 +16270,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_93restorepublicKey(PyObject *_
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("restorepublicKey (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1179, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1184, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_92restorepublicKey(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((PyObject*)__pyx_v_fileName));
 
   /* function exit code */
@@ -16220,9 +16293,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_92restorepublicKey(struct __py
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restorepublicKey(__pyx_v_self, __pyx_v_fileName, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1179, __pyx_L1_error)
+    __PYX_ERR(0, 1184, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1179, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1184, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -16239,7 +16312,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_92restorepublicKey(struct __py
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1192
+/* "Pyfhel/Pyfhel.pyx":1197
  *         return self.afseal.restorepublicKey(fileName.encode())
  * 
  *     cpdef bool savesecretKey(self,str fileName) except +:             # <<<<<<<<<<<<<<
@@ -16267,7 +16340,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_savesecretKey(struct __pyx_obj_6Pyfh
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_savesecretKey); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1192, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_savesecretKey); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1197, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_95savesecretKey)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -16283,10 +16356,10 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_savesecretKey(struct __pyx_obj_6Pyfh
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_v_fileName) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_fileName);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1192, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1197, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1192, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1197, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -16305,7 +16378,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_savesecretKey(struct __pyx_obj_6Pyfh
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1203
+  /* "Pyfhel/Pyfhel.pyx":1208
  *             * bool: Result, True if OK, False otherwise.
  *         """
  *         return self.afseal.savesecretKey(fileName.encode())             # <<<<<<<<<<<<<<
@@ -16314,22 +16387,22 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_savesecretKey(struct __pyx_obj_6Pyfh
  */
   if (unlikely(__pyx_v_fileName == Py_None)) {
     PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "encode");
-    __PYX_ERR(0, 1203, __pyx_L1_error)
+    __PYX_ERR(0, 1208, __pyx_L1_error)
   }
-  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1203, __pyx_L1_error)
+  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1208, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1203, __pyx_L1_error)
+  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1208, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   try {
     __pyx_t_5 = __pyx_v_self->afseal->savesecretKey(__pyx_t_6);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1203, __pyx_L1_error)
+    __PYX_ERR(0, 1208, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1192
+  /* "Pyfhel/Pyfhel.pyx":1197
  *         return self.afseal.restorepublicKey(fileName.encode())
  * 
  *     cpdef bool savesecretKey(self,str fileName) except +:             # <<<<<<<<<<<<<<
@@ -16357,7 +16430,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_95savesecretKey(PyObject *__py
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("savesecretKey (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1192, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1197, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_94savesecretKey(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((PyObject*)__pyx_v_fileName));
 
   /* function exit code */
@@ -16380,9 +16453,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_94savesecretKey(struct __pyx_o
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_savesecretKey(__pyx_v_self, __pyx_v_fileName, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1192, __pyx_L1_error)
+    __PYX_ERR(0, 1197, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1192, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1197, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -16399,7 +16472,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_94savesecretKey(struct __pyx_o
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1205
+/* "Pyfhel/Pyfhel.pyx":1210
  *         return self.afseal.savesecretKey(fileName.encode())
  * 
  *     cpdef bool restoresecretKey(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -16427,7 +16500,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restoresecretKey(struct __pyx_obj_6P
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_restoresecretKey); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1205, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_restoresecretKey); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1210, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_97restoresecretKey)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -16443,10 +16516,10 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restoresecretKey(struct __pyx_obj_6P
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_v_fileName) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_fileName);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1205, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1210, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1205, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1210, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -16465,7 +16538,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restoresecretKey(struct __pyx_obj_6P
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1216
+  /* "Pyfhel/Pyfhel.pyx":1221
  *             * bool: Result, True if OK, False otherwise.
  *         """
  *         return self.afseal.restoresecretKey(fileName.encode())             # <<<<<<<<<<<<<<
@@ -16474,22 +16547,22 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restoresecretKey(struct __pyx_obj_6P
  */
   if (unlikely(__pyx_v_fileName == Py_None)) {
     PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "encode");
-    __PYX_ERR(0, 1216, __pyx_L1_error)
+    __PYX_ERR(0, 1221, __pyx_L1_error)
   }
-  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1216, __pyx_L1_error)
+  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1221, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1216, __pyx_L1_error)
+  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1221, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   try {
     __pyx_t_5 = __pyx_v_self->afseal->restoresecretKey(__pyx_t_6);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1216, __pyx_L1_error)
+    __PYX_ERR(0, 1221, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1205
+  /* "Pyfhel/Pyfhel.pyx":1210
  *         return self.afseal.savesecretKey(fileName.encode())
  * 
  *     cpdef bool restoresecretKey(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -16517,7 +16590,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_97restoresecretKey(PyObject *_
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("restoresecretKey (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1205, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1210, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_96restoresecretKey(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((PyObject*)__pyx_v_fileName));
 
   /* function exit code */
@@ -16540,9 +16613,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_96restoresecretKey(struct __py
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restoresecretKey(__pyx_v_self, __pyx_v_fileName, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1205, __pyx_L1_error)
+    __PYX_ERR(0, 1210, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1205, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1210, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -16559,7 +16632,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_96restoresecretKey(struct __py
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1218
+/* "Pyfhel/Pyfhel.pyx":1223
  *         return self.afseal.restoresecretKey(fileName.encode())
  * 
  *     cpdef bool saverelinKey(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -16587,7 +16660,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_saverelinKey(struct __pyx_obj_6Pyfhe
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_saverelinKey); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1218, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_saverelinKey); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1223, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_99saverelinKey)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -16603,10 +16676,10 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_saverelinKey(struct __pyx_obj_6Pyfhe
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_v_fileName) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_fileName);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1218, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1223, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1218, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1223, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -16625,7 +16698,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_saverelinKey(struct __pyx_obj_6Pyfhe
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1229
+  /* "Pyfhel/Pyfhel.pyx":1234
  *             * bool: Result, True if OK, False otherwise.
  *         """
  *         return self.afseal.saverelinKey(fileName.encode())             # <<<<<<<<<<<<<<
@@ -16634,22 +16707,22 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_saverelinKey(struct __pyx_obj_6Pyfhe
  */
   if (unlikely(__pyx_v_fileName == Py_None)) {
     PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "encode");
-    __PYX_ERR(0, 1229, __pyx_L1_error)
+    __PYX_ERR(0, 1234, __pyx_L1_error)
   }
-  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1229, __pyx_L1_error)
+  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1234, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1229, __pyx_L1_error)
+  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1234, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   try {
     __pyx_t_5 = __pyx_v_self->afseal->saverelinKey(__pyx_t_6);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1229, __pyx_L1_error)
+    __PYX_ERR(0, 1234, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1218
+  /* "Pyfhel/Pyfhel.pyx":1223
  *         return self.afseal.restoresecretKey(fileName.encode())
  * 
  *     cpdef bool saverelinKey(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -16677,7 +16750,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_99saverelinKey(PyObject *__pyx
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("saverelinKey (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1218, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1223, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_98saverelinKey(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((PyObject*)__pyx_v_fileName));
 
   /* function exit code */
@@ -16700,9 +16773,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_98saverelinKey(struct __pyx_ob
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_saverelinKey(__pyx_v_self, __pyx_v_fileName, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1218, __pyx_L1_error)
+    __PYX_ERR(0, 1223, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1218, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1223, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -16719,7 +16792,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_98saverelinKey(struct __pyx_ob
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1231
+/* "Pyfhel/Pyfhel.pyx":1236
  *         return self.afseal.saverelinKey(fileName.encode())
  * 
  *     cpdef bool restorerelinKey(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -16747,7 +16820,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restorerelinKey(struct __pyx_obj_6Py
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_restorerelinKey); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1231, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_restorerelinKey); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1236, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_101restorerelinKey)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -16763,10 +16836,10 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restorerelinKey(struct __pyx_obj_6Py
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_v_fileName) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_fileName);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1231, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1236, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1231, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1236, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -16785,7 +16858,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restorerelinKey(struct __pyx_obj_6Py
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1242
+  /* "Pyfhel/Pyfhel.pyx":1247
  *             * bool: Result, True if OK, False otherwise.
  *         """
  *         return self.afseal.restorerelinKey(fileName.encode())             # <<<<<<<<<<<<<<
@@ -16794,22 +16867,22 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restorerelinKey(struct __pyx_obj_6Py
  */
   if (unlikely(__pyx_v_fileName == Py_None)) {
     PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "encode");
-    __PYX_ERR(0, 1242, __pyx_L1_error)
+    __PYX_ERR(0, 1247, __pyx_L1_error)
   }
-  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1242, __pyx_L1_error)
+  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1247, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1242, __pyx_L1_error)
+  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1247, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   try {
     __pyx_t_5 = __pyx_v_self->afseal->restorerelinKey(__pyx_t_6);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1242, __pyx_L1_error)
+    __PYX_ERR(0, 1247, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1231
+  /* "Pyfhel/Pyfhel.pyx":1236
  *         return self.afseal.saverelinKey(fileName.encode())
  * 
  *     cpdef bool restorerelinKey(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -16837,7 +16910,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_101restorerelinKey(PyObject *_
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("restorerelinKey (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1231, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1236, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_100restorerelinKey(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((PyObject*)__pyx_v_fileName));
 
   /* function exit code */
@@ -16860,9 +16933,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_100restorerelinKey(struct __py
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restorerelinKey(__pyx_v_self, __pyx_v_fileName, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1231, __pyx_L1_error)
+    __PYX_ERR(0, 1236, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1231, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1236, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -16879,7 +16952,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_100restorerelinKey(struct __py
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1244
+/* "Pyfhel/Pyfhel.pyx":1249
  *         return self.afseal.restorerelinKey(fileName.encode())
  * 
  *     cpdef bool saverotateKey(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -16907,7 +16980,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_saverotateKey(struct __pyx_obj_6Pyfh
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_saverotateKey); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1244, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_saverotateKey); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1249, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_103saverotateKey)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -16923,10 +16996,10 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_saverotateKey(struct __pyx_obj_6Pyfh
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_v_fileName) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_fileName);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1244, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1249, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1244, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1249, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -16945,7 +17018,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_saverotateKey(struct __pyx_obj_6Pyfh
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1255
+  /* "Pyfhel/Pyfhel.pyx":1260
  *             * bool: Result, True if OK, False otherwise.
  *         """
  *         return self.afseal.saverotateKey(fileName.encode())             # <<<<<<<<<<<<<<
@@ -16954,22 +17027,22 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_saverotateKey(struct __pyx_obj_6Pyfh
  */
   if (unlikely(__pyx_v_fileName == Py_None)) {
     PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "encode");
-    __PYX_ERR(0, 1255, __pyx_L1_error)
+    __PYX_ERR(0, 1260, __pyx_L1_error)
   }
-  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1255, __pyx_L1_error)
+  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1260, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1255, __pyx_L1_error)
+  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1260, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   try {
     __pyx_t_5 = __pyx_v_self->afseal->saverotateKey(__pyx_t_6);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1255, __pyx_L1_error)
+    __PYX_ERR(0, 1260, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1244
+  /* "Pyfhel/Pyfhel.pyx":1249
  *         return self.afseal.restorerelinKey(fileName.encode())
  * 
  *     cpdef bool saverotateKey(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -16997,7 +17070,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_103saverotateKey(PyObject *__p
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("saverotateKey (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1244, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1249, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_102saverotateKey(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((PyObject*)__pyx_v_fileName));
 
   /* function exit code */
@@ -17020,9 +17093,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_102saverotateKey(struct __pyx_
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_saverotateKey(__pyx_v_self, __pyx_v_fileName, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1244, __pyx_L1_error)
+    __PYX_ERR(0, 1249, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1244, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1249, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -17039,7 +17112,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_102saverotateKey(struct __pyx_
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1257
+/* "Pyfhel/Pyfhel.pyx":1262
  *         return self.afseal.saverotateKey(fileName.encode())
  * 
  *     cpdef bool restorerotateKey(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -17067,7 +17140,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restorerotateKey(struct __pyx_obj_6P
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_restorerotateKey); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1257, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_restorerotateKey); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1262, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_105restorerotateKey)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -17083,10 +17156,10 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restorerotateKey(struct __pyx_obj_6P
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_v_fileName) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_fileName);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1257, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1262, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1257, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1262, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -17105,7 +17178,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restorerotateKey(struct __pyx_obj_6P
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1268
+  /* "Pyfhel/Pyfhel.pyx":1273
  *             * bool: Result, True if OK, False otherwise.
  *         """
  *         return self.afseal.restorerotateKey(fileName.encode())             # <<<<<<<<<<<<<<
@@ -17114,22 +17187,22 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restorerotateKey(struct __pyx_obj_6P
  */
   if (unlikely(__pyx_v_fileName == Py_None)) {
     PyErr_Format(PyExc_AttributeError, "'NoneType' object has no attribute '%.30s'", "encode");
-    __PYX_ERR(0, 1268, __pyx_L1_error)
+    __PYX_ERR(0, 1273, __pyx_L1_error)
   }
-  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1268, __pyx_L1_error)
+  __pyx_t_1 = PyUnicode_AsEncodedString(__pyx_v_fileName, NULL, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1273, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1268, __pyx_L1_error)
+  __pyx_t_6 = __pyx_convert_string_from_py_std__in_string(__pyx_t_1); if (unlikely(PyErr_Occurred())) __PYX_ERR(0, 1273, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   try {
     __pyx_t_5 = __pyx_v_self->afseal->restorerotateKey(__pyx_t_6);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1268, __pyx_L1_error)
+    __PYX_ERR(0, 1273, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1257
+  /* "Pyfhel/Pyfhel.pyx":1262
  *         return self.afseal.saverotateKey(fileName.encode())
  * 
  *     cpdef bool restorerotateKey(self, str fileName) except +:             # <<<<<<<<<<<<<<
@@ -17157,7 +17230,7 @@ static PyObject *__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_105restorerotateKey(PyObject *
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("restorerotateKey (wrapper)", 0);
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1257, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_fileName), (&PyUnicode_Type), 1, "fileName", 1))) __PYX_ERR(0, 1262, __pyx_L1_error)
   __pyx_r = __pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_104restorerotateKey(((struct __pyx_obj_6Pyfhel_6Pyfhel_Pyfhel *)__pyx_v_self), ((PyObject*)__pyx_v_fileName));
 
   /* function exit code */
@@ -17180,9 +17253,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_104restorerotateKey(struct __p
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_restorerotateKey(__pyx_v_self, __pyx_v_fileName, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1257, __pyx_L1_error)
+    __PYX_ERR(0, 1262, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1257, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1262, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -17199,7 +17272,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_104restorerotateKey(struct __p
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1275
+/* "Pyfhel/Pyfhel.pyx":1280
  *     # ============================== AUXILIARY ================================
  *     # =========================================================================
  *     cpdef bool batchEnabled(self) except +:             # <<<<<<<<<<<<<<
@@ -17226,7 +17299,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_batchEnabled(struct __pyx_obj_6Pyfhe
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_batchEnabled); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1275, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_batchEnabled); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1280, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_107batchEnabled)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -17242,10 +17315,10 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_batchEnabled(struct __pyx_obj_6Pyfhe
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1275, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1280, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1275, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1280, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -17264,7 +17337,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_batchEnabled(struct __pyx_obj_6Pyfhe
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1283
+  /* "Pyfhel/Pyfhel.pyx":1288
  *             * bool: Result, True if enabled, False if disabled.
  *         """
  *         return self.afseal.batchEnabled()             # <<<<<<<<<<<<<<
@@ -17275,12 +17348,12 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_batchEnabled(struct __pyx_obj_6Pyfhe
     __pyx_t_5 = __pyx_v_self->afseal->batchEnabled();
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1283, __pyx_L1_error)
+    __PYX_ERR(0, 1288, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1275
+  /* "Pyfhel/Pyfhel.pyx":1280
  *     # ============================== AUXILIARY ================================
  *     # =========================================================================
  *     cpdef bool batchEnabled(self) except +:             # <<<<<<<<<<<<<<
@@ -17326,9 +17399,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_106batchEnabled(struct __pyx_o
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_batchEnabled(__pyx_v_self, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1275, __pyx_L1_error)
+    __PYX_ERR(0, 1280, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1275, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1280, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -17345,7 +17418,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_106batchEnabled(struct __pyx_o
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1285
+/* "Pyfhel/Pyfhel.pyx":1290
  *         return self.afseal.batchEnabled()
  * 
  *     cpdef long relinBitCount(self) except +:             # <<<<<<<<<<<<<<
@@ -17372,7 +17445,7 @@ static long __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinBitCount(struct __pyx_obj_6Pyfh
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_relinBitCount); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1285, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_relinBitCount); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1290, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_109relinBitCount)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -17388,10 +17461,10 @@ static long __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinBitCount(struct __pyx_obj_6Pyfh
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1285, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1290, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyInt_As_long(__pyx_t_2); if (unlikely((__pyx_t_5 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 1285, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyInt_As_long(__pyx_t_2); if (unlikely((__pyx_t_5 == (long)-1) && PyErr_Occurred())) __PYX_ERR(0, 1290, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -17410,7 +17483,7 @@ static long __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinBitCount(struct __pyx_obj_6Pyfh
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1293
+  /* "Pyfhel/Pyfhel.pyx":1298
  *             * long: [1-60], based on relinKeyGen parameter.
  *         """
  *         return self.afseal.relinBitCount()             # <<<<<<<<<<<<<<
@@ -17421,12 +17494,12 @@ static long __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinBitCount(struct __pyx_obj_6Pyfh
     __pyx_t_5 = __pyx_v_self->afseal->relinBitCount();
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1293, __pyx_L1_error)
+    __PYX_ERR(0, 1298, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1285
+  /* "Pyfhel/Pyfhel.pyx":1290
  *         return self.afseal.batchEnabled()
  * 
  *     cpdef long relinBitCount(self) except +:             # <<<<<<<<<<<<<<
@@ -17472,9 +17545,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_108relinBitCount(struct __pyx_
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_relinBitCount(__pyx_v_self, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1285, __pyx_L1_error)
+    __PYX_ERR(0, 1290, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyInt_From_long(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1285, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_long(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1290, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -17491,7 +17564,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_108relinBitCount(struct __pyx_
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1296
+/* "Pyfhel/Pyfhel.pyx":1301
  * 
  *     # GETTERS
  *     cpdef int getnSlots(self) except +:             # <<<<<<<<<<<<<<
@@ -17518,7 +17591,7 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getnSlots(struct __pyx_obj_6Pyfhel_6P
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_getnSlots); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1296, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_getnSlots); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1301, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_111getnSlots)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -17534,10 +17607,10 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getnSlots(struct __pyx_obj_6Pyfhel_6P
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1296, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1301, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1296, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1301, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -17556,7 +17629,7 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getnSlots(struct __pyx_obj_6Pyfhel_6P
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1302
+  /* "Pyfhel/Pyfhel.pyx":1307
  *             * int: Maximum umber of slots.
  *         """
  *         return self.afseal.getnSlots()             # <<<<<<<<<<<<<<
@@ -17567,12 +17640,12 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getnSlots(struct __pyx_obj_6Pyfhel_6P
     __pyx_t_5 = __pyx_v_self->afseal->getnSlots();
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1302, __pyx_L1_error)
+    __PYX_ERR(0, 1307, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1296
+  /* "Pyfhel/Pyfhel.pyx":1301
  * 
  *     # GETTERS
  *     cpdef int getnSlots(self) except +:             # <<<<<<<<<<<<<<
@@ -17618,9 +17691,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_110getnSlots(struct __pyx_obj_
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getnSlots(__pyx_v_self, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1296, __pyx_L1_error)
+    __PYX_ERR(0, 1301, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1296, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1301, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -17637,7 +17710,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_110getnSlots(struct __pyx_obj_
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1304
+/* "Pyfhel/Pyfhel.pyx":1309
  *         return self.afseal.getnSlots()
  * 
  *     cpdef int getp(self) except +:             # <<<<<<<<<<<<<<
@@ -17664,7 +17737,7 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getp(struct __pyx_obj_6Pyfhel_6Pyfhel
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_getp); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1304, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_getp); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1309, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_113getp)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -17680,10 +17753,10 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getp(struct __pyx_obj_6Pyfhel_6Pyfhel
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1304, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1309, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1304, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1309, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -17702,7 +17775,7 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getp(struct __pyx_obj_6Pyfhel_6Pyfhel
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1312
+  /* "Pyfhel/Pyfhel.pyx":1317
  *             * int: Plaintext modulus.
  *         """
  *         return self.afseal.getp()             # <<<<<<<<<<<<<<
@@ -17713,12 +17786,12 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getp(struct __pyx_obj_6Pyfhel_6Pyfhel
     __pyx_t_5 = __pyx_v_self->afseal->getp();
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1312, __pyx_L1_error)
+    __PYX_ERR(0, 1317, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1304
+  /* "Pyfhel/Pyfhel.pyx":1309
  *         return self.afseal.getnSlots()
  * 
  *     cpdef int getp(self) except +:             # <<<<<<<<<<<<<<
@@ -17764,9 +17837,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_112getp(struct __pyx_obj_6Pyfh
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getp(__pyx_v_self, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1304, __pyx_L1_error)
+    __PYX_ERR(0, 1309, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1304, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1309, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -17783,7 +17856,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_112getp(struct __pyx_obj_6Pyfh
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1314
+/* "Pyfhel/Pyfhel.pyx":1319
  *         return self.afseal.getp()
  * 
  *     cpdef int getm(self) except +:             # <<<<<<<<<<<<<<
@@ -17810,7 +17883,7 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getm(struct __pyx_obj_6Pyfhel_6Pyfhel
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_getm); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1314, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_getm); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1319, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_115getm)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -17826,10 +17899,10 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getm(struct __pyx_obj_6Pyfhel_6Pyfhel
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1314, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1319, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1314, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1319, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -17848,7 +17921,7 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getm(struct __pyx_obj_6Pyfhel_6Pyfhel
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1325
+  /* "Pyfhel/Pyfhel.pyx":1330
  *             * int: Plaintext coefficient.
  *         """
  *         return self.afseal.getm()             # <<<<<<<<<<<<<<
@@ -17859,12 +17932,12 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getm(struct __pyx_obj_6Pyfhel_6Pyfhel
     __pyx_t_5 = __pyx_v_self->afseal->getm();
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1325, __pyx_L1_error)
+    __PYX_ERR(0, 1330, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1314
+  /* "Pyfhel/Pyfhel.pyx":1319
  *         return self.afseal.getp()
  * 
  *     cpdef int getm(self) except +:             # <<<<<<<<<<<<<<
@@ -17910,9 +17983,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_114getm(struct __pyx_obj_6Pyfh
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getm(__pyx_v_self, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1314, __pyx_L1_error)
+    __PYX_ERR(0, 1319, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1314, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1319, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -17929,7 +18002,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_114getm(struct __pyx_obj_6Pyfh
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1327
+/* "Pyfhel/Pyfhel.pyx":1332
  *         return self.afseal.getm()
  * 
  *     cpdef int getbase(self) except +:             # <<<<<<<<<<<<<<
@@ -17956,7 +18029,7 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getbase(struct __pyx_obj_6Pyfhel_6Pyf
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_getbase); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1327, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_getbase); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1332, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_117getbase)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -17972,10 +18045,10 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getbase(struct __pyx_obj_6Pyfhel_6Pyf
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1327, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1332, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1327, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1332, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -17994,7 +18067,7 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getbase(struct __pyx_obj_6Pyfhel_6Pyf
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1337
+  /* "Pyfhel/Pyfhel.pyx":1342
  *             * int: Polynomial base.
  *         """
  *         return self.afseal.getbase()             # <<<<<<<<<<<<<<
@@ -18005,12 +18078,12 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getbase(struct __pyx_obj_6Pyfhel_6Pyf
     __pyx_t_5 = __pyx_v_self->afseal->getbase();
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1337, __pyx_L1_error)
+    __PYX_ERR(0, 1342, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1327
+  /* "Pyfhel/Pyfhel.pyx":1332
  *         return self.afseal.getm()
  * 
  *     cpdef int getbase(self) except +:             # <<<<<<<<<<<<<<
@@ -18056,9 +18129,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_116getbase(struct __pyx_obj_6P
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getbase(__pyx_v_self, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1327, __pyx_L1_error)
+    __PYX_ERR(0, 1332, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1327, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1332, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -18075,7 +18148,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_116getbase(struct __pyx_obj_6P
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1339
+/* "Pyfhel/Pyfhel.pyx":1344
  *         return self.afseal.getbase()
  * 
  *     cpdef int getsec(self) except +:             # <<<<<<<<<<<<<<
@@ -18102,7 +18175,7 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getsec(struct __pyx_obj_6Pyfhel_6Pyfh
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_getsec); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1339, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_getsec); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1344, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_119getsec)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -18118,10 +18191,10 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getsec(struct __pyx_obj_6Pyfhel_6Pyfh
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1339, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1344, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1339, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1344, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -18140,7 +18213,7 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getsec(struct __pyx_obj_6Pyfhel_6Pyfh
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1345
+  /* "Pyfhel/Pyfhel.pyx":1350
  *             * int: Security level equivalent in AES. Either 128 or 192.
  *         """
  *         return self.afseal.getsec()             # <<<<<<<<<<<<<<
@@ -18151,12 +18224,12 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getsec(struct __pyx_obj_6Pyfhel_6Pyfh
     __pyx_t_5 = __pyx_v_self->afseal->getsec();
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1345, __pyx_L1_error)
+    __PYX_ERR(0, 1350, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1339
+  /* "Pyfhel/Pyfhel.pyx":1344
  *         return self.afseal.getbase()
  * 
  *     cpdef int getsec(self) except +:             # <<<<<<<<<<<<<<
@@ -18202,9 +18275,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_118getsec(struct __pyx_obj_6Py
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getsec(__pyx_v_self, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1339, __pyx_L1_error)
+    __PYX_ERR(0, 1344, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1339, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1344, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -18221,7 +18294,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_118getsec(struct __pyx_obj_6Py
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1347
+/* "Pyfhel/Pyfhel.pyx":1352
  *         return self.afseal.getsec()
  * 
  *     cpdef int getintDigits(self) except +:             # <<<<<<<<<<<<<<
@@ -18248,7 +18321,7 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getintDigits(struct __pyx_obj_6Pyfhel
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_getintDigits); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1347, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_getintDigits); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1352, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_121getintDigits)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -18264,10 +18337,10 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getintDigits(struct __pyx_obj_6Pyfhel
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1347, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1352, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1347, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1352, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -18286,7 +18359,7 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getintDigits(struct __pyx_obj_6Pyfhel
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1356
+  /* "Pyfhel/Pyfhel.pyx":1361
  *             * int: number of integer digits.
  *         """
  *         return self.afseal.getintDigits()             # <<<<<<<<<<<<<<
@@ -18297,12 +18370,12 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getintDigits(struct __pyx_obj_6Pyfhel
     __pyx_t_5 = __pyx_v_self->afseal->getintDigits();
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1356, __pyx_L1_error)
+    __PYX_ERR(0, 1361, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1347
+  /* "Pyfhel/Pyfhel.pyx":1352
  *         return self.afseal.getsec()
  * 
  *     cpdef int getintDigits(self) except +:             # <<<<<<<<<<<<<<
@@ -18348,9 +18421,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_120getintDigits(struct __pyx_o
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getintDigits(__pyx_v_self, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1347, __pyx_L1_error)
+    __PYX_ERR(0, 1352, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1347, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1352, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -18367,7 +18440,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_120getintDigits(struct __pyx_o
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1358
+/* "Pyfhel/Pyfhel.pyx":1363
  *         return self.afseal.getintDigits()
  * 
  *     cpdef int getfracDigits(self) except +:             # <<<<<<<<<<<<<<
@@ -18394,7 +18467,7 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getfracDigits(struct __pyx_obj_6Pyfhe
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_getfracDigits); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1358, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_getfracDigits); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1363, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_123getfracDigits)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -18410,10 +18483,10 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getfracDigits(struct __pyx_obj_6Pyfhe
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1358, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1363, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1358, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_2); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(0, 1363, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -18432,7 +18505,7 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getfracDigits(struct __pyx_obj_6Pyfhe
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1367
+  /* "Pyfhel/Pyfhel.pyx":1372
  *             * int: number of fractional digits.
  *         """
  *         return self.afseal.getfracDigits()             # <<<<<<<<<<<<<<
@@ -18443,12 +18516,12 @@ static int __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getfracDigits(struct __pyx_obj_6Pyfhe
     __pyx_t_5 = __pyx_v_self->afseal->getfracDigits();
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1367, __pyx_L1_error)
+    __PYX_ERR(0, 1372, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1358
+  /* "Pyfhel/Pyfhel.pyx":1363
  *         return self.afseal.getintDigits()
  * 
  *     cpdef int getfracDigits(self) except +:             # <<<<<<<<<<<<<<
@@ -18494,9 +18567,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_122getfracDigits(struct __pyx_
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getfracDigits(__pyx_v_self, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1358, __pyx_L1_error)
+    __PYX_ERR(0, 1363, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1358, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1363, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -18513,7 +18586,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_122getfracDigits(struct __pyx_
   return __pyx_r;
 }
 
-/* "Pyfhel/Pyfhel.pyx":1369
+/* "Pyfhel/Pyfhel.pyx":1374
  *         return self.afseal.getfracDigits()
  * 
  *     cpdef bool getflagBatch(self) except +:             # <<<<<<<<<<<<<<
@@ -18540,7 +18613,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getflagBatch(struct __pyx_obj_6Pyfhe
     if (unlikely(!__Pyx_object_dict_version_matches(((PyObject *)__pyx_v_self), __pyx_tp_dict_version, __pyx_obj_dict_version))) {
       PY_UINT64_T __pyx_type_dict_guard = __Pyx_get_tp_dict_version(((PyObject *)__pyx_v_self));
       #endif
-      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_getflagBatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1369, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_getflagBatch); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1374, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (!PyCFunction_Check(__pyx_t_1) || (PyCFunction_GET_FUNCTION(__pyx_t_1) != (PyCFunction)(void*)__pyx_pw_6Pyfhel_6Pyfhel_6Pyfhel_125getflagBatch)) {
         __Pyx_INCREF(__pyx_t_1);
@@ -18556,10 +18629,10 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getflagBatch(struct __pyx_obj_6Pyfhe
         }
         __pyx_t_2 = (__pyx_t_4) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
         __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1369, __pyx_L1_error)
+        if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1374, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_2);
         __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1369, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_2); if (unlikely((__pyx_t_5 == ((bool)-1)) && PyErr_Occurred())) __PYX_ERR(0, 1374, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
         __pyx_r = __pyx_t_5;
         __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -18578,7 +18651,7 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getflagBatch(struct __pyx_obj_6Pyfhe
     #endif
   }
 
-  /* "Pyfhel/Pyfhel.pyx":1379
+  /* "Pyfhel/Pyfhel.pyx":1384
  *             * bool: flag for enabled BATCH encoding and operating.
  *         """
  *         return self.afseal.getflagBatch()             # <<<<<<<<<<<<<<
@@ -18587,12 +18660,12 @@ static bool __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getflagBatch(struct __pyx_obj_6Pyfhe
     __pyx_t_5 = __pyx_v_self->afseal->getflagBatch();
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1379, __pyx_L1_error)
+    __PYX_ERR(0, 1384, __pyx_L1_error)
   }
   __pyx_r = __pyx_t_5;
   goto __pyx_L0;
 
-  /* "Pyfhel/Pyfhel.pyx":1369
+  /* "Pyfhel/Pyfhel.pyx":1374
  *         return self.afseal.getfracDigits()
  * 
  *     cpdef bool getflagBatch(self) except +:             # <<<<<<<<<<<<<<
@@ -18638,9 +18711,9 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_124getflagBatch(struct __pyx_o
     __pyx_t_1 = __pyx_f_6Pyfhel_6Pyfhel_6Pyfhel_getflagBatch(__pyx_v_self, 1);
   } catch(...) {
     __Pyx_CppExn2PyErr();
-    __PYX_ERR(0, 1369, __pyx_L1_error)
+    __PYX_ERR(0, 1374, __pyx_L1_error)
   }
-  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1369, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1374, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_r = __pyx_t_2;
   __pyx_t_2 = 0;
@@ -18688,7 +18761,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_126__reduce_cython__(CYTHON_UN
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__11, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 2, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__16, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -18741,7 +18814,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_128__setstate_cython__(CYTHON_
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__12, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 4, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__17, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -18764,7 +18837,7 @@ static PyObject *__pyx_pf_6Pyfhel_6Pyfhel_6Pyfhel_128__setstate_cython__(CYTHON_
   return __pyx_r;
 }
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":258
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":258
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -18813,7 +18886,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_v_info->obj = Py_None; __Pyx_INCREF(Py_None);
   __Pyx_GIVEREF(__pyx_v_info->obj);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":265
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":265
  * 
  *             cdef int i, ndim
  *             cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -18822,7 +18895,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_endian_detector = 1;
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":266
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":266
  *             cdef int i, ndim
  *             cdef int endian_detector = 1
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -18831,7 +18904,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":268
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":268
  *             cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)
  * 
  *             ndim = PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -18840,7 +18913,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_ndim = PyArray_NDIM(__pyx_v_self);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
  *             ndim = PyArray_NDIM(self)
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -18854,7 +18927,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L4_bool_binop_done;
   }
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":271
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":271
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_C_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -18865,7 +18938,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = __pyx_t_2;
   __pyx_L4_bool_binop_done:;
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
  *             ndim = PyArray_NDIM(self)
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -18874,20 +18947,20 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   if (unlikely(__pyx_t_1)) {
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__13, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 272, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__18, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 272, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(2, 272, __pyx_L1_error)
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":270
  *             ndim = PyArray_NDIM(self)
  * 
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -18896,7 +18969,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -18910,7 +18983,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L7_bool_binop_done;
   }
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":275
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":275
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_F_CONTIGUOUS)):             # <<<<<<<<<<<<<<
@@ -18921,7 +18994,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = __pyx_t_2;
   __pyx_L7_bool_binop_done:;
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -18930,20 +19003,20 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   if (unlikely(__pyx_t_1)) {
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
  * 
  *             info.buf = PyArray_DATA(self)
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__14, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 276, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__19, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 276, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __PYX_ERR(2, 276, __pyx_L1_error)
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":274
  *                 raise ValueError(u"ndarray is not C contiguous")
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)             # <<<<<<<<<<<<<<
@@ -18952,7 +19025,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":278
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":278
  *                 raise ValueError(u"ndarray is not Fortran contiguous")
  * 
  *             info.buf = PyArray_DATA(self)             # <<<<<<<<<<<<<<
@@ -18961,7 +19034,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->buf = PyArray_DATA(__pyx_v_self);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":279
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":279
  * 
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim             # <<<<<<<<<<<<<<
@@ -18970,7 +19043,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->ndim = __pyx_v_ndim;
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":280
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":280
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -18980,7 +19053,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":283
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":283
  *                 # Allocate new buffer for strides and shape info.
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)             # <<<<<<<<<<<<<<
@@ -18989,7 +19062,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->strides = ((Py_ssize_t *)PyObject_Malloc((((sizeof(Py_ssize_t)) * 2) * ((size_t)__pyx_v_ndim))));
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":284
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":284
  *                 # This is allocated as one block, strides first.
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)
  *                 info.shape = info.strides + ndim             # <<<<<<<<<<<<<<
@@ -18998,7 +19071,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->shape = (__pyx_v_info->strides + __pyx_v_ndim);
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":285
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":285
  *                 info.strides = <Py_ssize_t*>PyObject_Malloc(sizeof(Py_ssize_t) * 2 * <size_t>ndim)
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):             # <<<<<<<<<<<<<<
@@ -19010,7 +19083,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     for (__pyx_t_6 = 0; __pyx_t_6 < __pyx_t_5; __pyx_t_6+=1) {
       __pyx_v_i = __pyx_t_6;
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":286
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":286
  *                 info.shape = info.strides + ndim
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]             # <<<<<<<<<<<<<<
@@ -19019,7 +19092,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
       (__pyx_v_info->strides[__pyx_v_i]) = (PyArray_STRIDES(__pyx_v_self)[__pyx_v_i]);
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":287
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":287
  *                 for i in range(ndim):
  *                     info.strides[i] = PyArray_STRIDES(self)[i]
  *                     info.shape[i] = PyArray_DIMS(self)[i]             # <<<<<<<<<<<<<<
@@ -19029,7 +19102,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       (__pyx_v_info->shape[__pyx_v_i]) = (PyArray_DIMS(__pyx_v_self)[__pyx_v_i]);
     }
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":280
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":280
  *             info.buf = PyArray_DATA(self)
  *             info.ndim = ndim
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -19039,7 +19112,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     goto __pyx_L9;
   }
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":289
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":289
  *                     info.shape[i] = PyArray_DIMS(self)[i]
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -19049,7 +19122,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   /*else*/ {
     __pyx_v_info->strides = ((Py_ssize_t *)PyArray_STRIDES(__pyx_v_self));
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":290
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":290
  *             else:
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -19060,7 +19133,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   }
   __pyx_L9:;
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":291
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":291
  *                 info.strides = <Py_ssize_t*>PyArray_STRIDES(self)
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL             # <<<<<<<<<<<<<<
@@ -19069,7 +19142,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->suboffsets = NULL;
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":292
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":292
  *                 info.shape = <Py_ssize_t*>PyArray_DIMS(self)
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)             # <<<<<<<<<<<<<<
@@ -19078,7 +19151,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->itemsize = PyArray_ITEMSIZE(__pyx_v_self);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":293
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":293
  *             info.suboffsets = NULL
  *             info.itemsize = PyArray_ITEMSIZE(self)
  *             info.readonly = not PyArray_ISWRITEABLE(self)             # <<<<<<<<<<<<<<
@@ -19087,7 +19160,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_info->readonly = (!(PyArray_ISWRITEABLE(__pyx_v_self) != 0));
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":296
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":296
  * 
  *             cdef int t
  *             cdef char* f = NULL             # <<<<<<<<<<<<<<
@@ -19096,7 +19169,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   __pyx_v_f = NULL;
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":297
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":297
  *             cdef int t
  *             cdef char* f = NULL
  *             cdef dtype descr = <dtype>PyArray_DESCR(self)             # <<<<<<<<<<<<<<
@@ -19109,7 +19182,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_v_descr = ((PyArray_Descr *)__pyx_t_3);
   __pyx_t_3 = 0;
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":300
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":300
  *             cdef int offset
  * 
  *             info.obj = self             # <<<<<<<<<<<<<<
@@ -19122,7 +19195,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __Pyx_DECREF(__pyx_v_info->obj);
   __pyx_v_info->obj = ((PyObject *)__pyx_v_self);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":302
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":302
  *             info.obj = self
  * 
  *             if not PyDataType_HASFIELDS(descr):             # <<<<<<<<<<<<<<
@@ -19132,7 +19205,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   __pyx_t_1 = ((!(PyDataType_HASFIELDS(__pyx_v_descr) != 0)) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":303
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":303
  * 
  *             if not PyDataType_HASFIELDS(descr):
  *                 t = descr.type_num             # <<<<<<<<<<<<<<
@@ -19142,7 +19215,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_4 = __pyx_v_descr->type_num;
     __pyx_v_t = __pyx_t_4;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
  *             if not PyDataType_HASFIELDS(descr):
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -19162,7 +19235,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     }
     __pyx_L15_next_or:;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":305
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":305
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -19179,7 +19252,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_1 = __pyx_t_2;
     __pyx_L14_bool_binop_done:;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
  *             if not PyDataType_HASFIELDS(descr):
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -19188,20 +19261,20 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     if (unlikely(__pyx_t_1)) {
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":306
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":306
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"
  */
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__15, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 306, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__20, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 306, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_Raise(__pyx_t_3, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(2, 306, __pyx_L1_error)
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":304
  *             if not PyDataType_HASFIELDS(descr):
  *                 t = descr.type_num
  *                 if ((descr.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -19210,7 +19283,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     }
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":307
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":307
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"             # <<<<<<<<<<<<<<
@@ -19223,7 +19296,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_UBYTE:
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":308
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":308
  *                     raise ValueError(u"Non-native byte order not supported")
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"             # <<<<<<<<<<<<<<
@@ -19234,7 +19307,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_SHORT:
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":309
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":309
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"             # <<<<<<<<<<<<<<
@@ -19245,7 +19318,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_USHORT:
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":310
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":310
  *                 elif t == NPY_UBYTE:       f = "B"
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"             # <<<<<<<<<<<<<<
@@ -19256,7 +19329,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_INT:
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":311
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":311
  *                 elif t == NPY_SHORT:       f = "h"
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"             # <<<<<<<<<<<<<<
@@ -19267,7 +19340,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_UINT:
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":312
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":312
  *                 elif t == NPY_USHORT:      f = "H"
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"             # <<<<<<<<<<<<<<
@@ -19278,7 +19351,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_LONG:
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":313
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":313
  *                 elif t == NPY_INT:         f = "i"
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"             # <<<<<<<<<<<<<<
@@ -19289,7 +19362,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_ULONG:
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":314
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":314
  *                 elif t == NPY_UINT:        f = "I"
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"             # <<<<<<<<<<<<<<
@@ -19300,7 +19373,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_LONGLONG:
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":315
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":315
  *                 elif t == NPY_LONG:        f = "l"
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"             # <<<<<<<<<<<<<<
@@ -19311,7 +19384,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_ULONGLONG:
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":316
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":316
  *                 elif t == NPY_ULONG:       f = "L"
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"             # <<<<<<<<<<<<<<
@@ -19322,7 +19395,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_FLOAT:
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":317
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":317
  *                 elif t == NPY_LONGLONG:    f = "q"
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"             # <<<<<<<<<<<<<<
@@ -19333,7 +19406,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_DOUBLE:
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":318
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":318
  *                 elif t == NPY_ULONGLONG:   f = "Q"
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"             # <<<<<<<<<<<<<<
@@ -19344,7 +19417,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_LONGDOUBLE:
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":319
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":319
  *                 elif t == NPY_FLOAT:       f = "f"
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"             # <<<<<<<<<<<<<<
@@ -19355,7 +19428,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_CFLOAT:
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":320
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":320
  *                 elif t == NPY_DOUBLE:      f = "d"
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"             # <<<<<<<<<<<<<<
@@ -19366,7 +19439,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_CDOUBLE:
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":321
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":321
  *                 elif t == NPY_LONGDOUBLE:  f = "g"
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"             # <<<<<<<<<<<<<<
@@ -19377,7 +19450,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_CLONGDOUBLE:
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":322
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":322
  *                 elif t == NPY_CFLOAT:      f = "Zf"
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"             # <<<<<<<<<<<<<<
@@ -19388,7 +19461,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       case NPY_OBJECT:
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":323
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":323
  *                 elif t == NPY_CDOUBLE:     f = "Zd"
  *                 elif t == NPY_CLONGDOUBLE: f = "Zg"
  *                 elif t == NPY_OBJECT:      f = "O"             # <<<<<<<<<<<<<<
@@ -19399,7 +19472,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
       default:
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":325
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":325
  *                 elif t == NPY_OBJECT:      f = "O"
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -19420,7 +19493,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
       break;
     }
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":326
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":326
  *                 else:
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f             # <<<<<<<<<<<<<<
@@ -19429,7 +19502,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_info->format = __pyx_v_f;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":327
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":327
  *                     raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *                 info.format = f
  *                 return             # <<<<<<<<<<<<<<
@@ -19439,7 +19512,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_r = 0;
     goto __pyx_L0;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":302
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":302
  *             info.obj = self
  * 
  *             if not PyDataType_HASFIELDS(descr):             # <<<<<<<<<<<<<<
@@ -19448,7 +19521,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
   }
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":329
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":329
  *                 return
  *             else:
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)             # <<<<<<<<<<<<<<
@@ -19458,7 +19531,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   /*else*/ {
     __pyx_v_info->format = ((char *)PyObject_Malloc(0xFF));
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":330
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":330
  *             else:
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment             # <<<<<<<<<<<<<<
@@ -19467,7 +19540,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     (__pyx_v_info->format[0]) = '^';
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":331
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":331
  *                 info.format = <char*>PyObject_Malloc(_buffer_format_string_len)
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0             # <<<<<<<<<<<<<<
@@ -19476,7 +19549,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
  */
     __pyx_v_offset = 0;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":332
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":332
  *                 info.format[0] = c'^' # Native data types, manual alignment
  *                 offset = 0
  *                 f = _util_dtypestring(descr, info.format + 1,             # <<<<<<<<<<<<<<
@@ -19486,7 +19559,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     __pyx_t_9 = __pyx_f_5numpy__util_dtypestring(__pyx_v_descr, (__pyx_v_info->format + 1), (__pyx_v_info->format + 0xFF), (&__pyx_v_offset)); if (unlikely(__pyx_t_9 == ((char *)NULL))) __PYX_ERR(2, 332, __pyx_L1_error)
     __pyx_v_f = __pyx_t_9;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":335
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":335
  *                                       info.format + _buffer_format_string_len,
  *                                       &offset)
  *                 f[0] = c'\0' # Terminate format string             # <<<<<<<<<<<<<<
@@ -19496,7 +19569,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
     (__pyx_v_f[0]) = '\x00';
   }
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":258
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":258
  *         # experimental exception made for __getbuffer__ and __releasebuffer__
  *         # -- the details of this may change.
  *         def __getbuffer__(ndarray self, Py_buffer* info, int flags):             # <<<<<<<<<<<<<<
@@ -19528,7 +19601,7 @@ static int __pyx_pf_5numpy_7ndarray___getbuffer__(PyArrayObject *__pyx_v_self, P
   return __pyx_r;
 }
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":337
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":337
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -19552,7 +19625,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("__releasebuffer__", 0);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":338
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":338
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -19562,7 +19635,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (PyArray_HASFIELDS(__pyx_v_self) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":339
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":339
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)             # <<<<<<<<<<<<<<
@@ -19571,7 +19644,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
     PyObject_Free(__pyx_v_info->format);
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":338
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":338
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):
  *             if PyArray_HASFIELDS(self):             # <<<<<<<<<<<<<<
@@ -19580,7 +19653,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
   }
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":340
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":340
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -19590,7 +19663,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __pyx_t_1 = (((sizeof(npy_intp)) != (sizeof(Py_ssize_t))) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":341
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":341
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):
  *                 PyObject_Free(info.strides)             # <<<<<<<<<<<<<<
@@ -19599,7 +19672,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
     PyObject_Free(__pyx_v_info->strides);
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":340
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":340
  *             if PyArray_HASFIELDS(self):
  *                 PyObject_Free(info.format)
  *             if sizeof(npy_intp) != sizeof(Py_ssize_t):             # <<<<<<<<<<<<<<
@@ -19608,7 +19681,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
  */
   }
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":337
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":337
  *                 f[0] = c'\0' # Terminate format string
  * 
  *         def __releasebuffer__(ndarray self, Py_buffer* info):             # <<<<<<<<<<<<<<
@@ -19620,7 +19693,7 @@ static void __pyx_pf_5numpy_7ndarray_2__releasebuffer__(PyArrayObject *__pyx_v_s
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":821
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":821
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -19634,7 +19707,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":822
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":822
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -19648,7 +19721,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":821
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":821
  * ctypedef npy_cdouble     complex_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -19667,7 +19740,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":824
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":824
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -19681,7 +19754,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":825
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":825
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -19695,7 +19768,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":824
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":824
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -19714,7 +19787,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":827
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":827
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -19728,7 +19801,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":828
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":828
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -19742,7 +19815,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":827
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":827
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -19761,7 +19834,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":830
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":830
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -19775,7 +19848,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":831
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":831
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -19789,7 +19862,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":830
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":830
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -19808,7 +19881,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":833
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":833
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -19822,7 +19895,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   PyObject *__pyx_t_1 = NULL;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":834
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":834
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -19836,7 +19909,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":833
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":833
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -19855,7 +19928,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":836
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":836
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -19869,7 +19942,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":837
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":837
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -19879,7 +19952,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   __pyx_t_1 = (PyDataType_HASSUBARRAY(__pyx_v_d) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":838
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":838
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -19891,7 +19964,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     __pyx_r = ((PyObject*)__pyx_v_d->subarray->shape);
     goto __pyx_L0;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":837
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":837
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -19900,7 +19973,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
  */
   }
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":840
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":840
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -19914,7 +19987,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":836
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":836
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -19929,7 +20002,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":842
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":842
  *         return ()
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -19958,7 +20031,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   char *__pyx_t_9;
   __Pyx_RefNannySetupContext("_util_dtypestring", 0);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":847
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":847
  * 
  *     cdef dtype child
  *     cdef int endian_detector = 1             # <<<<<<<<<<<<<<
@@ -19967,7 +20040,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_endian_detector = 1;
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":848
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":848
  *     cdef dtype child
  *     cdef int endian_detector = 1
  *     cdef bint little_endian = ((<char*>&endian_detector)[0] != 0)             # <<<<<<<<<<<<<<
@@ -19976,7 +20049,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
   __pyx_v_little_endian = ((((char *)(&__pyx_v_endian_detector))[0]) != 0);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":851
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":851
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -19999,7 +20072,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_childname, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":852
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":852
  * 
  *     for childname in descr.names:
  *         fields = descr.fields[childname]             # <<<<<<<<<<<<<<
@@ -20016,7 +20089,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_fields, ((PyObject*)__pyx_t_3));
     __pyx_t_3 = 0;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":853
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":853
  *     for childname in descr.names:
  *         fields = descr.fields[childname]
  *         child, new_offset = fields             # <<<<<<<<<<<<<<
@@ -20051,7 +20124,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __Pyx_XDECREF_SET(__pyx_v_new_offset, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":855
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":855
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -20068,20 +20141,20 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((((__pyx_v_end - __pyx_v_f) - ((int)__pyx_t_5)) < 15) != 0);
     if (unlikely(__pyx_t_6)) {
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":856
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":856
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
  * 
  *         if ((child.byteorder == c'>' and little_endian) or
  */
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__16, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 856, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__21, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 856, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_Raise(__pyx_t_3, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(2, 856, __pyx_L1_error)
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":855
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":855
  *         child, new_offset = fields
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:             # <<<<<<<<<<<<<<
@@ -20090,7 +20163,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     }
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -20110,7 +20183,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L8_next_or:;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":859
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":859
  * 
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):             # <<<<<<<<<<<<<<
@@ -20127,7 +20200,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = __pyx_t_7;
     __pyx_L7_bool_binop_done:;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -20136,20 +20209,20 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     if (unlikely(__pyx_t_6)) {
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":860
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":860
  *         if ((child.byteorder == c'>' and little_endian) or
  *             (child.byteorder == c'<' and not little_endian)):
  *             raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
  *             # One could encode it in the format string and have Cython
  *             # complain instead, BUT: < and > in format strings also imply
  */
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__15, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 860, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__20, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(2, 860, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_Raise(__pyx_t_3, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __PYX_ERR(2, 860, __pyx_L1_error)
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":858
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")
  * 
  *         if ((child.byteorder == c'>' and little_endian) or             # <<<<<<<<<<<<<<
@@ -20158,7 +20231,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
     }
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":870
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":870
  * 
  *         # Output padding bytes
  *         while offset[0] < new_offset:             # <<<<<<<<<<<<<<
@@ -20174,7 +20247,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (!__pyx_t_6) break;
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":871
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":871
  *         # Output padding bytes
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte             # <<<<<<<<<<<<<<
@@ -20183,7 +20256,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       (__pyx_v_f[0]) = 0x78;
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":872
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":872
  *         while offset[0] < new_offset:
  *             f[0] = 120 # "x"; pad byte
  *             f += 1             # <<<<<<<<<<<<<<
@@ -20192,7 +20265,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":873
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":873
  *             f[0] = 120 # "x"; pad byte
  *             f += 1
  *             offset[0] += 1             # <<<<<<<<<<<<<<
@@ -20203,7 +20276,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + 1);
     }
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":875
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":875
  *             offset[0] += 1
  * 
  *         offset[0] += child.itemsize             # <<<<<<<<<<<<<<
@@ -20213,7 +20286,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_8 = 0;
     (__pyx_v_offset[__pyx_t_8]) = ((__pyx_v_offset[__pyx_t_8]) + __pyx_v_child->elsize);
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":877
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":877
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -20223,7 +20296,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     __pyx_t_6 = ((!(PyDataType_HASFIELDS(__pyx_v_child) != 0)) != 0);
     if (__pyx_t_6) {
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":878
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":878
  * 
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num             # <<<<<<<<<<<<<<
@@ -20235,7 +20308,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __Pyx_XDECREF_SET(__pyx_v_t, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":879
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":879
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -20245,20 +20318,20 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       __pyx_t_6 = (((__pyx_v_end - __pyx_v_f) < 5) != 0);
       if (unlikely(__pyx_t_6)) {
 
-        /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":880
+        /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":880
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
  * 
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  */
-        __pyx_t_4 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__17, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 880, __pyx_L1_error)
+        __pyx_t_4 = __Pyx_PyObject_Call(__pyx_builtin_RuntimeError, __pyx_tuple__22, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(2, 880, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_4);
         __Pyx_Raise(__pyx_t_4, 0, 0, 0);
         __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
         __PYX_ERR(2, 880, __pyx_L1_error)
 
-        /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":879
+        /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":879
  *         if not PyDataType_HASFIELDS(child):
  *             t = child.type_num
  *             if end - f < 5:             # <<<<<<<<<<<<<<
@@ -20267,7 +20340,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":883
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":883
  * 
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"             # <<<<<<<<<<<<<<
@@ -20285,7 +20358,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":884
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":884
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"             # <<<<<<<<<<<<<<
@@ -20303,7 +20376,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":885
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":885
  *             if   t == NPY_BYTE:        f[0] =  98 #"b"
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"             # <<<<<<<<<<<<<<
@@ -20321,7 +20394,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":886
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":886
  *             elif t == NPY_UBYTE:       f[0] =  66 #"B"
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"             # <<<<<<<<<<<<<<
@@ -20339,7 +20412,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":887
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":887
  *             elif t == NPY_SHORT:       f[0] = 104 #"h"
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"             # <<<<<<<<<<<<<<
@@ -20357,7 +20430,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":888
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":888
  *             elif t == NPY_USHORT:      f[0] =  72 #"H"
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"             # <<<<<<<<<<<<<<
@@ -20375,7 +20448,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":889
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":889
  *             elif t == NPY_INT:         f[0] = 105 #"i"
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"             # <<<<<<<<<<<<<<
@@ -20393,7 +20466,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":890
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":890
  *             elif t == NPY_UINT:        f[0] =  73 #"I"
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"             # <<<<<<<<<<<<<<
@@ -20411,7 +20484,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":891
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":891
  *             elif t == NPY_LONG:        f[0] = 108 #"l"
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"             # <<<<<<<<<<<<<<
@@ -20429,7 +20502,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":892
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":892
  *             elif t == NPY_ULONG:       f[0] = 76  #"L"
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"             # <<<<<<<<<<<<<<
@@ -20447,7 +20520,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":893
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":893
  *             elif t == NPY_LONGLONG:    f[0] = 113 #"q"
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"             # <<<<<<<<<<<<<<
@@ -20465,7 +20538,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":894
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":894
  *             elif t == NPY_ULONGLONG:   f[0] = 81  #"Q"
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"             # <<<<<<<<<<<<<<
@@ -20483,7 +20556,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":895
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":895
  *             elif t == NPY_FLOAT:       f[0] = 102 #"f"
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"             # <<<<<<<<<<<<<<
@@ -20501,7 +20574,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":896
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":896
  *             elif t == NPY_DOUBLE:      f[0] = 100 #"d"
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf             # <<<<<<<<<<<<<<
@@ -20521,7 +20594,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":897
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":897
  *             elif t == NPY_LONGDOUBLE:  f[0] = 103 #"g"
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd             # <<<<<<<<<<<<<<
@@ -20541,7 +20614,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":898
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":898
  *             elif t == NPY_CFLOAT:      f[0] = 90; f[1] = 102; f += 1 # Zf
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg             # <<<<<<<<<<<<<<
@@ -20561,7 +20634,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":899
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":899
  *             elif t == NPY_CDOUBLE:     f[0] = 90; f[1] = 100; f += 1 # Zd
  *             elif t == NPY_CLONGDOUBLE: f[0] = 90; f[1] = 103; f += 1 # Zg
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"             # <<<<<<<<<<<<<<
@@ -20579,7 +20652,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
         goto __pyx_L15;
       }
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":901
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":901
  *             elif t == NPY_OBJECT:      f[0] = 79 #"O"
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)             # <<<<<<<<<<<<<<
@@ -20598,7 +20671,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       }
       __pyx_L15:;
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":902
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":902
  *             else:
  *                 raise ValueError(u"unknown dtype code in numpy.pxd (%d)" % t)
  *             f += 1             # <<<<<<<<<<<<<<
@@ -20607,7 +20680,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
  */
       __pyx_v_f = (__pyx_v_f + 1);
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":877
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":877
  *         offset[0] += child.itemsize
  * 
  *         if not PyDataType_HASFIELDS(child):             # <<<<<<<<<<<<<<
@@ -20617,7 +20690,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
       goto __pyx_L13;
     }
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":906
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":906
  *             # Cython ignores struct boundary information ("T{...}"),
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)             # <<<<<<<<<<<<<<
@@ -20630,7 +20703,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
     }
     __pyx_L13:;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":851
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":851
  *     cdef tuple fields
  * 
  *     for childname in descr.names:             # <<<<<<<<<<<<<<
@@ -20640,7 +20713,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":907
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":907
  *             # so don't output it
  *             f = _util_dtypestring(child, f, end, offset)
  *     return f             # <<<<<<<<<<<<<<
@@ -20650,7 +20723,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   __pyx_r = __pyx_v_f;
   goto __pyx_L0;
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":842
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":842
  *         return ()
  * 
  * cdef inline char* _util_dtypestring(dtype descr, char* f, char* end, int* offset) except NULL:             # <<<<<<<<<<<<<<
@@ -20675,7 +20748,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy__util_dtypestring(PyArray_Descr *__pyx
   return __pyx_r;
 }
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -20687,7 +20760,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("set_array_base", 0);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1023
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1023
  * 
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -20696,7 +20769,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1024
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1024
  * cdef inline void set_array_base(ndarray arr, object base):
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
@@ -20705,7 +20778,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
  */
   (void)(PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base));
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1022
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base):             # <<<<<<<<<<<<<<
@@ -20717,7 +20790,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __Pyx_RefNannyFinishContext();
 }
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1026
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1026
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -20732,7 +20805,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1027
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1027
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -20741,7 +20814,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1028
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1028
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -20751,7 +20824,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_t_1 = ((__pyx_v_base == NULL) != 0);
   if (__pyx_t_1) {
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1029
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1029
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -20762,7 +20835,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     __pyx_r = Py_None; __Pyx_INCREF(Py_None);
     goto __pyx_L0;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1028
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1028
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -20771,7 +20844,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
  */
   }
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1030
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1030
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -20783,7 +20856,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   __pyx_r = ((PyObject *)__pyx_v_base);
   goto __pyx_L0;
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1026
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1026
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -20798,7 +20871,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1034
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1034
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -20819,7 +20892,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20835,7 +20908,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1036
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1036
  * cdef inline int import_array() except -1:
  *     try:
  *         _import_array()             # <<<<<<<<<<<<<<
@@ -20844,7 +20917,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  */
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1036, __pyx_L3_error)
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20858,7 +20931,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1037
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1037
  *     try:
  *         _import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -20873,14 +20946,14 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1038
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1038
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__18, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 1038, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__23, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 1038, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -20889,7 +20962,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1035
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20904,7 +20977,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1034
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1034
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -20927,7 +21000,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1040
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1040
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -20948,7 +21021,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20964,7 +21037,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1042
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1042
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -20973,7 +21046,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1042, __pyx_L3_error)
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -20987,7 +21060,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1043
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1043
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -21002,14 +21075,14 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1044
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1044
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__19, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 1044, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__24, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 1044, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -21018,7 +21091,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1041
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -21033,7 +21106,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1040
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1040
  *         raise ImportError("numpy.core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -21056,7 +21129,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1046
+/* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1046
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -21077,7 +21150,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   PyObject *__pyx_t_8 = NULL;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -21093,7 +21166,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1048
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1048
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -21102,7 +21175,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  */
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1048, __pyx_L3_error)
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -21116,7 +21189,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1049
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1049
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -21130,12 +21203,12 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_GOTREF(__pyx_t_7);
 
-      /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1050
+      /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1050
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__19, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 1050, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__24, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 1050, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -21144,7 +21217,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L5_except_error;
     __pyx_L5_except_error:;
 
-    /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
+    /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1047
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -21159,7 +21232,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1046
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1046
  *         raise ImportError("numpy.core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -21778,7 +21851,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __
  * 
  *         if itemsize <= 0:
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__20, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 133, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__25, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 133, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -21810,7 +21883,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __
  * 
  *         if not isinstance(format, bytes):
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__21, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 136, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__26, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 136, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -21937,7 +22010,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __
  * 
  * 
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_MemoryError, __pyx_tuple__22, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 148, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_MemoryError, __pyx_tuple__27, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 148, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -22211,7 +22284,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array___cinit__(struct __
  * 
  *             if self.dtype_is_object:
  */
-      __pyx_t_10 = __Pyx_PyObject_Call(__pyx_builtin_MemoryError, __pyx_tuple__23, NULL); if (unlikely(!__pyx_t_10)) __PYX_ERR(1, 176, __pyx_L1_error)
+      __pyx_t_10 = __Pyx_PyObject_Call(__pyx_builtin_MemoryError, __pyx_tuple__28, NULL); if (unlikely(!__pyx_t_10)) __PYX_ERR(1, 176, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
       __Pyx_Raise(__pyx_t_10, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
@@ -22452,7 +22525,7 @@ static int __pyx_array___pyx_pf_15View_dot_MemoryView_5array_2__getbuffer__(stru
  *         info.buf = self.data
  *         info.len = self.len
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__24, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 192, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__29, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 192, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -23168,7 +23241,7 @@ static PyObject *__pyx_pf___pyx_array___reduce_cython__(CYTHON_UNUSED struct __p
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__25, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 2, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__30, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -23221,7 +23294,7 @@ static PyObject *__pyx_pf___pyx_array_2__setstate_cython__(CYTHON_UNUSED struct 
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__26, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 4, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__31, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -24865,7 +24938,7 @@ static int __pyx_memoryview___pyx_pf_15View_dot_MemoryView_10memoryview_6__setit
  * 
  *         have_slices, index = _unellipsify(index, self.view.ndim)
  */
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__27, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 414, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__32, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 414, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -25892,7 +25965,7 @@ static PyObject *__pyx_memoryview_convert_item_to_object(struct __pyx_memoryview
  *         else:
  *             if len(self.view.format) == 1:
  */
-      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__28, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 491, __pyx_L5_except_error)
+      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__33, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 491, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_Raise(__pyx_t_6, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -26248,7 +26321,7 @@ static int __pyx_memoryview___pyx_pf_15View_dot_MemoryView_10memoryview_8__getbu
  * 
  *         if flags & PyBUF_ND:
  */
-    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__29, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 516, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__34, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 516, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_Raise(__pyx_t_3, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -26788,7 +26861,7 @@ static PyObject *__pyx_pf_15View_dot_MemoryView_10memoryview_7strides___get__(st
  * 
  *         return tuple([stride for stride in self.view.strides[:self.view.ndim]])
  */
-    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__30, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 566, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__35, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 566, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_Raise(__pyx_t_2, 0, 0, 0);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -26902,7 +26975,7 @@ static PyObject *__pyx_pf_15View_dot_MemoryView_10memoryview_10suboffsets___get_
     __Pyx_XDECREF(__pyx_r);
     __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->view.ndim); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 573, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = PyNumber_Multiply(__pyx_tuple__31, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 573, __pyx_L1_error)
+    __pyx_t_3 = PyNumber_Multiply(__pyx_tuple__36, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 573, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_r = __pyx_t_3;
@@ -27903,7 +27976,7 @@ static PyObject *__pyx_pf___pyx_memoryview___reduce_cython__(CYTHON_UNUSED struc
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__32, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 2, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__37, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -27956,7 +28029,7 @@ static PyObject *__pyx_pf___pyx_memoryview_2__setstate_cython__(CYTHON_UNUSED st
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__33, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 4, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__38, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -28307,9 +28380,9 @@ static PyObject *_unellipsify(PyObject *__pyx_v_index, int __pyx_v_ndim) {
         __Pyx_GOTREF(__pyx_t_7);
         { Py_ssize_t __pyx_temp;
           for (__pyx_temp=0; __pyx_temp < ((__pyx_v_ndim - __pyx_t_8) + 1); __pyx_temp++) {
-            __Pyx_INCREF(__pyx_slice__34);
-            __Pyx_GIVEREF(__pyx_slice__34);
-            PyList_SET_ITEM(__pyx_t_7, __pyx_temp, __pyx_slice__34);
+            __Pyx_INCREF(__pyx_slice__39);
+            __Pyx_GIVEREF(__pyx_slice__39);
+            PyList_SET_ITEM(__pyx_t_7, __pyx_temp, __pyx_slice__39);
           }
         }
         __pyx_t_9 = __Pyx_PyList_Extend(__pyx_v_result, __pyx_t_7); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(1, 678, __pyx_L1_error)
@@ -28342,7 +28415,7 @@ static PyObject *_unellipsify(PyObject *__pyx_v_index, int __pyx_v_ndim) {
  *         else:
  */
       /*else*/ {
-        __pyx_t_9 = __Pyx_PyList_Append(__pyx_v_result, __pyx_slice__34); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(1, 681, __pyx_L1_error)
+        __pyx_t_9 = __Pyx_PyList_Append(__pyx_v_result, __pyx_slice__39); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(1, 681, __pyx_L1_error)
       }
       __pyx_L7:;
 
@@ -28482,9 +28555,9 @@ static PyObject *_unellipsify(PyObject *__pyx_v_index, int __pyx_v_ndim) {
     __Pyx_GOTREF(__pyx_t_3);
     { Py_ssize_t __pyx_temp;
       for (__pyx_temp=0; __pyx_temp < __pyx_v_nslices; __pyx_temp++) {
-        __Pyx_INCREF(__pyx_slice__34);
-        __Pyx_GIVEREF(__pyx_slice__34);
-        PyList_SET_ITEM(__pyx_t_3, __pyx_temp, __pyx_slice__34);
+        __Pyx_INCREF(__pyx_slice__39);
+        __Pyx_GIVEREF(__pyx_slice__39);
+        PyList_SET_ITEM(__pyx_t_3, __pyx_temp, __pyx_slice__39);
       }
     }
     __pyx_t_9 = __Pyx_PyList_Extend(__pyx_v_result, __pyx_t_3); if (unlikely(__pyx_t_9 == ((int)-1))) __PYX_ERR(1, 692, __pyx_L1_error)
@@ -28608,7 +28681,7 @@ static PyObject *assert_direct_dimensions(Py_ssize_t *__pyx_v_suboffsets, int __
  * 
  * 
  */
-      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__35, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 699, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_ValueError, __pyx_tuple__40, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 699, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_Raise(__pyx_t_5, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -30771,7 +30844,7 @@ static PyObject *__pyx_pf___pyx_memoryviewslice___reduce_cython__(CYTHON_UNUSED 
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__36, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 2, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__41, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 2, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -30824,7 +30897,7 @@ static PyObject *__pyx_pf___pyx_memoryviewslice_2__setstate_cython__(CYTHON_UNUS
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__37, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 4, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_builtin_TypeError, __pyx_tuple__42, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_Raise(__pyx_t_1, 0, 0, 0);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -34438,8 +34511,8 @@ static PyObject *__pyx_format_from_typeinfo(__Pyx_TypeInfo *__pyx_v_type) {
  *         else:
  *             alignment = b''
  */
-      __Pyx_INCREF(__pyx_kp_b__38);
-      __pyx_v_alignment = __pyx_kp_b__38;
+      __Pyx_INCREF(__pyx_kp_b__43);
+      __pyx_v_alignment = __pyx_kp_b__43;
 
       /* "BufferFormatFromTypeInfo":1468
  *         assert type.fields != NULL and type.fields.type != NULL
@@ -34459,8 +34532,8 @@ static PyObject *__pyx_format_from_typeinfo(__Pyx_TypeInfo *__pyx_v_type) {
  *         parts = [b"T{"]
  */
     /*else*/ {
-      __Pyx_INCREF(__pyx_kp_b__39);
-      __pyx_v_alignment = __pyx_kp_b__39;
+      __Pyx_INCREF(__pyx_kp_b__44);
+      __pyx_v_alignment = __pyx_kp_b__44;
     }
     __pyx_L6:;
 
@@ -34519,7 +34592,7 @@ static PyObject *__pyx_format_from_typeinfo(__Pyx_TypeInfo *__pyx_v_type) {
  *             field += 1
  * 
  */
-      __pyx_t_3 = PyNumber_Add(__pyx_v_part, __pyx_kp_b__40); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 1478, __pyx_L1_error)
+      __pyx_t_3 = PyNumber_Add(__pyx_v_part, __pyx_kp_b__45); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 1478, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_5 = __Pyx_PyBytes_FromString(__pyx_v_field->name); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 1478, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
@@ -34527,7 +34600,7 @@ static PyObject *__pyx_format_from_typeinfo(__Pyx_TypeInfo *__pyx_v_type) {
       __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = PyNumber_Add(__pyx_t_6, __pyx_kp_b__40); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 1478, __pyx_L1_error)
+      __pyx_t_5 = PyNumber_Add(__pyx_t_6, __pyx_kp_b__45); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 1478, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
       __pyx_t_7 = __Pyx_PyList_Append(__pyx_v_parts, __pyx_t_5); if (unlikely(__pyx_t_7 == ((int)-1))) __PYX_ERR(1, 1478, __pyx_L1_error)
@@ -34552,7 +34625,7 @@ static PyObject *__pyx_format_from_typeinfo(__Pyx_TypeInfo *__pyx_v_type) {
  */
     __pyx_t_5 = __Pyx_PyBytes_Join(__pyx_v_alignment, __pyx_v_parts); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 1481, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_6 = PyNumber_Add(__pyx_t_5, __pyx_kp_b__41); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 1481, __pyx_L1_error)
+    __pyx_t_6 = PyNumber_Add(__pyx_t_5, __pyx_kp_b__46); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 1481, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     if (!(likely(PyBytes_CheckExact(__pyx_t_6))||((__pyx_t_6) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "bytes", Py_TYPE(__pyx_t_6)->tp_name), 0))) __PYX_ERR(1, 1481, __pyx_L1_error)
@@ -34620,7 +34693,7 @@ static PyObject *__pyx_format_from_typeinfo(__Pyx_TypeInfo *__pyx_v_type) {
  *         else:
  *             result = fmt.string
  */
-      __pyx_t_6 = PyUnicode_Join(__pyx_kp_u__42, __pyx_v_extents); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 1486, __pyx_L1_error)
+      __pyx_t_6 = PyUnicode_Join(__pyx_kp_u__47, __pyx_v_extents); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 1486, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_6);
       __pyx_t_3 = PyUnicode_Format(__pyx_kp_u_s, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 1486, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
@@ -35617,6 +35690,11 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_u_Pyfhel_ERROR_encoding_type_must, __pyx_k_Pyfhel_ERROR_encoding_type_must, sizeof(__pyx_k_Pyfhel_ERROR_encoding_type_must), 0, 1, 0, 0},
   {&__pyx_kp_u_Pyfhel_ERROR_wrong_encoding_typ, __pyx_k_Pyfhel_ERROR_wrong_encoding_typ, sizeof(__pyx_k_Pyfhel_ERROR_wrong_encoding_typ), 0, 1, 0, 0},
   {&__pyx_kp_u_Pyfhel_ERROR_wrong_encoding_typ_2, __pyx_k_Pyfhel_ERROR_wrong_encoding_typ_2, sizeof(__pyx_k_Pyfhel_ERROR_wrong_encoding_typ_2), 0, 1, 0, 0},
+  {&__pyx_kp_u_Pyfhel_pyx_encryptInt_self_int64, __pyx_k_Pyfhel_pyx_encryptInt_self_int64, sizeof(__pyx_k_Pyfhel_pyx_encryptInt_self_int64), 0, 1, 0, 0},
+  {&__pyx_kp_u_Pyfhel_pyx_encryptInt_self_int64_2, __pyx_k_Pyfhel_pyx_encryptInt_self_int64_2, sizeof(__pyx_k_Pyfhel_pyx_encryptInt_self_int64_2), 0, 1, 0, 0},
+  {&__pyx_kp_u_Pyfhel_pyx_encryptInt_self_int64_3, __pyx_k_Pyfhel_pyx_encryptInt_self_int64_3, sizeof(__pyx_k_Pyfhel_pyx_encryptInt_self_int64_3), 0, 1, 0, 0},
+  {&__pyx_kp_u_Pyfhel_pyx_encryptInt_self_int64_4, __pyx_k_Pyfhel_pyx_encryptInt_self_int64_4, sizeof(__pyx_k_Pyfhel_pyx_encryptInt_self_int64_4), 0, 1, 0, 0},
+  {&__pyx_kp_u_Pyfhel_pyx_encryptInt_self_int64_5, __pyx_k_Pyfhel_pyx_encryptInt_self_int64_5, sizeof(__pyx_k_Pyfhel_pyx_encryptInt_self_int64_5), 0, 1, 0, 0},
   {&__pyx_n_s_RuntimeError, __pyx_k_RuntimeError, sizeof(__pyx_k_RuntimeError), 0, 0, 1, 1},
   {&__pyx_kp_b_T, __pyx_k_T, sizeof(__pyx_k_T), 0, 0, 0, 0},
   {&__pyx_n_s_TypeError, __pyx_k_TypeError, sizeof(__pyx_k_TypeError), 0, 0, 1, 1},
@@ -35624,11 +35702,11 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_VALUE_T, __pyx_k_VALUE_T, sizeof(__pyx_k_VALUE_T), 0, 0, 1, 1},
   {&__pyx_n_s_ValueError, __pyx_k_ValueError, sizeof(__pyx_k_ValueError), 0, 0, 1, 1},
   {&__pyx_n_s_View_MemoryView, __pyx_k_View_MemoryView, sizeof(__pyx_k_View_MemoryView), 0, 0, 1, 1},
-  {&__pyx_kp_b__38, __pyx_k__38, sizeof(__pyx_k__38), 0, 0, 0, 0},
-  {&__pyx_kp_b__39, __pyx_k__39, sizeof(__pyx_k__39), 0, 0, 0, 0},
-  {&__pyx_kp_b__40, __pyx_k__40, sizeof(__pyx_k__40), 0, 0, 0, 0},
-  {&__pyx_kp_b__41, __pyx_k__41, sizeof(__pyx_k__41), 0, 0, 0, 0},
-  {&__pyx_kp_u__42, __pyx_k__42, sizeof(__pyx_k__42), 0, 1, 0, 0},
+  {&__pyx_kp_b__43, __pyx_k__43, sizeof(__pyx_k__43), 0, 0, 0, 0},
+  {&__pyx_kp_b__44, __pyx_k__44, sizeof(__pyx_k__44), 0, 0, 0, 0},
+  {&__pyx_kp_b__45, __pyx_k__45, sizeof(__pyx_k__45), 0, 0, 0, 0},
+  {&__pyx_kp_b__46, __pyx_k__46, sizeof(__pyx_k__46), 0, 0, 0, 0},
+  {&__pyx_kp_u__47, __pyx_k__47, sizeof(__pyx_k__47), 0, 1, 0, 0},
   {&__pyx_n_s_add, __pyx_k_add, sizeof(__pyx_k_add), 0, 0, 1, 1},
   {&__pyx_n_s_add_plain, __pyx_k_add_plain, sizeof(__pyx_k_add_plain), 0, 0, 1, 1},
   {&__pyx_n_s_allocate_buffer, __pyx_k_allocate_buffer, sizeof(__pyx_k_allocate_buffer), 0, 0, 1, 1},
@@ -35730,6 +35808,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_polyEval, __pyx_k_polyEval, sizeof(__pyx_k_polyEval), 0, 0, 1, 1},
   {&__pyx_n_s_polyEval_double, __pyx_k_polyEval_double, sizeof(__pyx_k_polyEval_double), 0, 0, 1, 1},
   {&__pyx_n_s_power, __pyx_k_power, sizeof(__pyx_k_power), 0, 0, 1, 1},
+  {&__pyx_n_s_print, __pyx_k_print, sizeof(__pyx_k_print), 0, 0, 1, 1},
   {&__pyx_n_s_ptxt, __pyx_k_ptxt, sizeof(__pyx_k_ptxt), 0, 0, 1, 1},
   {&__pyx_n_s_pyx_PickleError, __pyx_k_pyx_PickleError, sizeof(__pyx_k_pyx_PickleError), 0, 0, 1, 1},
   {&__pyx_n_s_pyx_checksum, __pyx_k_pyx_checksum, sizeof(__pyx_k_pyx_checksum), 0, 0, 1, 1},
@@ -35788,8 +35867,9 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {0, 0, 0, 0, 0, 0, 0}
 };
 static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
-  __pyx_builtin_TypeError = __Pyx_GetBuiltinName(__pyx_n_s_TypeError); if (!__pyx_builtin_TypeError) __PYX_ERR(0, 273, __pyx_L1_error)
-  __pyx_builtin_RuntimeError = __Pyx_GetBuiltinName(__pyx_n_s_RuntimeError); if (!__pyx_builtin_RuntimeError) __PYX_ERR(0, 338, __pyx_L1_error)
+  __pyx_builtin_print = __Pyx_GetBuiltinName(__pyx_n_s_print); if (!__pyx_builtin_print) __PYX_ERR(0, 166, __pyx_L1_error)
+  __pyx_builtin_TypeError = __Pyx_GetBuiltinName(__pyx_n_s_TypeError); if (!__pyx_builtin_TypeError) __PYX_ERR(0, 278, __pyx_L1_error)
+  __pyx_builtin_RuntimeError = __Pyx_GetBuiltinName(__pyx_n_s_RuntimeError); if (!__pyx_builtin_RuntimeError) __PYX_ERR(0, 343, __pyx_L1_error)
   __pyx_builtin_ValueError = __Pyx_GetBuiltinName(__pyx_n_s_ValueError); if (!__pyx_builtin_ValueError) __PYX_ERR(2, 272, __pyx_L1_error)
   __pyx_builtin_range = __Pyx_GetBuiltinName(__pyx_n_s_range); if (!__pyx_builtin_range) __PYX_ERR(2, 285, __pyx_L1_error)
   __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(2, 1038, __pyx_L1_error)
@@ -35807,115 +35887,170 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "Pyfhel/Pyfhel.pyx":273
+  /* "Pyfhel/Pyfhel.pyx":166
+ *             * PyCtxt: the ciphertext containing the encrypted plaintext
+ *         """
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None)")             # <<<<<<<<<<<<<<
+ *         if ctxt is None:
+ *             print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): entered if")
+ */
+  __pyx_tuple_ = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_pyx_encryptInt_self_int64); if (unlikely(!__pyx_tuple_)) __PYX_ERR(0, 166, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple_);
+  __Pyx_GIVEREF(__pyx_tuple_);
+
+  /* "Pyfhel/Pyfhel.pyx":168
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None)")
+ *         if ctxt is None:
+ *             print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): entered if")             # <<<<<<<<<<<<<<
+ *             ctxt = PyCtxt()
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after if")
+ */
+  __pyx_tuple__2 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_pyx_encryptInt_self_int64_2); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(0, 168, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__2);
+  __Pyx_GIVEREF(__pyx_tuple__2);
+
+  /* "Pyfhel/Pyfhel.pyx":170
+ *             print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): entered if")
+ *             ctxt = PyCtxt()
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after if")             # <<<<<<<<<<<<<<
+ *         self.afseal.encrypt(value, deref(ctxt._ptr_ctxt))
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after encrypt")
+ */
+  __pyx_tuple__3 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_pyx_encryptInt_self_int64_3); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(0, 170, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__3);
+  __Pyx_GIVEREF(__pyx_tuple__3);
+
+  /* "Pyfhel/Pyfhel.pyx":172
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after if")
+ *         self.afseal.encrypt(value, deref(ctxt._ptr_ctxt))
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): after encrypt")             # <<<<<<<<<<<<<<
+ *         ctxt._encoding = ENCODING_T.INTEGER
+ *         ctxt._pyfhel = self
+ */
+  __pyx_tuple__4 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_pyx_encryptInt_self_int64_4); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(0, 172, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__4);
+  __Pyx_GIVEREF(__pyx_tuple__4);
+
+  /* "Pyfhel/Pyfhel.pyx":175
+ *         ctxt._encoding = ENCODING_T.INTEGER
+ *         ctxt._pyfhel = self
+ *         print("Pyfhel.pyx::encryptInt(self, int64_t value, PyCtxt ctxt=None): before return")             # <<<<<<<<<<<<<<
+ *         return ctxt
+ * 
+ */
+  __pyx_tuple__5 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_pyx_encryptInt_self_int64_5); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 175, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__5);
+  __Pyx_GIVEREF(__pyx_tuple__5);
+
+  /* "Pyfhel/Pyfhel.pyx":278
  *         """
  *         if (ptxt._ptr_ptxt == NULL or ptxt is None):
  *             raise TypeError("<Pyfhel ERROR> PyPtxt Plaintext is empty")             # <<<<<<<<<<<<<<
  *         if ctxt is None:
  *             ctxt = PyCtxt()
  */
-  __pyx_tuple_ = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_PyPtxt_Plaintext_i); if (unlikely(!__pyx_tuple_)) __PYX_ERR(0, 273, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple_);
-  __Pyx_GIVEREF(__pyx_tuple_);
+  __pyx_tuple__6 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_PyPtxt_Plaintext_i); if (unlikely(!__pyx_tuple__6)) __PYX_ERR(0, 278, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__6);
+  __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "Pyfhel/Pyfhel.pyx":308
+  /* "Pyfhel/Pyfhel.pyx":313
  *         elif isinstance(ptxt, np.ndarray):
  *             if (ptxt.ndim is not 1) or (ptxt.dtype is not int):
  *                 raise TypeError('<Pyfhel ERROR> Plaintext numpy array is not'             # <<<<<<<<<<<<<<
  *                                 '1D vector of int values, cannot encrypt.')
  *             return self.encryptBatch(ptxt, ctxt)
  */
-  __pyx_tuple__2 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_Plaintext_numpy_ar); if (unlikely(!__pyx_tuple__2)) __PYX_ERR(0, 308, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__2);
-  __Pyx_GIVEREF(__pyx_tuple__2);
+  __pyx_tuple__7 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_Plaintext_numpy_ar); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(0, 313, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__7);
+  __Pyx_GIVEREF(__pyx_tuple__7);
 
-  /* "Pyfhel/Pyfhel.pyx":338
+  /* "Pyfhel/Pyfhel.pyx":343
  *         """
  *         if (ctxt._encoding != ENCODING_T.INTEGER):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyCtxt")             # <<<<<<<<<<<<<<
  *         cdef int64_t output_value = 0
  *         self.afseal.decrypt(deref(ctxt._ptr_ctxt), output_value)
  */
-  __pyx_tuple__3 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_wrong_encoding_typ); if (unlikely(!__pyx_tuple__3)) __PYX_ERR(0, 338, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__3);
-  __Pyx_GIVEREF(__pyx_tuple__3);
+  __pyx_tuple__8 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_wrong_encoding_typ); if (unlikely(!__pyx_tuple__8)) __PYX_ERR(0, 343, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__8);
+  __Pyx_GIVEREF(__pyx_tuple__8);
 
-  /* "Pyfhel/Pyfhel.pyx":676
+  /* "Pyfhel/Pyfhel.pyx":681
  *         if isinstance(val_vec, np.ndarray):
  *             if (val_vec.ndim is not 1) or (val_vec.dtype is not int):
  *                 raise TypeError('<Pyfhel ERROR> Plaintext numpy array is not'             # <<<<<<<<<<<<<<
  *                                 '1D vector of int values, cannot encode.')
  *             return self.encodeBatch(val_vec, ptxt)
  */
-  __pyx_tuple__4 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_Plaintext_numpy_ar_2); if (unlikely(!__pyx_tuple__4)) __PYX_ERR(0, 676, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__4);
-  __Pyx_GIVEREF(__pyx_tuple__4);
+  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_Plaintext_numpy_ar_2); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(0, 681, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__9);
+  __Pyx_GIVEREF(__pyx_tuple__9);
 
-  /* "Pyfhel/Pyfhel.pyx":706
+  /* "Pyfhel/Pyfhel.pyx":711
  *         """
  *         if (ptxt._encoding != ENCODING_T.INTEGER):
  *             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyPtxt")             # <<<<<<<<<<<<<<
  *         cdef int64_t output_value=0
  *         self.afseal.decode(deref(ptxt._ptr_ptxt), output_value)
  */
-  __pyx_tuple__5 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_wrong_encoding_typ_2); if (unlikely(!__pyx_tuple__5)) __PYX_ERR(0, 706, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__5);
-  __Pyx_GIVEREF(__pyx_tuple__5);
+  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_wrong_encoding_typ_2); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(0, 711, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__10);
+  __Pyx_GIVEREF(__pyx_tuple__10);
 
-  /* "Pyfhel/Pyfhel.pyx":870
+  /* "Pyfhel/Pyfhel.pyx":875
  *         """
  *         if (ctxt._encoding != ctxt_other._encoding):
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in add terms")             # <<<<<<<<<<<<<<
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  */
-  __pyx_tuple__6 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_encoding_type_mist); if (unlikely(!__pyx_tuple__6)) __PYX_ERR(0, 870, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__6);
-  __Pyx_GIVEREF(__pyx_tuple__6);
+  __pyx_tuple__11 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_encoding_type_mist); if (unlikely(!__pyx_tuple__11)) __PYX_ERR(0, 875, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__11);
+  __Pyx_GIVEREF(__pyx_tuple__11);
 
-  /* "Pyfhel/Pyfhel.pyx":926
+  /* "Pyfhel/Pyfhel.pyx":931
  *         """
  *         if (ctxt._encoding != ctxt_other._encoding):
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in sub terms")             # <<<<<<<<<<<<<<
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  */
-  __pyx_tuple__7 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_encoding_type_mist_2); if (unlikely(!__pyx_tuple__7)) __PYX_ERR(0, 926, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__7);
-  __Pyx_GIVEREF(__pyx_tuple__7);
+  __pyx_tuple__12 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_encoding_type_mist_2); if (unlikely(!__pyx_tuple__12)) __PYX_ERR(0, 931, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__12);
+  __Pyx_GIVEREF(__pyx_tuple__12);
 
-  /* "Pyfhel/Pyfhel.pyx":982
+  /* "Pyfhel/Pyfhel.pyx":987
  *         """
  *         if (ctxt._encoding != ctxt_other._encoding):
  *             raise RuntimeError("<Pyfhel ERROR> encoding type mistmatch in mult terms")             # <<<<<<<<<<<<<<
  * 
  *         if (in_new_ctxt):
  */
-  __pyx_tuple__8 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_encoding_type_mist_3); if (unlikely(!__pyx_tuple__8)) __PYX_ERR(0, 982, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__8);
-  __Pyx_GIVEREF(__pyx_tuple__8);
+  __pyx_tuple__13 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_encoding_type_mist_3); if (unlikely(!__pyx_tuple__13)) __PYX_ERR(0, 987, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__13);
+  __Pyx_GIVEREF(__pyx_tuple__13);
 
-  /* "Pyfhel/Pyfhel.pyx":1035
+  /* "Pyfhel/Pyfhel.pyx":1040
  *         """
  *         if (ctxt._encoding != ENCODING_T.BATCH):
  *             raise RuntimeError("<Pyfhel ERROR> BATCH encoding required for rotation")             # <<<<<<<<<<<<<<
  * 
  *         if (in_new_ctxt):
  */
-  __pyx_tuple__9 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_BATCH_encoding_req); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(0, 1035, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__9);
-  __Pyx_GIVEREF(__pyx_tuple__9);
+  __pyx_tuple__14 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_BATCH_encoding_req); if (unlikely(!__pyx_tuple__14)) __PYX_ERR(0, 1040, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__14);
+  __Pyx_GIVEREF(__pyx_tuple__14);
 
-  /* "Pyfhel/Pyfhel.pyx":1094
+  /* "Pyfhel/Pyfhel.pyx":1099
  * 
  *         if (ctxt._encoding != ENCODING_T.BATCH) and (ctxt._encoding != ENCODING_T.INTEGER) :
  *             raise RuntimeError("<Pyfhel ERROR> encoding type must be INTEGER or BATCH")             # <<<<<<<<<<<<<<
  *         if (in_new_ctxt):
  *             new_ctxt = PyCtxt(ctxt)
  */
-  __pyx_tuple__10 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_encoding_type_must); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(0, 1094, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__10);
-  __Pyx_GIVEREF(__pyx_tuple__10);
+  __pyx_tuple__15 = PyTuple_Pack(1, __pyx_kp_u_Pyfhel_ERROR_encoding_type_must); if (unlikely(!__pyx_tuple__15)) __PYX_ERR(0, 1099, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__15);
+  __Pyx_GIVEREF(__pyx_tuple__15);
 
   /* "(tree fragment)":2
  * def __reduce_cython__(self):
@@ -35923,95 +36058,95 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_tuple__11 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__11)) __PYX_ERR(1, 2, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__11);
-  __Pyx_GIVEREF(__pyx_tuple__11);
+  __pyx_tuple__16 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__16)) __PYX_ERR(1, 2, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__16);
+  __Pyx_GIVEREF(__pyx_tuple__16);
 
   /* "(tree fragment)":4
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_tuple__12 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__12)) __PYX_ERR(1, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__12);
-  __Pyx_GIVEREF(__pyx_tuple__12);
+  __pyx_tuple__17 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(1, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__17);
+  __Pyx_GIVEREF(__pyx_tuple__17);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":272
  *             if ((flags & pybuf.PyBUF_C_CONTIGUOUS == pybuf.PyBUF_C_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_C_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not C contiguous")             # <<<<<<<<<<<<<<
  * 
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  */
-  __pyx_tuple__13 = PyTuple_Pack(1, __pyx_kp_u_ndarray_is_not_C_contiguous); if (unlikely(!__pyx_tuple__13)) __PYX_ERR(2, 272, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__13);
-  __Pyx_GIVEREF(__pyx_tuple__13);
+  __pyx_tuple__18 = PyTuple_Pack(1, __pyx_kp_u_ndarray_is_not_C_contiguous); if (unlikely(!__pyx_tuple__18)) __PYX_ERR(2, 272, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__18);
+  __Pyx_GIVEREF(__pyx_tuple__18);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":276
  *             if ((flags & pybuf.PyBUF_F_CONTIGUOUS == pybuf.PyBUF_F_CONTIGUOUS)
  *                 and not PyArray_CHKFLAGS(self, NPY_ARRAY_F_CONTIGUOUS)):
  *                 raise ValueError(u"ndarray is not Fortran contiguous")             # <<<<<<<<<<<<<<
  * 
  *             info.buf = PyArray_DATA(self)
  */
-  __pyx_tuple__14 = PyTuple_Pack(1, __pyx_kp_u_ndarray_is_not_Fortran_contiguou); if (unlikely(!__pyx_tuple__14)) __PYX_ERR(2, 276, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__14);
-  __Pyx_GIVEREF(__pyx_tuple__14);
+  __pyx_tuple__19 = PyTuple_Pack(1, __pyx_kp_u_ndarray_is_not_Fortran_contiguou); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(2, 276, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__19);
+  __Pyx_GIVEREF(__pyx_tuple__19);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":306
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":306
  *                 if ((descr.byteorder == c'>' and little_endian) or
  *                     (descr.byteorder == c'<' and not little_endian)):
  *                     raise ValueError(u"Non-native byte order not supported")             # <<<<<<<<<<<<<<
  *                 if   t == NPY_BYTE:        f = "b"
  *                 elif t == NPY_UBYTE:       f = "B"
  */
-  __pyx_tuple__15 = PyTuple_Pack(1, __pyx_kp_u_Non_native_byte_order_not_suppor); if (unlikely(!__pyx_tuple__15)) __PYX_ERR(2, 306, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__15);
-  __Pyx_GIVEREF(__pyx_tuple__15);
+  __pyx_tuple__20 = PyTuple_Pack(1, __pyx_kp_u_Non_native_byte_order_not_suppor); if (unlikely(!__pyx_tuple__20)) __PYX_ERR(2, 306, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__20);
+  __Pyx_GIVEREF(__pyx_tuple__20);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":856
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":856
  * 
  *         if (end - f) - <int>(new_offset - offset[0]) < 15:
  *             raise RuntimeError(u"Format string allocated too short, see comment in numpy.pxd")             # <<<<<<<<<<<<<<
  * 
  *         if ((child.byteorder == c'>' and little_endian) or
  */
-  __pyx_tuple__16 = PyTuple_Pack(1, __pyx_kp_u_Format_string_allocated_too_shor); if (unlikely(!__pyx_tuple__16)) __PYX_ERR(2, 856, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__16);
-  __Pyx_GIVEREF(__pyx_tuple__16);
+  __pyx_tuple__21 = PyTuple_Pack(1, __pyx_kp_u_Format_string_allocated_too_shor); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(2, 856, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__21);
+  __Pyx_GIVEREF(__pyx_tuple__21);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":880
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":880
  *             t = child.type_num
  *             if end - f < 5:
  *                 raise RuntimeError(u"Format string allocated too short.")             # <<<<<<<<<<<<<<
  * 
  *             # Until ticket #99 is fixed, use integers to avoid warnings
  */
-  __pyx_tuple__17 = PyTuple_Pack(1, __pyx_kp_u_Format_string_allocated_too_shor_2); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(2, 880, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__17);
-  __Pyx_GIVEREF(__pyx_tuple__17);
+  __pyx_tuple__22 = PyTuple_Pack(1, __pyx_kp_u_Format_string_allocated_too_shor_2); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(2, 880, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__22);
+  __Pyx_GIVEREF(__pyx_tuple__22);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1038
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1038
  *         _import_array()
  *     except Exception:
  *         raise ImportError("numpy.core.multiarray failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_umath() except -1:
  */
-  __pyx_tuple__18 = PyTuple_Pack(1, __pyx_kp_u_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__18)) __PYX_ERR(2, 1038, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__18);
-  __Pyx_GIVEREF(__pyx_tuple__18);
+  __pyx_tuple__23 = PyTuple_Pack(1, __pyx_kp_u_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(2, 1038, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__23);
+  __Pyx_GIVEREF(__pyx_tuple__23);
 
-  /* "../../../../../../../../usr/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1044
+  /* "../../../../../../../../home/marcus/.virtualenvs/fhe/lib/python3.7/site-packages/Cython/Includes/numpy/__init__.pxd":1044
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy.core.umath failed to import")             # <<<<<<<<<<<<<<
  * 
  * cdef inline int import_ufunc() except -1:
  */
-  __pyx_tuple__19 = PyTuple_Pack(1, __pyx_kp_u_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(2, 1044, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__19);
-  __Pyx_GIVEREF(__pyx_tuple__19);
+  __pyx_tuple__24 = PyTuple_Pack(1, __pyx_kp_u_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__24)) __PYX_ERR(2, 1044, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__24);
+  __Pyx_GIVEREF(__pyx_tuple__24);
 
   /* "View.MemoryView":133
  * 
@@ -36020,9 +36155,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         if itemsize <= 0:
  */
-  __pyx_tuple__20 = PyTuple_Pack(1, __pyx_kp_s_Empty_shape_tuple_for_cython_arr); if (unlikely(!__pyx_tuple__20)) __PYX_ERR(1, 133, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__20);
-  __Pyx_GIVEREF(__pyx_tuple__20);
+  __pyx_tuple__25 = PyTuple_Pack(1, __pyx_kp_s_Empty_shape_tuple_for_cython_arr); if (unlikely(!__pyx_tuple__25)) __PYX_ERR(1, 133, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__25);
+  __Pyx_GIVEREF(__pyx_tuple__25);
 
   /* "View.MemoryView":136
  * 
@@ -36031,9 +36166,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         if not isinstance(format, bytes):
  */
-  __pyx_tuple__21 = PyTuple_Pack(1, __pyx_kp_s_itemsize_0_for_cython_array); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(1, 136, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__21);
-  __Pyx_GIVEREF(__pyx_tuple__21);
+  __pyx_tuple__26 = PyTuple_Pack(1, __pyx_kp_s_itemsize_0_for_cython_array); if (unlikely(!__pyx_tuple__26)) __PYX_ERR(1, 136, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__26);
+  __Pyx_GIVEREF(__pyx_tuple__26);
 
   /* "View.MemoryView":148
  * 
@@ -36042,9 +36177,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__22 = PyTuple_Pack(1, __pyx_kp_s_unable_to_allocate_shape_and_str); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(1, 148, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__22);
-  __Pyx_GIVEREF(__pyx_tuple__22);
+  __pyx_tuple__27 = PyTuple_Pack(1, __pyx_kp_s_unable_to_allocate_shape_and_str); if (unlikely(!__pyx_tuple__27)) __PYX_ERR(1, 148, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__27);
+  __Pyx_GIVEREF(__pyx_tuple__27);
 
   /* "View.MemoryView":176
  *             self.data = <char *>malloc(self.len)
@@ -36053,9 +36188,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *             if self.dtype_is_object:
  */
-  __pyx_tuple__23 = PyTuple_Pack(1, __pyx_kp_s_unable_to_allocate_array_data); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(1, 176, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__23);
-  __Pyx_GIVEREF(__pyx_tuple__23);
+  __pyx_tuple__28 = PyTuple_Pack(1, __pyx_kp_s_unable_to_allocate_array_data); if (unlikely(!__pyx_tuple__28)) __PYX_ERR(1, 176, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__28);
+  __Pyx_GIVEREF(__pyx_tuple__28);
 
   /* "View.MemoryView":192
  *             bufmode = PyBUF_F_CONTIGUOUS | PyBUF_ANY_CONTIGUOUS
@@ -36064,9 +36199,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         info.buf = self.data
  *         info.len = self.len
  */
-  __pyx_tuple__24 = PyTuple_Pack(1, __pyx_kp_s_Can_only_create_a_buffer_that_is); if (unlikely(!__pyx_tuple__24)) __PYX_ERR(1, 192, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__24);
-  __Pyx_GIVEREF(__pyx_tuple__24);
+  __pyx_tuple__29 = PyTuple_Pack(1, __pyx_kp_s_Can_only_create_a_buffer_that_is); if (unlikely(!__pyx_tuple__29)) __PYX_ERR(1, 192, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__29);
+  __Pyx_GIVEREF(__pyx_tuple__29);
 
   /* "(tree fragment)":2
  * def __reduce_cython__(self):
@@ -36074,18 +36209,18 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_tuple__25 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__25)) __PYX_ERR(1, 2, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__25);
-  __Pyx_GIVEREF(__pyx_tuple__25);
+  __pyx_tuple__30 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(1, 2, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__30);
+  __Pyx_GIVEREF(__pyx_tuple__30);
 
   /* "(tree fragment)":4
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_tuple__26 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__26)) __PYX_ERR(1, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__26);
-  __Pyx_GIVEREF(__pyx_tuple__26);
+  __pyx_tuple__31 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(1, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__31);
+  __Pyx_GIVEREF(__pyx_tuple__31);
 
   /* "View.MemoryView":414
  *     def __setitem__(memoryview self, object index, object value):
@@ -36094,9 +36229,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         have_slices, index = _unellipsify(index, self.view.ndim)
  */
-  __pyx_tuple__27 = PyTuple_Pack(1, __pyx_kp_s_Cannot_assign_to_read_only_memor); if (unlikely(!__pyx_tuple__27)) __PYX_ERR(1, 414, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__27);
-  __Pyx_GIVEREF(__pyx_tuple__27);
+  __pyx_tuple__32 = PyTuple_Pack(1, __pyx_kp_s_Cannot_assign_to_read_only_memor); if (unlikely(!__pyx_tuple__32)) __PYX_ERR(1, 414, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__32);
+  __Pyx_GIVEREF(__pyx_tuple__32);
 
   /* "View.MemoryView":491
  *             result = struct.unpack(self.view.format, bytesitem)
@@ -36105,9 +36240,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         else:
  *             if len(self.view.format) == 1:
  */
-  __pyx_tuple__28 = PyTuple_Pack(1, __pyx_kp_s_Unable_to_convert_item_to_object); if (unlikely(!__pyx_tuple__28)) __PYX_ERR(1, 491, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__28);
-  __Pyx_GIVEREF(__pyx_tuple__28);
+  __pyx_tuple__33 = PyTuple_Pack(1, __pyx_kp_s_Unable_to_convert_item_to_object); if (unlikely(!__pyx_tuple__33)) __PYX_ERR(1, 491, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__33);
+  __Pyx_GIVEREF(__pyx_tuple__33);
 
   /* "View.MemoryView":516
  *     def __getbuffer__(self, Py_buffer *info, int flags):
@@ -36116,9 +36251,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         if flags & PyBUF_ND:
  */
-  __pyx_tuple__29 = PyTuple_Pack(1, __pyx_kp_s_Cannot_create_writable_memory_vi); if (unlikely(!__pyx_tuple__29)) __PYX_ERR(1, 516, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__29);
-  __Pyx_GIVEREF(__pyx_tuple__29);
+  __pyx_tuple__34 = PyTuple_Pack(1, __pyx_kp_s_Cannot_create_writable_memory_vi); if (unlikely(!__pyx_tuple__34)) __PYX_ERR(1, 516, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__34);
+  __Pyx_GIVEREF(__pyx_tuple__34);
 
   /* "View.MemoryView":566
  *         if self.view.strides == NULL:
@@ -36127,9 +36262,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         return tuple([stride for stride in self.view.strides[:self.view.ndim]])
  */
-  __pyx_tuple__30 = PyTuple_Pack(1, __pyx_kp_s_Buffer_view_does_not_expose_stri); if (unlikely(!__pyx_tuple__30)) __PYX_ERR(1, 566, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__30);
-  __Pyx_GIVEREF(__pyx_tuple__30);
+  __pyx_tuple__35 = PyTuple_Pack(1, __pyx_kp_s_Buffer_view_does_not_expose_stri); if (unlikely(!__pyx_tuple__35)) __PYX_ERR(1, 566, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__35);
+  __Pyx_GIVEREF(__pyx_tuple__35);
 
   /* "View.MemoryView":573
  *     def suboffsets(self):
@@ -36138,12 +36273,12 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  *         return tuple([suboffset for suboffset in self.view.suboffsets[:self.view.ndim]])
  */
-  __pyx_tuple__31 = PyTuple_New(1); if (unlikely(!__pyx_tuple__31)) __PYX_ERR(1, 573, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__31);
+  __pyx_tuple__36 = PyTuple_New(1); if (unlikely(!__pyx_tuple__36)) __PYX_ERR(1, 573, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__36);
   __Pyx_INCREF(__pyx_int_neg_1);
   __Pyx_GIVEREF(__pyx_int_neg_1);
-  PyTuple_SET_ITEM(__pyx_tuple__31, 0, __pyx_int_neg_1);
-  __Pyx_GIVEREF(__pyx_tuple__31);
+  PyTuple_SET_ITEM(__pyx_tuple__36, 0, __pyx_int_neg_1);
+  __Pyx_GIVEREF(__pyx_tuple__36);
 
   /* "(tree fragment)":2
  * def __reduce_cython__(self):
@@ -36151,18 +36286,18 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_tuple__32 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__32)) __PYX_ERR(1, 2, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__32);
-  __Pyx_GIVEREF(__pyx_tuple__32);
+  __pyx_tuple__37 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__37)) __PYX_ERR(1, 2, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__37);
+  __Pyx_GIVEREF(__pyx_tuple__37);
 
   /* "(tree fragment)":4
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_tuple__33 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__33)) __PYX_ERR(1, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__33);
-  __Pyx_GIVEREF(__pyx_tuple__33);
+  __pyx_tuple__38 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__38)) __PYX_ERR(1, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__38);
+  __Pyx_GIVEREF(__pyx_tuple__38);
 
   /* "View.MemoryView":678
  *         if item is Ellipsis:
@@ -36171,9 +36306,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *                 seen_ellipsis = True
  *             else:
  */
-  __pyx_slice__34 = PySlice_New(Py_None, Py_None, Py_None); if (unlikely(!__pyx_slice__34)) __PYX_ERR(1, 678, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_slice__34);
-  __Pyx_GIVEREF(__pyx_slice__34);
+  __pyx_slice__39 = PySlice_New(Py_None, Py_None, Py_None); if (unlikely(!__pyx_slice__39)) __PYX_ERR(1, 678, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_slice__39);
+  __Pyx_GIVEREF(__pyx_slice__39);
 
   /* "View.MemoryView":699
  *     for suboffset in suboffsets[:ndim]:
@@ -36182,9 +36317,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__35 = PyTuple_Pack(1, __pyx_kp_s_Indirect_dimensions_not_supporte); if (unlikely(!__pyx_tuple__35)) __PYX_ERR(1, 699, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__35);
-  __Pyx_GIVEREF(__pyx_tuple__35);
+  __pyx_tuple__40 = PyTuple_Pack(1, __pyx_kp_s_Indirect_dimensions_not_supporte); if (unlikely(!__pyx_tuple__40)) __PYX_ERR(1, 699, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__40);
+  __Pyx_GIVEREF(__pyx_tuple__40);
 
   /* "(tree fragment)":2
  * def __reduce_cython__(self):
@@ -36192,18 +36327,18 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  */
-  __pyx_tuple__36 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__36)) __PYX_ERR(1, 2, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__36);
-  __Pyx_GIVEREF(__pyx_tuple__36);
+  __pyx_tuple__41 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__41)) __PYX_ERR(1, 2, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__41);
+  __Pyx_GIVEREF(__pyx_tuple__41);
 
   /* "(tree fragment)":4
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")
  * def __setstate_cython__(self, __pyx_state):
  *     raise TypeError("no default __reduce__ due to non-trivial __cinit__")             # <<<<<<<<<<<<<<
  */
-  __pyx_tuple__37 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__37)) __PYX_ERR(1, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__37);
-  __Pyx_GIVEREF(__pyx_tuple__37);
+  __pyx_tuple__42 = PyTuple_Pack(1, __pyx_kp_s_no_default___reduce___due_to_non); if (unlikely(!__pyx_tuple__42)) __PYX_ERR(1, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__42);
+  __Pyx_GIVEREF(__pyx_tuple__42);
 
   /* "View.MemoryView":286
  *         return self.name
@@ -36212,9 +36347,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * cdef strided = Enum("<strided and direct>") # default
  * cdef indirect = Enum("<strided and indirect>")
  */
-  __pyx_tuple__43 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct_or_indirect); if (unlikely(!__pyx_tuple__43)) __PYX_ERR(1, 286, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__43);
-  __Pyx_GIVEREF(__pyx_tuple__43);
+  __pyx_tuple__48 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct_or_indirect); if (unlikely(!__pyx_tuple__48)) __PYX_ERR(1, 286, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__48);
+  __Pyx_GIVEREF(__pyx_tuple__48);
 
   /* "View.MemoryView":287
  * 
@@ -36223,9 +36358,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * cdef indirect = Enum("<strided and indirect>")
  * 
  */
-  __pyx_tuple__44 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct); if (unlikely(!__pyx_tuple__44)) __PYX_ERR(1, 287, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__44);
-  __Pyx_GIVEREF(__pyx_tuple__44);
+  __pyx_tuple__49 = PyTuple_Pack(1, __pyx_kp_s_strided_and_direct); if (unlikely(!__pyx_tuple__49)) __PYX_ERR(1, 287, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__49);
+  __Pyx_GIVEREF(__pyx_tuple__49);
 
   /* "View.MemoryView":288
  * cdef generic = Enum("<strided and direct or indirect>")
@@ -36234,9 +36369,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__45 = PyTuple_Pack(1, __pyx_kp_s_strided_and_indirect); if (unlikely(!__pyx_tuple__45)) __PYX_ERR(1, 288, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__45);
-  __Pyx_GIVEREF(__pyx_tuple__45);
+  __pyx_tuple__50 = PyTuple_Pack(1, __pyx_kp_s_strided_and_indirect); if (unlikely(!__pyx_tuple__50)) __PYX_ERR(1, 288, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__50);
+  __Pyx_GIVEREF(__pyx_tuple__50);
 
   /* "View.MemoryView":291
  * 
@@ -36245,9 +36380,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * cdef indirect_contiguous = Enum("<contiguous and indirect>")
  * 
  */
-  __pyx_tuple__46 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_direct); if (unlikely(!__pyx_tuple__46)) __PYX_ERR(1, 291, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__46);
-  __Pyx_GIVEREF(__pyx_tuple__46);
+  __pyx_tuple__51 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_direct); if (unlikely(!__pyx_tuple__51)) __PYX_ERR(1, 291, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__51);
+  __Pyx_GIVEREF(__pyx_tuple__51);
 
   /* "View.MemoryView":292
  * 
@@ -36256,19 +36391,19 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * 
  */
-  __pyx_tuple__47 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_indirect); if (unlikely(!__pyx_tuple__47)) __PYX_ERR(1, 292, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__47);
-  __Pyx_GIVEREF(__pyx_tuple__47);
+  __pyx_tuple__52 = PyTuple_Pack(1, __pyx_kp_s_contiguous_and_indirect); if (unlikely(!__pyx_tuple__52)) __PYX_ERR(1, 292, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__52);
+  __Pyx_GIVEREF(__pyx_tuple__52);
 
   /* "(tree fragment)":1
  * def __pyx_unpickle_Enum(__pyx_type, long __pyx_checksum, __pyx_state):             # <<<<<<<<<<<<<<
  *     cdef object __pyx_PickleError
  *     cdef object __pyx_result
  */
-  __pyx_tuple__48 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__48)) __PYX_ERR(1, 1, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__48);
-  __Pyx_GIVEREF(__pyx_tuple__48);
-  __pyx_codeobj__49 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__48, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Enum, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__49)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __pyx_tuple__53 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__53)) __PYX_ERR(1, 1, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__53);
+  __Pyx_GIVEREF(__pyx_tuple__53);
+  __pyx_codeobj__54 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__53, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Enum, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__54)) __PYX_ERR(1, 1, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -36868,7 +37003,7 @@ if (!__Pyx_RefNanny) {
  * cdef strided = Enum("<strided and direct>") # default
  * cdef indirect = Enum("<strided and indirect>")
  */
-  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__43, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 286, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__48, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 286, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_XGOTREF(generic);
   __Pyx_DECREF_SET(generic, __pyx_t_4);
@@ -36882,7 +37017,7 @@ if (!__Pyx_RefNanny) {
  * cdef indirect = Enum("<strided and indirect>")
  * 
  */
-  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__44, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 287, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__49, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 287, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_XGOTREF(strided);
   __Pyx_DECREF_SET(strided, __pyx_t_4);
@@ -36896,7 +37031,7 @@ if (!__Pyx_RefNanny) {
  * 
  * 
  */
-  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__45, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 288, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__50, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 288, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_XGOTREF(indirect);
   __Pyx_DECREF_SET(indirect, __pyx_t_4);
@@ -36910,7 +37045,7 @@ if (!__Pyx_RefNanny) {
  * cdef indirect_contiguous = Enum("<contiguous and indirect>")
  * 
  */
-  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__46, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 291, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__51, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 291, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_XGOTREF(contiguous);
   __Pyx_DECREF_SET(contiguous, __pyx_t_4);
@@ -36924,7 +37059,7 @@ if (!__Pyx_RefNanny) {
  * 
  * 
  */
-  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__47, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 292, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_Call(((PyObject *)__pyx_MemviewEnum_type), __pyx_tuple__52, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 292, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_XGOTREF(indirect_contiguous);
   __Pyx_DECREF_SET(indirect_contiguous, __pyx_t_4);
