@@ -578,10 +578,15 @@ cdef class Pyfhel:
         Return:
             * PyPtxt: the plaintext containing the encoded value
         """
+        print("Pyfhel.pyx::encodeInt(self, int64_t value, PyPtxt ctxt=None)")
         if ptxt is None:
+            print("Pyfhel.pyx::encodeInt(self, int64_t value, PyPtxt ctxt=None): entered if")
             ptxt = PyPtxt()
+        print("Pyfhel.pyx::encodeInt(self, int64_t value, PyPtxt ctxt=None): after if")
         self.afseal.encode(value, deref(ptxt._ptr_ptxt))
+        print("Pyfhel.pyx::encodeInt(self, int64_t value, PyPtxt ctxt=None): after cpp call")
         ptxt._encoding = ENCODING_T.INTEGER
+        print("Pyfhel.pyx::encodeInt(self, int64_t value, PyPtxt ctxt=None): before return")
         return ptxt
     
     cpdef PyPtxt encodeFrac(self, double &value, PyPtxt ptxt=None) except +:
@@ -707,10 +712,14 @@ cdef class Pyfhel:
         Raise:
             * RuntimeError: if the ciphertext encoding isn't ENCODING_T.INTEGER.
         """
+        print("Pyfhel.pyx::encodeInt(self, PyPtxt ptxt)")
         if (ptxt._encoding != ENCODING_T.INTEGER):
+            print("Pyfhel.pyx::encodeInt(self, PyPtxt ptxt): entered if")
             raise RuntimeError("<Pyfhel ERROR> wrong encoding type in PyPtxt")
         cdef int64_t output_value=0
+        print("Pyfhel.pyx::encodeInt(self, PyPtxt ptxt): before cpp call")
         self.afseal.decode(deref(ptxt._ptr_ptxt), output_value)
+        print("Pyfhel.pyx::encodeInt(self, PyPtxt ptxt): before return")
         return output_value
     
     cpdef double decodeFrac(self, PyPtxt ptxt) except +:

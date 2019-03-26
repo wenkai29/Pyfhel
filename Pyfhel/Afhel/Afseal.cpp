@@ -238,6 +238,7 @@ void Afseal::decrypt(Ciphertext& cipher1, vector<int64_t>& valueVOut){
 // ---------------------------------- CODEC -----------------------------------
 // ENCODE
 Plaintext Afseal::encode(int64_t& value1) {
+    cout << "Afseal::encode(int64_t) called";
     if(intEncoder==NULL){throw std::logic_error("Context not initialized");}
     return intEncoder->encode(value1); }
 Plaintext Afseal::encode(double& value1) {
@@ -286,6 +287,7 @@ vector<int64_t> Afseal::decode(Plaintext& plain1) {
 	return valueVOut;
     }
 void Afseal::decode(Plaintext& plain1, int64_t& valueOut) {
+    cout << "AFseal::decode(Plaintext& plain1, int64_t& valueOut) called";
     if(intEncoder==NULL){throw std::logic_error("Context not initialized");}
     valueOut = intEncoder->decode_int64(plain1);}
 void Afseal::decode(Plaintext& plain1, double& valueOut) {
