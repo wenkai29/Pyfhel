@@ -24,6 +24,5 @@ install:
   
 # command to run tests
 script:
-  - python setup.py build --CYTHONIZE
   - pip install Pyfhel
-  - python Pyfhel/test.py
+  - python setup.py test
